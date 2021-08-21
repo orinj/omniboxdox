@@ -1,0 +1,10 @@
+<map id="chrome/browser/ui/views/omnibox/omnibox_result_view.h" name="chrome/browser/ui/views/omnibox/omnibox_result_view.h">
+<area shape="rect" id="node1" title=" " alt="" coords="271,5,438,61"/>
+<area shape="rect" id="node2" href="$d8/d69/omnibox__popup__contents__view_8cc.html" title=" " alt="" coords="5,109,176,165"/>
+<area shape="rect" id="node3" href="$d3/d3f/omnibox__result__view_8cc.html" title=" " alt="" coords="209,213,375,269"/>
+<area shape="rect" id="node4" href="$dc/dce/omnibox__row__view_8cc.html" title=" " alt="" coords="251,117,458,158"/>
+<area shape="rect" id="node5" href="$db/d83/omnibox__text__view_8h.html" title=" " alt="" coords="482,109,649,165"/>
+<area shape="rect" id="node8" href="$d8/d7a/omnibox__view__views_8cc.html" title=" " alt="" coords="673,109,839,165"/>
+<area shape="rect" id="node6" href="$d8/df8/omnibox__match__cell__view_8cc.html" title=" " alt="" coords="440,213,611,269"/>
+<area shape="rect" id="node7" href="$d7/d7d/omnibox__text__view_8cc.html" title=" " alt="" coords="635,213,802,269"/>
+</map>

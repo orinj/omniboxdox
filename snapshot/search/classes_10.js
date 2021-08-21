@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['savecacheobserver_2834',['SaveCacheObserver',['../df/dfe/classInMemoryURLIndex_1_1SaveCacheObserver.html',1,'InMemoryURLIndex']]],
+  ['scorebuckets_2835',['ScoreBuckets',['../df/dfb/classHUPScoringParams_1_1ScoreBuckets.html',1,'HUPScoringParams']]],
+  ['scoredhistorymatch_2836',['ScoredHistoryMatch',['../d3/d1d/structScoredHistoryMatch.html',1,'']]],
+  ['searchprovider_2837',['SearchProvider',['../d4/dee/classSearchProvider.html',1,'']]],
+  ['searchsuggestionparser_2838',['SearchSuggestionParser',['../dc/d3c/classSearchSuggestionParser.html',1,'']]],
+  ['searchtermcacheitem_2839',['SearchTermCacheItem',['../d1/dd5/structURLIndexPrivateData_1_1SearchTermCacheItem.html',1,'URLIndexPrivateData']]],
+  ['searchtermsdatasnapshot_2840',['SearchTermsDataSnapshot',['../df/d60/classSearchTermsDataSnapshot.html',1,'']]],
+  ['selection_2841',['Selection',['../d4/d41/structOmniboxPopupModel_1_1Selection.html',1,'OmniboxPopupModel']]],
+  ['shortcut_2842',['Shortcut',['../df/ddf/structShortcutsDatabase_1_1Shortcut.html',1,'ShortcutsDatabase']]],
+  ['shortcutsbackend_2843',['ShortcutsBackend',['../d3/d69/classShortcutsBackend.html',1,'']]],
+  ['shortcutsbackendobserver_2844',['ShortcutsBackendObserver',['../d3/d6a/classShortcutsBackend_1_1ShortcutsBackendObserver.html',1,'ShortcutsBackend']]],
+  ['shortcutsdatabase_2845',['ShortcutsDatabase',['../d8/df9/classShortcutsDatabase.html',1,'']]],
+  ['shortcutsprovider_2846',['ShortcutsProvider',['../d7/d54/classShortcutsProvider.html',1,'']]],
+  ['simplecaseinsensitivecompareucs2_2847',['SimpleCaseInsensitiveCompareUCS2',['../d9/df8/structSimpleCaseInsensitiveCompareUCS2.html',1,'']]],
+  ['splitautocompletion_2848',['SplitAutocompletion',['../d5/d39/structSplitAutocompletion.html',1,'']]],
+  ['state_2849',['State',['../d5/dc2/structOmniboxEditModel_1_1State.html',1,'OmniboxEditModel::State'],['../d1/d56/structOmniboxView_1_1State.html',1,'OmniboxView::State']]],
+  ['statechanges_2850',['StateChanges',['../d7/d43/structOmniboxView_1_1StateChanges.html',1,'OmniboxView']]],
+  ['suggestionanswer_2851',['SuggestionAnswer',['../d2/dcd/classSuggestionAnswer.html',1,'']]],
+  ['suggestiondeletionhandler_2852',['SuggestionDeletionHandler',['../d8/d9b/classSuggestionDeletionHandler.html',1,'']]],
+  ['suggestresult_2853',['SuggestResult',['../d4/d3d/classSearchSuggestionParser_1_1SuggestResult.html',1,'SearchSuggestionParser']]],
+  ['synonymgroup_2854',['SynonymGroup',['../d6/d3c/classOmniboxPedal_1_1SynonymGroup.html',1,'OmniboxPedal']]],
+  ['synonymgroupspec_2855',['SynonymGroupSpec',['../d9/d9f/structOmniboxPedal_1_1SynonymGroupSpec.html',1,'OmniboxPedal']]]
+];

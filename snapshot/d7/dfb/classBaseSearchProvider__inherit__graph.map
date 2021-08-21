@@ -1,0 +1,8 @@
+<map id="BaseSearchProvider" name="BaseSearchProvider">
+<area shape="rect" id="node1" title=" " alt="" coords="145,169,286,196"/>
+<area shape="rect" id="node4" href="$d4/dee/classSearchProvider.html" title=" " alt="" coords="5,244,116,271"/>
+<area shape="rect" id="node5" href="$de/d3f/classVoiceSuggestProvider.html" title=" " alt="" coords="140,244,291,271"/>
+<area shape="rect" id="node6" href="$d3/dbc/classZeroSuggestProvider.html" title=" " alt="" coords="315,244,459,271"/>
+<area shape="rect" id="node2" href="$dd/de9/classAutocompleteProvider.html" title=" " alt="" coords="140,95,291,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="118,5,313,47"/>
+</map>

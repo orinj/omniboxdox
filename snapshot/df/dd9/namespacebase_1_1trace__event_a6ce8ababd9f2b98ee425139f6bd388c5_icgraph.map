@@ -1,0 +1,28 @@
+<map id="base::trace_event::EstimateMemoryUsage" name="base::trace_event::EstimateMemoryUsage">
+<area shape="rect" id="node1" title=" " alt="" coords="563,717,721,759"/>
+<area shape="rect" id="node2" href="$d9/d8f/classOmniboxAction.html#a985888c8ce73d277aff32dd65211fcf2" title=" " alt="" coords="282,5,501,47"/>
+<area shape="rect" id="node3" href="$d4/de9/classOmniboxPedal.html#a364b7626d15d2eceadb07d6b61c0d5ce" title=" " alt="" coords="5,35,220,76"/>
+<area shape="rect" id="node4" href="$d5/de6/classOmniboxPedal_1_1TokenSequence.html#a283db063ea14cb46ee0a2c947848cb48" title=" " alt="" coords="287,123,495,164"/>
+<area shape="rect" id="node5" href="$d6/d3c/classOmniboxPedal_1_1SynonymGroup.html#acf496da987e8b9788073538e07903901" title=" " alt="" coords="289,188,494,229"/>
+<area shape="rect" id="node6" href="$d6/dea/classOmniboxPedalProvider.html#aa596a30c7c0f68a28c855abdd1e46572" title=" " alt="" coords="308,253,475,295"/>
+<area shape="rect" id="node7" href="$d9/df6/classAutocompleteInput.html#ac6de92061c5a8c9b90de8c5d4924899c" title=" " alt="" coords="312,319,471,360"/>
+<area shape="rect" id="node9" href="$dc/d8f/structAutocompleteMatch.html#a21e7d9ee6461e2f590ac7cc5220989a2" title=" " alt="" coords="312,384,471,425"/>
+<area shape="rect" id="node10" href="$dd/de9/classAutocompleteProvider.html#a1d6db333220ba51d7ff1dfd5dc1075cb" title=" " alt="" coords="308,567,475,608"/>
+<area shape="rect" id="node11" href="$d4/dfb/classHistoryQuickProvider.html#a9725cd26e3d3091254f2a72156bcba57" title=" " alt="" coords="29,517,196,559"/>
+<area shape="rect" id="node12" href="$da/dad/classHistoryURLProvider.html#a6063840157197f2d498322d3ad0d760d" title=" " alt="" coords="29,605,196,647"/>
+<area shape="rect" id="node13" href="$d3/d03/classAutocompleteResult.html#a679518d523d77048ee2d614735cd08ca" title=" " alt="" coords="308,449,475,491"/>
+<area shape="rect" id="node14" href="$dc/da1/structhistory_1_1HistoryMatch.html#a0f63e6764b3560f80b5d53972e48e919" title=" " alt="" coords="308,684,475,725"/>
+<area shape="rect" id="node15" href="$d1/d6b/structHistoryURLProviderParams.html#a5a0348f03bc8678cdce30b2458f7e0a6" title=" " alt="" coords="299,749,483,791"/>
+<area shape="rect" id="node16" href="$db/d24/structHistoryInfoMapValue.html#a0d24bdc075f00d3192c0db43627f936e" title=" " alt="" coords="308,815,475,856"/>
+<area shape="rect" id="node17" href="$de/d16/structRowWordStarts.html#a318383acd5e2a1418a72ee73be03b1d3" title=" " alt="" coords="281,880,502,921"/>
+<area shape="rect" id="node18" href="$df/dfb/classHUPScoringParams_1_1ScoreBuckets.html#a471dfac6ca3ea70d1d2381b907197afa" title=" " alt="" coords="276,945,507,987"/>
+<area shape="rect" id="node19" href="$de/d4f/structHUPScoringParams.html#ab0314e5aaa20eb543230eabd5b099df4" title=" " alt="" coords="291,1011,491,1052"/>
+<area shape="rect" id="node20" href="$d1/d9d/classSuggestionAnswer_1_1TextField.html#a7a51d297040635e98cbfdd4fec26a6d4" title=" " alt="" coords="295,1076,487,1117"/>
+<area shape="rect" id="node21" href="$de/d56/classSuggestionAnswer_1_1ImageLine.html#ad258ab942c54710250987d5cdb0e510f" title=" " alt="" coords="292,1141,491,1183"/>
+<area shape="rect" id="node22" href="$d2/dcd/classSuggestionAnswer.html#a1e73defd07cda2f0f7ce4aaa3f815613" title=" " alt="" coords="296,1207,487,1248"/>
+<area shape="rect" id="node23" href="$d0/d85/classURLIndexPrivateData.html#a1f66d49e5f166ad013f1e1a3ecf2ece7" title=" " alt="" coords="308,1272,475,1313"/>
+<area shape="rect" id="node24" href="$d1/dd5/structURLIndexPrivateData_1_1SearchTermCacheItem.html#a6fbd8119c1df8083e5afd2a36498db73" title=" " alt="" coords="308,1338,475,1394"/>
+<area shape="rect" id="node25" href="$df/d60/classSearchTermsDataSnapshot.html#afa27d5ebb9771a5e153148db49844724" title=" " alt="" coords="300,1419,483,1460"/>
+<area shape="rect" id="node26" href="$dd/d7d/classInMemoryURLIndex.html#af4486b7b2a8a60f55c08a1f4509b1cf4" title=" " alt="" coords="268,1485,515,1511"/>
+<area shape="rect" id="node8" href="$df/d4d/classAutocompleteController.html#ab7cbce3981692690e5cfbdecca150e58" title=" " alt="" coords="33,441,192,483"/>
+</map>

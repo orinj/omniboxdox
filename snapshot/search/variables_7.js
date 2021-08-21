@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['half_5flife_5fdays_5f_4685',['half_life_days_',['../df/dfb/classHUPScoringParams_1_1ScoreBuckets.html#afdc08cbd1d453ee46c1d1d48860e35cc',1,'HUPScoringParams::ScoreBuckets']]],
+  ['has_5fnum_5flines_5f_4686',['has_num_lines_',['../d1/d9d/classSuggestionAnswer_1_1TextField.html#acc722fd6c6da5c04470c1b0b3cce46a9',1,'SuggestionAnswer::TextField']]],
+  ['has_5ftab_5fmatch_4687',['has_tab_match',['../dc/d8f/structAutocompleteMatch.html#a45556fd5c794e8b6621be813c2c414fd',1,'AutocompleteMatch']]],
+  ['has_5ftemporary_5ftext_5f_4688',['has_temporary_text_',['../d0/d22/classOmniboxEditModel.html#a5195475552d11670698cd667b3a48cb8',1,'OmniboxEditModel']]],
+  ['have_5fwhat_5fyou_5ftyped_5fmatch_4689',['have_what_you_typed_match',['../d1/d6b/structHistoryURLProviderParams.html#a7383905e1e2e43319496a901b4d15d6b',1,'HistoryURLProviderParams']]],
+  ['header_5flabel_5f_4690',['header_label_',['../d2/dcb/classOmniboxRowView_1_1HeaderView.html#aeed0c78b0a5b4bce484845e09b462646',1,'OmniboxRowView::HeaderView']]],
+  ['header_5ftext_5f_4691',['header_text_',['../d2/dcb/classOmniboxRowView_1_1HeaderView.html#af3bbcfdb376126d9abac5acb29d71f71',1,'OmniboxRowView::HeaderView']]],
+  ['header_5ftoggle_5fbutton_5f_4692',['header_toggle_button_',['../d2/dcb/classOmniboxRowView_1_1HeaderView.html#ae6d535c86cfe2885f65f3cd1ae215bdb',1,'OmniboxRowView::HeaderView']]],
+  ['header_5fview_5f_4693',['header_view_',['../da/da2/classOmniboxRowView.html#a78d9205e5662921e211a3860fd6ad021',1,'OmniboxRowView']]],
+  ['headers_5fmap_4694',['headers_map',['../d9/d2b/structSearchSuggestionParser_1_1Results.html#a2de085242c53d407399903f7c34918eb',1,'SearchSuggestionParser::Results']]],
+  ['headers_5fmap_5f_4695',['headers_map_',['../d3/d03/classAutocompleteResult.html#a22d40b54295d336ec1fd020e0dd848df',1,'AutocompleteResult']]],
+  ['hidden_5fgroup_5fids_4696',['hidden_group_ids',['../d9/d2b/structSearchSuggestionParser_1_1Results.html#a01694eee813380652ab780bf857e73b7',1,'SearchSuggestionParser::Results']]],
+  ['hidden_5fgroup_5fids_5f_4697',['hidden_group_ids_',['../d3/d03/classAutocompleteResult.html#a54c59cf246a3e2c9b8e668b3dcb16935',1,'AutocompleteResult']]],
+  ['hint_4698',['hint',['../da/df2/structOmniboxAction_1_1LabelStrings.html#aea08317d258c21c49fc5609ada7e04e7',1,'OmniboxAction::LabelStrings']]],
+  ['history_5fdir_5f_4699',['history_dir_',['../d5/d50/classFakeAutocompleteProviderClient.html#a16541a599f7237e89b811903632b800a',1,'FakeAutocompleteProviderClient::history_dir_()'],['../dd/d7d/classInMemoryURLIndex.html#a224c5e2ba8df4e4dc358168925bf440b',1,'InMemoryURLIndex::history_dir_()']]],
+  ['history_5fid_5fset_5f_4700',['history_id_set_',['../d1/dd5/structURLIndexPrivateData_1_1SearchTermCacheItem.html#a718144cbd4d32377f52f3755c78ebc56',1,'URLIndexPrivateData::SearchTermCacheItem']]],
+  ['history_5fid_5fword_5fmap_5f_4701',['history_id_word_map_',['../d0/d85/classURLIndexPrivateData.html#af38062e99f7b4601675abdde919d3061',1,'URLIndexPrivateData']]],
+  ['history_5finfo_5fmap_5f_4702',['history_info_map_',['../dc/d53/classURLIndexPrivateData_1_1HistoryItemFactorGreater.html#a6e5fe12591d8aed92543af82cbaa0d96',1,'URLIndexPrivateData::HistoryItemFactorGreater::history_info_map_()'],['../d0/d85/classURLIndexPrivateData.html#a99860ea8295952ff19b27bb9413f603c',1,'URLIndexPrivateData::history_info_map_()']]],
+  ['history_5fobservation_5f_4703',['history_observation_',['../da/db7/classFaviconCache.html#ae0dc8c6700db2b92290aee9c5099ba82',1,'FaviconCache']]],
+  ['history_5fservice_5f_4704',['history_service_',['../d5/d50/classFakeAutocompleteProviderClient.html#af2d0605de681dd08498b5263a8179c21',1,'FakeAutocompleteProviderClient::history_service_()'],['../dd/d7d/classInMemoryURLIndex.html#a89551d6580ddb42f50cfec4e938c2678',1,'InMemoryURLIndex::history_service_()']]],
+  ['history_5fservice_5fobservation_5f_4705',['history_service_observation_',['../dd/d7d/classInMemoryURLIndex.html#a40318baacd8ed7ee9e97807ec8735e4a',1,'InMemoryURLIndex::history_service_observation_()'],['../d3/d69/classShortcutsBackend.html#a75812aa9907a836ddccc7f6f21b7d296',1,'ShortcutsBackend::history_service_observation_()']]],
+  ['history_5ftask_5ftracker_5f_4706',['history_task_tracker_',['../d4/df1/classLocalHistoryZeroSuggestProvider.html#a7e384db7a7bf5f96a4a578a71e02a7d1',1,'LocalHistoryZeroSuggestProvider']]],
+  ['history_5furl_5fprovider_5f_4707',['history_url_provider_',['../df/d4d/classAutocompleteController.html#ac0216bcd8601ae8624e9e70b64e62b9b',1,'AutocompleteController::history_url_provider_()'],['../dd/dfc/classClipboardProvider.html#a9808dfd645198fc4033a073ea0c3320a',1,'ClipboardProvider::history_url_provider_()']]],
+  ['https_5fport_5ffor_5ftesting_5f_4708',['https_port_for_testing_',['../d9/df6/classAutocompleteInput.html#a8a9d603a33547dab6d599bc68d6a2d6c',1,'AutocompleteInput']]]
+];

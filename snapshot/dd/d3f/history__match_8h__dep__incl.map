@@ -1,0 +1,28 @@
+<map id="components/omnibox/browser/history_match.h" name="components/omnibox/browser/history_match.h">
+<area shape="rect" id="node1" title=" " alt="" coords="792,5,961,47"/>
+<area shape="rect" id="node2" href="$da/d84/history__match_8cc.html" title=" " alt="" coords="663,102,839,143"/>
+<area shape="rect" id="node3" href="$d4/dc7/history__url__provider_8h.html" title=" " alt="" coords="647,199,794,255"/>
+<area shape="rect" id="node14" href="$da/d9b/scored__history__match_8h.html" title=" " alt="" coords="1293,95,1455,151"/>
+<area shape="rect" id="node4" href="$d8/d40/autocomplete__controller_8cc.html" title=" " alt="" coords="474,407,629,463"/>
+<area shape="rect" id="node5" href="$d7/d59/clipboard__provider_8h.html" title=" " alt="" coords="109,310,300,351"/>
+<area shape="rect" id="node8" href="$dc/d09/history__quick__provider_8cc.html" title=" " alt="" coords="1735,407,1888,463"/>
+<area shape="rect" id="node9" href="$d0/df9/history__url__provider_8cc.html" title=" " alt="" coords="375,303,522,359"/>
+<area shape="rect" id="node10" href="$d7/df6/omnibox__edit__model_8cc.html" title=" " alt="" coords="547,303,700,359"/>
+<area shape="rect" id="node11" href="$d2/d90/scored__history__match_8cc.html" title=" " alt="" coords="985,303,1147,359"/>
+<area shape="rect" id="node12" href="$d4/d6a/zero__suggest__verbatim__match__provider_8h.html" title=" " alt="" coords="724,303,909,359"/>
+<area shape="rect" id="node6" href="$d0/dcb/autocomplete__match__android_8cc.html" title=" " alt="" coords="227,407,382,463"/>
+<area shape="rect" id="node7" href="$d3/d52/clipboard__provider_8cc.html" title=" " alt="" coords="5,414,204,455"/>
+<area shape="rect" id="node13" href="$d0/dcc/zero__suggest__verbatim__match__provider_8cc.html" title=" " alt="" coords="721,407,913,463"/>
+<area shape="rect" id="node15" href="$dc/db8/autocomplete__match__classification_8cc.html" title=" " alt="" coords="1388,199,1555,255"/>
+<area shape="rect" id="node16" href="$d5/d1a/autocomplete__provider_8cc.html" title=" " alt="" coords="1579,199,1734,255"/>
+<area shape="rect" id="node17" href="$d8/d44/in__memory__url__index_8h.html" title=" " alt="" coords="1816,199,1977,255"/>
+<area shape="rect" id="node25" href="$d9/dbf/url__index__private__data_8h.html" title=" " alt="" coords="1189,199,1364,255"/>
+<area shape="rect" id="node18" href="$d9/da9/fake__autocomplete__provider__client_8cc.html" title=" " alt="" coords="1989,407,2175,463"/>
+<area shape="rect" id="node19" href="$da/d44/fake__autocomplete__provider__client_8h.html" title=" " alt="" coords="1963,303,2150,359"/>
+<area shape="rect" id="node20" href="$d7/d5c/history__index__restore__observer_8h.html" title=" " alt="" coords="2225,303,2379,359"/>
+<area shape="rect" id="node22" href="$db/d15/history__quick__provider_8h.html" title=" " alt="" coords="1735,303,1888,359"/>
+<area shape="rect" id="node23" href="$d0/ddb/in__memory__url__index_8cc.html" title=" " alt="" coords="1351,303,1512,359"/>
+<area shape="rect" id="node24" href="$d4/d66/url__index__private__data_8cc.html" title=" " alt="" coords="1536,303,1711,359"/>
+<area shape="rect" id="node21" href="$d7/d82/history__index__restore__observer_8cc.html" title=" " alt="" coords="2225,407,2379,463"/>
+<area shape="rect" id="node26" href="$d7/d1a/omnibox__field__trial_8cc.html" title=" " alt="" coords="1171,303,1327,359"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="AutocompleteProvider" name="AutocompleteProvider">
+<area shape="rect" id="node1" title=" " alt="" coords="248,360,399,387"/>
+<area shape="rect" id="node3" href="$d0/ddc/classBaseSearchProvider.html" title=" " alt="" coords="485,56,626,83"/>
+<area shape="rect" id="node7" href="$d9/d85/classBookmarkProvider.html" title=" " alt="" coords="491,107,620,133"/>
+<area shape="rect" id="node8" href="$db/d54/classBuiltinProvider.html" title=" " alt="" coords="502,157,609,184"/>
+<area shape="rect" id="node9" href="$dd/dfc/classClipboardProvider.html" title=" " alt="" coords="493,208,618,235"/>
+<area shape="rect" id="node10" href="$dc/dfa/classDocumentProvider.html" title=" " alt="" coords="490,259,621,285"/>
+<area shape="rect" id="node11" href="$df/dcf/classHistoryProvider.html" title=" " alt="" coords="499,309,611,336"/>
+<area shape="rect" id="node14" href="$d1/db8/classKeywordProvider.html" title=" " alt="" coords="495,360,616,387"/>
+<area shape="rect" id="node15" href="$d4/df1/classLocalHistoryZeroSuggestProvider.html" title=" " alt="" coords="447,411,664,437"/>
+<area shape="rect" id="node16" href="$dc/d2d/classMostVisitedSitesProvider.html" title=" " alt="" coords="471,461,640,488"/>
+<area shape="rect" id="node17" href="$d3/d42/classOnDeviceHeadProvider.html" title=" " alt="" coords="476,512,635,539"/>
+<area shape="rect" id="node18" href="$dc/ddd/classQueryTileProvider.html" title=" " alt="" coords="492,563,619,589"/>
+<area shape="rect" id="node19" href="$d7/d54/classShortcutsProvider.html" title=" " alt="" coords="492,613,619,640"/>
+<area shape="rect" id="node20" href="$da/d25/classZeroSuggestVerbatimMatchProvider.html" title=" " alt="" coords="463,665,647,706"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,353,200,394"/>
+<area shape="rect" id="node4" href="$d4/dee/classSearchProvider.html" title=" " alt="" coords="732,5,843,32"/>
+<area shape="rect" id="node5" href="$de/d3f/classVoiceSuggestProvider.html" title=" " alt="" coords="712,56,863,83"/>
+<area shape="rect" id="node6" href="$d3/dbc/classZeroSuggestProvider.html" title=" " alt="" coords="715,107,859,133"/>
+<area shape="rect" id="node12" href="$d4/dfb/classHistoryQuickProvider.html" title=" " alt="" coords="714,284,861,311"/>
+<area shape="rect" id="node13" href="$da/dad/classHistoryURLProvider.html" title=" " alt="" coords="718,335,857,361"/>
+</map>
