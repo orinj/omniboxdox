@@ -1,12 +1,13 @@
 <map id="chrome/browser/ui/omnibox/chrome_omnibox_edit_controller.h" name="chrome/browser/ui/omnibox/chrome_omnibox_edit_controller.h">
-<area shape="rect" id="node1" title=" " alt="" coords="329,5,552,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="309,109,417,136"/>
-<area shape="rect" id="node3" href="$d5/d85/omnibox__edit__controller_8h.html" title=" " alt="" coords="441,95,595,151"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,213,124,240"/>
-<area shape="rect" id="node5" href="$df/d34/autocomplete__match__type_8h.html" title=" " alt="" coords="147,199,302,255"/>
-<area shape="rect" id="node7" title=" " alt="" coords="327,206,515,247"/>
-<area shape="rect" id="node8" title=" " alt="" coords="539,206,695,247"/>
-<area shape="rect" id="node9" title=" " alt="" coords="719,206,866,247"/>
-<area shape="rect" id="node10" title=" " alt="" coords="890,213,962,240"/>
-<area shape="rect" id="node6" title=" " alt="" coords="197,303,252,329"/>
+<area shape="rect" id="node1" title=" " alt="" coords="425,5,647,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="405,109,513,136"/>
+<area shape="rect" id="node3" href="$d5/d85/omnibox__edit__controller_8h.html" title=" " alt="" coords="537,95,690,151"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,213,173,240"/>
+<area shape="rect" id="node5" title=" " alt="" coords="198,213,317,240"/>
+<area shape="rect" id="node6" href="$df/d34/autocomplete__match__type_8h.html" title=" " alt="" coords="340,199,495,255"/>
+<area shape="rect" id="node8" title=" " alt="" coords="519,206,707,247"/>
+<area shape="rect" id="node9" title=" " alt="" coords="731,206,887,247"/>
+<area shape="rect" id="node10" title=" " alt="" coords="912,206,1059,247"/>
+<area shape="rect" id="node11" title=" " alt="" coords="1083,213,1155,240"/>
+<area shape="rect" id="node7" title=" " alt="" coords="390,303,445,329"/>
 </map>

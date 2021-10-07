@@ -79,7 +79,22 @@
 <title>Node5&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M351.3,-63.6C319.33,-50.7 270.11,-30.83 242.21,-19.56"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="350.04,-66.87 360.62,-67.37 352.66,-60.38 350.04,-66.87"/>
-<text text-anchor="middle" x="327" y="-41" font-family="Helvetica,sans-Serif" font-size="10.00"> client_</text>
+<text text-anchor="middle" x="328" y="-41" font-family="Helvetica,sans-Serif" font-size="10.00"> client_</text>
+</g>
+<!-- Node6 -->
+<g id="node6" class="node">
+<title>Node6</title>
+<g id="a_node6"><a xlink:href="../../d2/df2/structOmniboxAction_1_1Client.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="324.5,-130 324.5,-149 439.5,-149 439.5,-130 324.5,-130"/>
+<text text-anchor="middle" x="382" y="-137" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxAction::Client</text>
+</a>
+</g>
+</g>
+<!-- Node6&#45;&gt;Node5 -->
+<g id="edge5" class="edge">
+<title>Node6&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M382,-119.5C382,-108.5 382,-95.18 382,-86.65"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="378.5,-119.83 382,-129.83 385.5,-119.83 378.5,-119.83"/>
 </g>
 </g>
 </svg>

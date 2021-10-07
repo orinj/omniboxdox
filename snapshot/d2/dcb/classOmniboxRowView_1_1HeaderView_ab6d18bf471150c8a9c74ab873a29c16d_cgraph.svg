@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d2/dcb/classOmniboxRowView_1_1HeaderView.html#a5e726e6b6d21beaeb313d364c0074414" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d2/dcb/classOmniboxRowView_1_1HeaderView.html#aed54f3d24c53521d7eadae28b01478d3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="193,-137.5 193,-167.5 350,-167.5 350,-137.5 193,-137.5"/>
 <text text-anchor="start" x="201" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxRowView::HeaderView</text>
 <text text-anchor="middle" x="271.5" y="-144.5" font-family="Helvetica,sans-Serif" font-size="10.00">::GetHeaderSelection</text>
@@ -69,10 +69,10 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d1/db1/classOmniboxPopupModel.html#aefaa1c821356750ca507e8db8bfd1309" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="213.5,-0.5 213.5,-30.5 329.5,-30.5 329.5,-0.5 213.5,-0.5"/>
-<text text-anchor="start" x="221.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxPopupModel::</text>
-<text text-anchor="middle" x="271.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">selection</text>
+<g id="a_node5"><a xlink:href="../../d0/d22/classOmniboxEditModel.html#afca096faf219ac7be1bf9251466648a7" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="197,-0.5 197,-30.5 346,-30.5 346,-0.5 197,-0.5"/>
+<text text-anchor="start" x="205" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxEditModel::GetPopup</text>
+<text text-anchor="middle" x="271.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Selection</text>
 </a>
 </g>
 </g>

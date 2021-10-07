@@ -85,8 +85,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab590e106e3a2f53bfa45712f529cf106"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ca09b31cc182d53d12dfe3d2063ce15"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de1/classOmniboxPopupView.html#a1ca09b31cc182d53d12dfe3d2063ce15">InvalidateLine</a> (size_t line)=0</td></tr>
 <tr class="separator:a1ca09b31cc182d53d12dfe3d2063ce15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63237b90e94e717c1e76352e6e1fdbe9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de1/classOmniboxPopupView.html#a63237b90e94e717c1e76352e6e1fdbe9">OnSelectionChanged</a> (<a class="el" href="../../d4/d41/structOmniboxPopupModel_1_1Selection.html">OmniboxPopupModel::Selection</a> old_selection, <a class="el" href="../../d4/d41/structOmniboxPopupModel_1_1Selection.html">OmniboxPopupModel::Selection</a> new_selection)</td></tr>
-<tr class="separator:a63237b90e94e717c1e76352e6e1fdbe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07fc80c92d9987610fa9ad2b506d2112"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de1/classOmniboxPopupView.html#a07fc80c92d9987610fa9ad2b506d2112">OnSelectionChanged</a> (<a class="el" href="../../de/dfc/structOmniboxPopupSelection.html">OmniboxPopupSelection</a> old_selection, <a class="el" href="../../de/dfc/structOmniboxPopupSelection.html">OmniboxPopupSelection</a> new_selection)</td></tr>
+<tr class="separator:a07fc80c92d9987610fa9ad2b506d2112"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cb6b629fed2a68b795227050f1c2342"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de1/classOmniboxPopupView.html#a9cb6b629fed2a68b795227050f1c2342">UpdatePopupAppearance</a> ()=0</td></tr>
 <tr class="separator:a9cb6b629fed2a68b795227050f1c2342"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fa6bf91f2efc61745c432c3f7720349"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de1/classOmniboxPopupView.html#a3fa6bf91f2efc61745c432c3f7720349">ProvideButtonFocusHint</a> (size_t line)=0</td></tr>
@@ -176,7 +176,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d88/classOmniboxPopupContentsView.html#a362f2cb56dacaa52bef374a9525e378b">OmniboxPopupContentsView</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a64f0ed404470d2689d4774bac54d54fc">OmniboxPopupModel::IsOpen()</a>, <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a428b39ea93613c635e9446595c8424c9">OmniboxPopupModel::OnFaviconFetched()</a>, and <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a01ba11633e6cf96521cdb7cd772f6c2c">OmniboxPopupModel::OnResultChanged()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d22/classOmniboxEditModel.html#ad973e0ec422b39ae512cd689b15a86c1">OmniboxEditModel::OnPopupResultChanged()</a>, and <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a67fe900511cae558a9585411c98b36c6">OmniboxEditModel::PopupIsOpen()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -211,7 +211,7 @@ Here is the caller graph for this function:</div>
 
 <p>Implemented in <a class="el" href="../../d7/d88/classOmniboxPopupContentsView.html#a0fb74fc0208e0718f9ebed87d69b2a96">OmniboxPopupContentsView</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#af648fbf58e6edfef7d14df5c6056f399">OmniboxPopupModel::ResetToInitialState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d22/classOmniboxEditModel.html#aa9d90c515bb4fbd3dc1c12f5ffece74a">OmniboxEditModel::ResetPopupToInitialState()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -247,7 +247,7 @@ Here is the caller graph for this function:</div>
 
 <p>Implemented in <a class="el" href="../../d7/d88/classOmniboxPopupContentsView.html#a3f3538f29fd10e593d39a3a456d116b6">OmniboxPopupContentsView</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a428b39ea93613c635e9446595c8424c9">OmniboxPopupModel::OnFaviconFetched()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a4d42009e8d7e36ff96e8eab17fd0429c">OmniboxEditModel::OnFaviconFetched()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -257,8 +257,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a63237b90e94e717c1e76352e6e1fdbe9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63237b90e94e717c1e76352e6e1fdbe9">&#9670;&nbsp;</a></span>OnSelectionChanged()</h2>
+<a id="a07fc80c92d9987610fa9ad2b506d2112"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07fc80c92d9987610fa9ad2b506d2112">&#9670;&nbsp;</a></span>OnSelectionChanged()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -269,13 +269,13 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">virtual void OmniboxPopupView::OnSelectionChanged </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d41/structOmniboxPopupModel_1_1Selection.html">OmniboxPopupModel::Selection</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../de/dfc/structOmniboxPopupSelection.html">OmniboxPopupSelection</a>&#160;</td>
           <td class="paramname"><em>old_selection</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d41/structOmniboxPopupModel_1_1Selection.html">OmniboxPopupModel::Selection</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../de/dfc/structOmniboxPopupSelection.html">OmniboxPopupSelection</a>&#160;</td>
           <td class="paramname"><em>new_selection</em>&#160;</td>
         </tr>
         <tr>
@@ -291,13 +291,13 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="../../d7/d88/classOmniboxPopupContentsView.html#a9301f5ffc6c70522dd33f67c875fad6e">OmniboxPopupContentsView</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d7/d88/classOmniboxPopupContentsView.html#ad07bb5f5a0684ec71dca65dd117143d1">OmniboxPopupContentsView</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a9bee10e41819099c41b5ad5cd989617a">OmniboxPopupModel::SetSelection()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a066c5fd08558e0c15211647b034a35a9">OmniboxEditModel::SetPopupSelection()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/de1/classOmniboxPopupView_a63237b90e94e717c1e76352e6e1fdbe9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/de1/classOmniboxPopupView_a07fc80c92d9987610fa9ad2b506d2112_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -329,7 +329,7 @@ Here is the caller graph for this function:</div>
 
 <p>Implemented in <a class="el" href="../../d7/d88/classOmniboxPopupContentsView.html#ac230d9685cb77b13e45b46de7033da33">OmniboxPopupContentsView</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a9bee10e41819099c41b5ad5cd989617a">OmniboxPopupModel::SetSelection()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a066c5fd08558e0c15211647b034a35a9">OmniboxEditModel::SetPopupSelection()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -364,7 +364,7 @@ Here is the caller graph for this function:</div>
 
 <p>Implemented in <a class="el" href="../../d7/d88/classOmniboxPopupContentsView.html#aa8f47263f229af6a469c3bf964b81162">OmniboxPopupContentsView</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a01ba11633e6cf96521cdb7cd772f6c2c">OmniboxPopupModel::OnResultChanged()</a>, and <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a072a07927ca05c4f9164e6acd5721d62">OmniboxPopupModel::SetRichSuggestionBitmap()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d22/classOmniboxEditModel.html#ad973e0ec422b39ae512cd689b15a86c1">OmniboxEditModel::OnPopupResultChanged()</a>, and <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a8f17ec0cfe87cbe6d88a9cbd8be3832c">OmniboxEditModel::SetPopupRichSuggestionBitmap()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

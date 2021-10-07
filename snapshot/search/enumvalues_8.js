@@ -1,13 +1,19 @@
 var searchData=
 [
-  ['kalllines_5416',['kAllLines',['../d1/db1/classOmniboxPopupModel.html#af9a110f7ffbbe9c0d71b0e9d7d8e7117a900bc1ef3f4dc2e17746e6795cc3d083',1,'OmniboxPopupModel']]],
-  ['kbackward_5417',['kBackward',['../d1/db1/classOmniboxPopupModel.html#a61ade8f7c1ceac828b51b302dee6c859a4d0da18675b1b952236fd44bc041522e',1,'OmniboxPopupModel']]],
-  ['kbookmarkpaths_5418',['kBookmarkPaths',['../d4/d45/classOmniboxTriggeredFeatureService.html#a460c6c1a20a3c22aeb862411098df8c8abd89e3e078379279787e20b0a38c4e39',1,'OmniboxTriggeredFeatureService']]],
-  ['keyword_5fmode_5419',['KEYWORD_MODE',['../d1/db1/classOmniboxPopupModel.html#a62cf57935c50a563301d5e081ea989f1abc0319147957a5b13a11909bc494981c',1,'OmniboxPopupModel']]],
-  ['kforward_5420',['kForward',['../d1/db1/classOmniboxPopupModel.html#a61ade8f7c1ceac828b51b302dee6c859af6b38825f55e46b8d5619699190a5e3f',1,'OmniboxPopupModel']]],
-  ['kmaxvalue_5421',['kMaxValue',['../d4/d45/classOmniboxTriggeredFeatureService.html#a460c6c1a20a3c22aeb862411098df8c8aa4f5363ade31fbbf363aea06f528c379',1,'OmniboxTriggeredFeatureService']]],
-  ['krichautocompletion_5422',['kRichAutocompletion',['../d4/d45/classOmniboxTriggeredFeatureService.html#a460c6c1a20a3c22aeb862411098df8c8a1588a1c4dd4c06e1be109c6e672f179f',1,'OmniboxTriggeredFeatureService']]],
-  ['kshortbookmarksuggestionsbytotalinputlength_5423',['kShortBookmarkSuggestionsByTotalInputLength',['../d4/d45/classOmniboxTriggeredFeatureService.html#a460c6c1a20a3c22aeb862411098df8c8adf928c854ccd40cfa24ad178d0068303',1,'OmniboxTriggeredFeatureService']]],
-  ['kstateorline_5424',['kStateOrLine',['../d1/db1/classOmniboxPopupModel.html#af9a110f7ffbbe9c0d71b0e9d7d8e7117afaddf6ae7dc5ae8a54579f9a87815c42',1,'OmniboxPopupModel']]],
-  ['kwholeline_5425',['kWholeLine',['../d1/db1/classOmniboxPopupModel.html#af9a110f7ffbbe9c0d71b0e9d7d8e7117addef81e0b6e4d6bc699d28f699e1089a',1,'OmniboxPopupModel']]]
+  ['kalllines_5425',['kAllLines',['../de/dfc/structOmniboxPopupSelection.html#a9f77d781a319cbd4dab9609ea3bb5d82acb7d29cafd7e9a370a82451870d3694f',1,'OmniboxPopupSelection']]],
+  ['kbackward_5426',['kBackward',['../de/dfc/structOmniboxPopupSelection.html#a2cd436c396f5e893e5fdaaecb135aac2ae4bed1968f54ab81511afeccad529801',1,'OmniboxPopupSelection']]],
+  ['kbookmarkpaths_5427',['kBookmarkPaths',['../d4/d45/classOmniboxTriggeredFeatureService.html#a460c6c1a20a3c22aeb862411098df8c8abd89e3e078379279787e20b0a38c4e39',1,'OmniboxTriggeredFeatureService']]],
+  ['keyword_5fmode_5428',['KEYWORD_MODE',['../de/dfc/structOmniboxPopupSelection.html#a52df7ac15ee9347c93cb9be243dac876a708225db7336160aa8f228f34ebf94ed',1,'OmniboxPopupSelection']]],
+  ['kfetchfailed_5429',['kFetchFailed',['../d3/da9/classChromeOmniboxNavigationObserver.html#a67d1c6f1a0ae34a8e7ae6a67d038ab6fadc6900e298ab607bab3a459e1b4447b1',1,'ChromeOmniboxNavigationObserver']]],
+  ['kfetchnotcomplete_5430',['kFetchNotComplete',['../d3/da9/classChromeOmniboxNavigationObserver.html#a67d1c6f1a0ae34a8e7ae6a67d038ab6faa84317cd06b857cb00483edcbb3939e8',1,'ChromeOmniboxNavigationObserver']]],
+  ['kfetchsucceeded_5431',['kFetchSucceeded',['../d3/da9/classChromeOmniboxNavigationObserver.html#a67d1c6f1a0ae34a8e7ae6a67d038ab6fa39228440a49369b3c6b3e427ef52ebf8',1,'ChromeOmniboxNavigationObserver']]],
+  ['kforward_5432',['kForward',['../de/dfc/structOmniboxPopupSelection.html#a2cd436c396f5e893e5fdaaecb135aac2a0d87263c234aef7add665af5696a0f37',1,'OmniboxPopupSelection']]],
+  ['kinvalid_5433',['kInvalid',['../d2/d8d/classHistoryURLProvider_1_1VisitClassifier.html#ac7ded7e971c99fd9cfece72e341f4dabab10913c938482a8aa4ba85b7a1116cb4',1,'HistoryURLProvider::VisitClassifier']]],
+  ['kmaxvalue_5434',['kMaxValue',['../d4/d45/classOmniboxTriggeredFeatureService.html#a460c6c1a20a3c22aeb862411098df8c8aa4f5363ade31fbbf363aea06f528c379',1,'OmniboxTriggeredFeatureService']]],
+  ['krichautocompletion_5435',['kRichAutocompletion',['../d4/d45/classOmniboxTriggeredFeatureService.html#a460c6c1a20a3c22aeb862411098df8c8a1588a1c4dd4c06e1be109c6e672f179f',1,'OmniboxTriggeredFeatureService']]],
+  ['kshortbookmarksuggestionsbytotalinputlength_5436',['kShortBookmarkSuggestionsByTotalInputLength',['../d4/d45/classOmniboxTriggeredFeatureService.html#a460c6c1a20a3c22aeb862411098df8c8adf928c854ccd40cfa24ad178d0068303',1,'OmniboxTriggeredFeatureService']]],
+  ['kstateorline_5437',['kStateOrLine',['../de/dfc/structOmniboxPopupSelection.html#a9f77d781a319cbd4dab9609ea3bb5d82a1bb143f423832089d601e2513a4934cf',1,'OmniboxPopupSelection']]],
+  ['kunvisitedintranet_5438',['kUnvisitedIntranet',['../d2/d8d/classHistoryURLProvider_1_1VisitClassifier.html#ac7ded7e971c99fd9cfece72e341f4daba3544428438b87b28770e1cce35749a71',1,'HistoryURLProvider::VisitClassifier']]],
+  ['kvisited_5439',['kVisited',['../d2/d8d/classHistoryURLProvider_1_1VisitClassifier.html#ac7ded7e971c99fd9cfece72e341f4dabac5725eaaa919e3978491a23f4d9335f7',1,'HistoryURLProvider::VisitClassifier']]],
+  ['kwholeline_5440',['kWholeLine',['../de/dfc/structOmniboxPopupSelection.html#a9f77d781a319cbd4dab9609ea3bb5d82a6e1a539ff317dba6e891e3df6cbc58b7',1,'OmniboxPopupSelection']]]
 ];

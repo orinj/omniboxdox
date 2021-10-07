@@ -143,6 +143,21 @@ var sectionId = 'dynsection-1';
 <polygon fill="#9a32cd" stroke="#9a32cd" points="311.21,-18.37 300.68,-19.51 309.62,-25.19 311.21,-18.37"/>
 <text text-anchor="middle" x="368" y="-45" font-family="Helvetica,sans-Serif" font-size="10.00"> client_</text>
 </g>
+<!-- Node7 -->
+<g id="node7" class="node">
+<title>Node7</title>
+<g id="a_node7"><a xlink:href="../../d2/df2/structOmniboxAction_1_1Client.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="15.5,-0.5 15.5,-19.5 130.5,-19.5 130.5,-0.5 15.5,-0.5"/>
+<text text-anchor="middle" x="73" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxAction::Client</text>
+</a>
+</g>
+</g>
+<!-- Node7&#45;&gt;Node6 -->
+<g id="edge6" class="edge">
+<title>Node7&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M141.18,-10C156.24,-10 172.22,-10 187.31,-10"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="140.93,-6.5 130.93,-10 140.93,-13.5 140.93,-6.5"/>
+</g>
 </g>
 </svg>
         <g id="navigator" transform="translate(0 0)" fill="#404254">

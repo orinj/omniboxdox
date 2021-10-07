@@ -1,10 +1,5 @@
 <map id="OmniboxPopupContentsView::GetIndexForPoint" name="OmniboxPopupContentsView::GetIndexForPoint">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,199,112"/>
-<area shape="rect" id="node2" href="$d7/d88/classOmniboxPopupContentsView.html#a718a0b1b4223a2cbabb6008f005ffd2e" title=" " alt="" coords="247,5,440,47"/>
-<area shape="rect" id="node4" href="$d1/db1/classOmniboxPopupModel.html#a819a99147bf9bc6ad4f7096218a388b0" title=" " alt="" coords="266,71,421,112"/>
-<area shape="rect" id="node8" href="$d3/d03/classAutocompleteResult.html#a64a7947a81e007d5aa56ac9b25e84bb6" title=" " alt="" coords="273,136,413,177"/>
-<area shape="rect" id="node3" href="$d0/d22/classOmniboxEditModel.html#a254f9536adb46b9e885d10b3d5bfe4c9" title=" " alt="" coords="488,5,663,47"/>
-<area shape="rect" id="node5" href="$d1/db1/classOmniboxPopupModel.html#a15465ac89016d4717442d3be4e43f3ae" title=" " alt="" coords="495,71,655,112"/>
-<area shape="rect" id="node7" href="$df/d4d/classAutocompleteController.html#a4aad481d8777819a1acec95affee80b2" title=" " alt="" coords="496,136,655,177"/>
-<area shape="rect" id="node6" href="$d0/d22/classOmniboxEditModel.html#a8c8a925ee670cdc9bd5c0ad8b07fa1a0" title=" " alt="" coords="711,71,929,112"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,27,199,69"/>
+<area shape="rect" id="node2" href="$d0/d22/classOmniboxEditModel.html#ad945a332660c6122dc25b93c1eee76d8" title=" " alt="" coords="247,5,419,32"/>
+<area shape="rect" id="node3" href="$d3/d03/classAutocompleteResult.html#a64a7947a81e007d5aa56ac9b25e84bb6" title=" " alt="" coords="263,57,403,98"/>
 </map>

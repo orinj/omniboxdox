@@ -81,5 +81,20 @@
 <polygon fill="#9a32cd" stroke="#9a32cd" points="307.4,-18.44 296.86,-19.55 305.78,-25.26 307.4,-18.44"/>
 <text text-anchor="middle" x="362" y="-41" font-family="Helvetica,sans-Serif" font-size="10.00"> client_</text>
 </g>
+<!-- Node6 -->
+<g id="node6" class="node">
+<title>Node6</title>
+<g id="a_node6"><a xlink:href="../../d2/df2/structOmniboxAction_1_1Client.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="15.5,-0.5 15.5,-19.5 130.5,-19.5 130.5,-0.5 15.5,-0.5"/>
+<text text-anchor="middle" x="73" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxAction::Client</text>
+</a>
+</g>
+</g>
+<!-- Node6&#45;&gt;Node5 -->
+<g id="edge5" class="edge">
+<title>Node6&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M140.75,-10C155.63,-10 171.43,-10 186.37,-10"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="140.62,-6.5 130.62,-10 140.62,-13.5 140.62,-6.5"/>
+</g>
 </g>
 </svg>

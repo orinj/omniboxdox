@@ -54,165 +54,180 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="../../dd/de9/classAutocompleteProvider.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="195.5,-99.5 195.5,-118.5 308.5,-118.5 308.5,-99.5 195.5,-99.5"/>
-<text text-anchor="middle" x="252" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutocompleteProvider</text>
+<polygon fill="white" stroke="black" points="195.5,-103.5 195.5,-122.5 308.5,-122.5 308.5,-103.5 195.5,-103.5"/>
+<text text-anchor="middle" x="252" y="-110.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutocompleteProvider</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M319.03,-103.62C373.3,-99.21 448.47,-93.09 494.45,-89.34"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="318.5,-100.16 308.81,-104.46 319.06,-107.13 318.5,-100.16"/>
+<path fill="none" stroke="midnightblue" d="M319.03,-106.69C373.3,-101.5 448.47,-94.32 494.45,-89.92"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="318.43,-103.23 308.81,-107.67 319.1,-110.2 318.43,-103.23"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node">
-<title>Node10</title>
-<g id="a_node10"><a xlink:href="../../dc/d8f/structAutocompleteMatch.html" target="_top" xlink:title=" ">
+<!-- Node11 -->
+<g id="node11" class="node">
+<title>Node11</title>
+<g id="a_node11"><a xlink:href="../../dc/d8f/structAutocompleteMatch.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="484.5,-114.5 484.5,-133.5 588.5,-133.5 588.5,-114.5 484.5,-114.5"/>
 <text text-anchor="middle" x="536.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutocompleteMatch</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node10 -->
-<g id="edge11" class="edge">
-<title>Node4&#45;&gt;Node10</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M318.95,-112.5C369.32,-115.18 437.73,-118.81 484.08,-121.27"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="318.98,-109 308.81,-111.96 318.61,-115.99 318.98,-109"/>
-<text text-anchor="middle" x="385.5" y="-121" font-family="Helvetica,sans-Serif" font-size="10.00"> provider</text>
+<!-- Node4&#45;&gt;Node11 -->
+<g id="edge12" class="edge">
+<title>Node4&#45;&gt;Node11</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M318.95,-115.57C369.32,-117.53 437.73,-120.19 484.08,-122"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="318.94,-112.07 308.81,-115.17 318.67,-119.06 318.94,-112.07"/>
+<text text-anchor="middle" x="385.5" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00"> provider</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="0,-94 0,-124 146,-124 146,-94 0,-94"/>
-<text text-anchor="start" x="8" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00">base::RefCountedThreadSafe</text>
-<text text-anchor="middle" x="73" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; AutocompleteProvider &gt;</text>
+<polygon fill="white" stroke="#bfbfbf" points="0,-98 0,-128 146,-128 146,-98 0,-98"/>
+<text text-anchor="start" x="8" y="-116" font-family="Helvetica,sans-Serif" font-size="10.00">base::RefCountedThreadSafe</text>
+<text text-anchor="middle" x="73" y="-105" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; AutocompleteProvider &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M156.28,-109C169.48,-109 182.86,-109 195.25,-109"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="156.25,-105.5 146.25,-109 156.25,-112.5 156.25,-105.5"/>
+<path fill="none" stroke="midnightblue" d="M156.28,-113C169.48,-113 182.86,-113 195.25,-113"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="156.25,-109.5 146.25,-113 156.25,-116.5 156.25,-109.5"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="../../d5/dc7/classAutocompleteProviderClient.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="183,-52.5 183,-71.5 321,-71.5 321,-52.5 183,-52.5"/>
-<text text-anchor="middle" x="252" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutocompleteProviderClient</text>
+<polygon fill="white" stroke="black" points="183,-53.5 183,-72.5 321,-72.5 321,-53.5 183,-53.5"/>
+<text text-anchor="middle" x="252" y="-60.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutocompleteProviderClient</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node3 -->
 <g id="edge5" class="edge">
 <title>Node6&#45;&gt;Node3</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M331.05,-68.63C383.9,-73.12 451.62,-78.87 494.3,-82.5"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="331.29,-65.14 321.03,-67.78 330.69,-72.11 331.29,-65.14"/>
-<text text-anchor="middle" x="385.5" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00"> client_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M331.19,-59.99C362.6,-59.68 399.1,-60.45 432,-64 454.65,-66.44 479.64,-71.68 499.39,-76.43"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="331.13,-56.49 321.18,-60.13 331.23,-63.49 331.13,-56.49"/>
+<text text-anchor="middle" x="385.5" y="-67" font-family="Helvetica,sans-Serif" font-size="10.00"> client_</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../dc/dce/classAutocompleteProviderListener.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="766,-38.5 766,-57.5 913,-57.5 913,-38.5 766,-38.5"/>
-<text text-anchor="middle" x="839.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutocompleteProviderListener</text>
+<g id="a_node7"><a xlink:href="../../d2/df2/structOmniboxAction_1_1Client.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="15.5,-53.5 15.5,-72.5 130.5,-72.5 130.5,-53.5 15.5,-53.5"/>
+<text text-anchor="middle" x="73" y="-60.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxAction::Client</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node2 -->
+<!-- Node7&#45;&gt;Node6 -->
 <g id="edge6" class="edge">
-<title>Node7&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M923.37,-54.23C950.65,-56.33 981.13,-58.71 1009,-61 1014.75,-61.47 1020.77,-61.98 1026.76,-62.49"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="923.32,-50.72 913.08,-53.44 922.79,-57.7 923.32,-50.72"/>
-<text text-anchor="middle" x="970" y="-64" font-family="Helvetica,sans-Serif" font-size="10.00"> listener_</text>
+<title>Node7&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M141.2,-63C154.78,-63 169.07,-63 182.69,-63"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="140.98,-59.5 130.98,-63 140.98,-66.5 140.98,-59.5"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d1/d6b/structHistoryURLProviderParams.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="770.5,-114.5 770.5,-133.5 908.5,-133.5 908.5,-114.5 770.5,-114.5"/>
-<text text-anchor="middle" x="839.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">HistoryURLProviderParams</text>
+<g id="a_node8"><a xlink:href="../../dc/dce/classAutocompleteProviderListener.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="766,-38.5 766,-57.5 913,-57.5 913,-38.5 766,-38.5"/>
+<text text-anchor="middle" x="839.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutocompleteProviderListener</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node2 -->
 <g id="edge7" class="edge">
 <title>Node8&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M918.71,-117.13C947.5,-113.37 980.11,-107.65 1009,-99 1027.47,-93.47 1047.32,-83.84 1060.96,-76.59"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="918.19,-113.67 908.7,-118.38 919.06,-120.61 918.19,-113.67"/>
-<text text-anchor="middle" x="970" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00"> params_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M923.37,-54.23C950.65,-56.33 981.13,-58.71 1009,-61 1014.75,-61.47 1020.77,-61.98 1026.76,-62.49"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="923.32,-50.72 913.08,-53.44 922.79,-57.7 923.32,-50.72"/>
+<text text-anchor="middle" x="970" y="-64" font-family="Helvetica,sans-Serif" font-size="10.00"> listener_</text>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d9/df6/classAutocompleteInput.html" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="../../d1/d6b/structHistoryURLProviderParams.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="770.5,-114.5 770.5,-133.5 908.5,-133.5 908.5,-114.5 770.5,-114.5"/>
+<text text-anchor="middle" x="839.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">HistoryURLProviderParams</text>
+</a>
+</g>
+</g>
+<!-- Node9&#45;&gt;Node2 -->
+<g id="edge8" class="edge">
+<title>Node9&#45;&gt;Node2</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M918.71,-117.13C947.5,-113.37 980.11,-107.65 1009,-99 1027.47,-93.47 1047.32,-83.84 1060.96,-76.59"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="918.19,-113.67 908.7,-118.38 919.06,-120.61 918.19,-113.67"/>
+<text text-anchor="middle" x="970" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00"> params_</text>
+</g>
+<!-- Node10 -->
+<g id="node10" class="node">
+<title>Node10</title>
+<g id="a_node10"><a xlink:href="../../d9/df6/classAutocompleteInput.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="487.5,-152.5 487.5,-171.5 585.5,-171.5 585.5,-152.5 487.5,-152.5"/>
 <text text-anchor="middle" x="536.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutocompleteInput</text>
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node8 -->
-<g id="edge8" class="edge">
-<title>Node9&#45;&gt;Node8</title>
+<!-- Node10&#45;&gt;Node9 -->
+<g id="edge9" class="edge">
+<title>Node10&#45;&gt;Node9</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M595.79,-156.51C638.1,-152.31 696.69,-146.05 748,-139 759.68,-137.4 772.16,-135.47 784.02,-133.53"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="595.27,-153.04 585.67,-157.5 595.96,-160.01 595.27,-153.04"/>
 <text text-anchor="middle" x="694.5" y="-165" font-family="Helvetica,sans-Serif" font-size="10.00"> input</text>
 <text text-anchor="middle" x="694.5" y="-154" font-family="Helvetica,sans-Serif" font-size="10.00">input_before_fixup</text>
 </g>
-<!-- Node10&#45;&gt;Node8 -->
-<g id="edge9" class="edge">
-<title>Node10&#45;&gt;Node8</title>
+<!-- Node11&#45;&gt;Node9 -->
+<g id="edge10" class="edge">
+<title>Node11&#45;&gt;Node9</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M598.87,-124C648.71,-124 718.94,-124 770.48,-124"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="598.56,-120.5 588.56,-124 598.56,-127.5 598.56,-120.5"/>
 <text text-anchor="middle" x="694.5" y="-127" font-family="Helvetica,sans-Serif" font-size="10.00"> what_you_typed_match</text>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node">
-<title>Node11</title>
-<g id="a_node11"><a xlink:href="../../d5/d39/structSplitAutocompletion.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="200,-145.5 200,-164.5 304,-164.5 304,-145.5 200,-145.5"/>
-<text text-anchor="middle" x="252" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00">SplitAutocompletion</text>
-</a>
-</g>
-</g>
-<!-- Node11&#45;&gt;Node10 -->
-<g id="edge10" class="edge">
-<title>Node11&#45;&gt;Node10</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M314.35,-148.27C365.14,-142.69 436.46,-134.87 484.25,-129.62"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="313.72,-144.82 304.16,-149.39 314.48,-151.77 313.72,-144.82"/>
-<text text-anchor="middle" x="385.5" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00"> split_autocompletion</text>
-</g>
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="../../de/d4f/structHUPScoringParams.html" target="_top" xlink:title=" ">
+<g id="a_node12"><a xlink:href="../../d5/d39/structSplitAutocompletion.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="200,-146.5 200,-165.5 304,-165.5 304,-146.5 200,-146.5"/>
+<text text-anchor="middle" x="252" y="-153.5" font-family="Helvetica,sans-Serif" font-size="10.00">SplitAutocompletion</text>
+</a>
+</g>
+</g>
+<!-- Node12&#45;&gt;Node11 -->
+<g id="edge11" class="edge">
+<title>Node12&#45;&gt;Node11</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M314.35,-149.05C365.14,-143.3 436.46,-135.22 484.25,-129.81"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="313.7,-145.6 304.16,-150.21 314.49,-152.56 313.7,-145.6"/>
+<text text-anchor="middle" x="385.5" y="-148" font-family="Helvetica,sans-Serif" font-size="10.00"> split_autocompletion</text>
+</g>
+<!-- Node13 -->
+<g id="node13" class="node">
+<title>Node13</title>
+<g id="a_node13"><a xlink:href="../../de/d4f/structHUPScoringParams.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="787,-0.5 787,-19.5 892,-19.5 892,-0.5 787,-0.5"/>
 <text text-anchor="middle" x="839.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">HUPScoringParams</text>
 </a>
 </g>
 </g>
-<!-- Node12&#45;&gt;Node2 -->
-<g id="edge12" class="edge">
-<title>Node12&#45;&gt;Node2</title>
+<!-- Node13&#45;&gt;Node2 -->
+<g id="edge13" class="edge">
+<title>Node13&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M902.49,-18.05C934.62,-22.97 974.29,-30.22 1009,-40 1025.34,-44.6 1043.18,-51.64 1056.62,-57.37"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="902.75,-14.55 892.34,-16.54 901.72,-21.47 902.75,-14.55"/>
 <text text-anchor="middle" x="970" y="-43" font-family="Helvetica,sans-Serif" font-size="10.00"> scoring_params_</text>
 </g>
-<!-- Node13 -->
-<g id="node13" class="node">
-<title>Node13</title>
-<g id="a_node13"><a xlink:href="../../df/dfb/classHUPScoringParams_1_1ScoreBuckets.html" target="_top" xlink:title=" ">
+<!-- Node14 -->
+<g id="node14" class="node">
+<title>Node14</title>
+<g id="a_node14"><a xlink:href="../../df/dfb/classHUPScoringParams_1_1ScoreBuckets.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="450,-0.5 450,-19.5 623,-19.5 623,-0.5 450,-0.5"/>
 <text text-anchor="middle" x="536.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">HUPScoringParams::ScoreBuckets</text>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node12 -->
-<g id="edge13" class="edge">
-<title>Node13&#45;&gt;Node12</title>
+<!-- Node14&#45;&gt;Node13 -->
+<g id="edge14" class="edge">
+<title>Node14&#45;&gt;Node13</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M633.4,-10C684.34,-10 744.92,-10 786.98,-10"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="633.35,-6.5 623.35,-10 633.35,-13.5 633.35,-6.5"/>
 <text text-anchor="middle" x="694.5" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00"> typed_count_buckets</text>

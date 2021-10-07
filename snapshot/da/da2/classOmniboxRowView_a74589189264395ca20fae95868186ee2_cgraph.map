@@ -1,11 +1,9 @@
 <map id="OmniboxRowView::GetActiveAuxiliaryButtonForAccessibility" name="OmniboxRowView::GetActiveAuxiliaryButtonForAccessibility">
-<area shape="rect" id="node1" title=" " alt="" coords="5,195,208,236"/>
-<area shape="rect" id="node2" href="$d3/d4c/classOmniboxResultView.html#a79e1958ff55c06a4c1a65eb34bab9b71" title=" " alt="" coords="267,63,454,119"/>
-<area shape="rect" id="node6" href="$d1/db1/classOmniboxPopupModel.html#a89f2d7464b757a9707bb7df522a2fea5" title=" " alt="" coords="538,136,693,177"/>
-<area shape="rect" id="node7" href="$d2/dcb/classOmniboxRowView_1_1HeaderView.html#a4330a42f7142d3a22a2070250d0693b3" title=" " alt="" coords="256,195,465,236"/>
-<area shape="rect" id="node8" href="$d4/d41/structOmniboxPopupModel_1_1Selection.html#ab495ce0e3e6268b85470fc520e062e4e" title=" " alt="" coords="269,260,452,301"/>
-<area shape="rect" id="node9" href="$d1/db1/classOmniboxPopupModel.html#aefaa1c821356750ca507e8db8bfd1309" title=" " alt="" coords="283,325,438,367"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,159,208,200"/>
+<area shape="rect" id="node2" href="$d3/d4c/classOmniboxResultView.html#a79e1958ff55c06a4c1a65eb34bab9b71" title=" " alt="" coords="267,57,454,113"/>
+<area shape="rect" id="node5" href="$d0/d22/classOmniboxEditModel.html#afca096faf219ac7be1bf9251466648a7" title=" " alt="" coords="765,100,964,141"/>
+<area shape="rect" id="node6" href="$d2/dcb/classOmniboxRowView_1_1HeaderView.html#a4330a42f7142d3a22a2070250d0693b3" title=" " alt="" coords="256,188,465,229"/>
+<area shape="rect" id="node7" href="$de/dfc/structOmniboxPopupSelection.html#acb9ff37b6248215d3e31810a46a82c5b" title=" " alt="" coords="278,253,443,295"/>
 <area shape="rect" id="node3" href="$d3/d0a/classOmniboxSuggestionButtonRowView.html#a4e22042a30ad4dde61194da6d27ca338" title=" " alt="" coords="513,5,717,47"/>
-<area shape="rect" id="node4" href="$d7/d88/classOmniboxPopupContentsView.html#a718a0b1b4223a2cbabb6008f005ffd2e" title=" " alt="" coords="519,71,712,112"/>
-<area shape="rect" id="node5" href="$d0/d22/classOmniboxEditModel.html#a254f9536adb46b9e885d10b3d5bfe4c9" title=" " alt="" coords="765,71,940,112"/>
+<area shape="rect" id="node4" href="$d7/d88/classOmniboxPopupContentsView.html#aacb2b141d6ccaaaffec469aea02dbaef" title=" " alt="" coords="519,71,712,112"/>
 </map>

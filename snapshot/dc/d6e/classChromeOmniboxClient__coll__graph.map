@@ -1,9 +1,9 @@
 <map id="ChromeOmniboxClient" name="ChromeOmniboxClient">
-<area shape="rect" id="node1" title=" " alt="" coords="210,171,365,197"/>
-<area shape="rect" id="node2" href="$d5/dbd/classOmniboxClient.html" title=" " alt="" coords="65,81,173,108"/>
-<area shape="rect" id="node3" href="$d2/df2/structOmniboxAction_1_1Client.html" title=" " alt="" coords="5,5,159,32"/>
-<area shape="rect" id="node4" href="$da/db7/classFaviconCache.html" title=" " alt="" coords="234,81,341,108"/>
-<area shape="rect" id="node5" title=" " alt="" coords="183,5,391,32"/>
-<area shape="rect" id="node6" href="$d4/d38/classChromeOmniboxEditController.html" title=" " alt="" coords="380,81,579,108"/>
-<area shape="rect" id="node7" href="$dc/d81/classOmniboxEditController.html" title=" " alt="" coords="416,5,569,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="114,261,269,288"/>
+<area shape="rect" id="node2" href="$d5/dbd/classOmniboxClient.html" title=" " alt="" coords="5,172,113,199"/>
+<area shape="rect" id="node3" href="$da/db7/classFaviconCache.html" title=" " alt="" coords="138,172,245,199"/>
+<area shape="rect" id="node4" title=" " alt="" coords="83,96,291,123"/>
+<area shape="rect" id="node5" href="$d4/d38/classChromeOmniboxEditController.html" title=" " alt="" coords="283,172,481,199"/>
+<area shape="rect" id="node6" href="$dc/d81/classOmniboxEditController.html" title=" " alt="" coords="316,96,469,123"/>
+<area shape="rect" id="node7" title=" " alt="" coords="304,5,481,47"/>
 </map>

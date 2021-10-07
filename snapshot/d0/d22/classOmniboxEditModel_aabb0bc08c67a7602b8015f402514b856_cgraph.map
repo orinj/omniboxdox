@@ -1,6 +1,7 @@
 <map id="OmniboxEditModel::AllowKeywordSpaceTriggering" name="OmniboxEditModel::AllowKeywordSpaceTriggering">
 <area shape="rect" id="node1" title=" " alt="" coords="5,79,228,120"/>
-<area shape="rect" id="node2" href="$d0/d22/classOmniboxEditModel.html#a8c8a925ee670cdc9bd5c0ad8b07fa1a0" title=" " alt="" coords="276,5,495,47"/>
-<area shape="rect" id="node3" href="$df/d4d/classAutocompleteController.html#a1b73640ab24c9b6e706cdfafacccca52" title=" " alt="" coords="305,71,466,127"/>
-<area shape="rect" id="node4" href="$d5/dc7/classAutocompleteProviderClient.html#ac681cf50660fc21360da198bea6f4d8b" title=" " alt="" coords="293,152,477,193"/>
+<area shape="rect" id="node2" href="$d0/d22/classOmniboxEditModel.html#a83ebf99fd8b53140c36e887f644bd510" title=" " alt="" coords="276,79,461,120"/>
+<area shape="rect" id="node3" href="$d0/d22/classOmniboxEditModel.html#a8c8a925ee670cdc9bd5c0ad8b07fa1a0" title=" " alt="" coords="509,5,728,47"/>
+<area shape="rect" id="node4" href="$df/d4d/classAutocompleteController.html#a1b73640ab24c9b6e706cdfafacccca52" title=" " alt="" coords="538,71,699,127"/>
+<area shape="rect" id="node5" href="$d5/dc7/classAutocompleteProviderClient.html#ac681cf50660fc21360da198bea6f4d8b" title=" " alt="" coords="527,152,711,193"/>
 </map>

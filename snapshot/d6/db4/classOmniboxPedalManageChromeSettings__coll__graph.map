@@ -1,7 +1,8 @@
 <map id="OmniboxPedalManageChromeSettings" name="OmniboxPedalManageChromeSettings">
-<area shape="rect" id="node1" title=" " alt="" coords="110,261,309,303"/>
-<area shape="rect" id="node2" href="$d4/de9/classOmniboxPedal.html" title=" " alt="" coords="156,185,263,212"/>
+<area shape="rect" id="node1" title=" " alt="" coords="201,275,399,316"/>
+<area shape="rect" id="node2" href="$d4/de9/classOmniboxPedal.html" title=" " alt="" coords="247,199,353,225"/>
 <area shape="rect" id="node3" href="$d9/d8f/classOmniboxAction.html" title=" " alt="" coords="154,109,265,136"/>
 <area shape="rect" id="node4" title=" " alt="" coords="5,5,197,47"/>
 <area shape="rect" id="node5" href="$da/df2/structOmniboxAction_1_1LabelStrings.html" title=" " alt="" coords="222,13,413,39"/>
+<area shape="rect" id="node6" href="$d6/d3c/classOmniboxPedal_1_1SynonymGroup.html" title=" " alt="" coords="289,109,495,136"/>
 </map>

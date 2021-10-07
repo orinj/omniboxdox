@@ -70,6 +70,9 @@ $(function() {
 <li>icon_
 : <a class="el" href="d0/da8/classOmniboxSuggestionRowButton.html#a954323e4e7ce0d1a34ff4c31165f6159">OmniboxSuggestionRowButton</a>
 </li>
+<li>icon_color_
+: <a class="el" href="d0/da8/classOmniboxSuggestionRowButton.html#a17c076aba888ee0b6a0c272c60a1d076">OmniboxSuggestionRowButton</a>
+</li>
 <li>icon_view_
 : <a class="el" href="d2/d0b/classOmniboxMatchCellView.html#accfdc053e9085cdbf9feed760bd8f865">OmniboxMatchCellView</a>
 </li>
@@ -244,9 +247,6 @@ $(function() {
 <li>InterpretTextTypes()
 : <a class="el" href="d2/dcd/classSuggestionAnswer.html#a237edb5e1f501126fb99e0d371adcba0">SuggestionAnswer</a>
 </li>
-<li>INVALID
-: <a class="el" href="d2/d8d/classHistoryURLProvider_1_1VisitClassifier.html#ac7ded7e971c99fd9cfece72e341f4daba88d9819a9af86813ba383b5e6c66f79b">HistoryURLProvider::VisitClassifier</a>
-</li>
 <li>InvalidateCachedRequests()
 : <a class="el" href="da/db7/classFaviconCache.html#a868bc3e25c375b0ce41585265e14784a">FaviconCache</a>
 </li>
@@ -311,10 +311,10 @@ $(function() {
 : <a class="el" href="d5/dc7/classAutocompleteProviderClient.html#ac7c39e953949be801b6d7a3b459be66e">AutocompleteProviderClient</a>
 </li>
 <li>IsButtonFocused()
-: <a class="el" href="d4/d41/structOmniboxPopupModel_1_1Selection.html#ab495ce0e3e6268b85470fc520e062e4e">OmniboxPopupModel::Selection</a>
+: <a class="el" href="de/dfc/structOmniboxPopupSelection.html#acb9ff37b6248215d3e31810a46a82c5b">OmniboxPopupSelection</a>
 </li>
 <li>IsChangeToKeyword()
-: <a class="el" href="d4/d41/structOmniboxPopupModel_1_1Selection.html#a76ee727f501b02ff790fac860c8127ea">OmniboxPopupModel::Selection</a>
+: <a class="el" href="de/dfc/structOmniboxPopupSelection.html#a35059f85a2c9911738da7baf72a6375e">OmniboxPopupSelection</a>
 </li>
 <li>IsCommandIdChecked()
 : <a class="el" href="d0/d94/classOmniboxViewViews.html#a29e0b877b3600539ad0d9da92d6753fa">OmniboxViewViews</a>
@@ -326,7 +326,7 @@ $(function() {
 : <a class="el" href="d4/de9/classOmniboxPedal.html#a6ec5d3180a6dcf4777c4b38c741e2de8">OmniboxPedal</a>
 </li>
 <li>IsControlPresentOnMatch()
-: <a class="el" href="d1/db1/classOmniboxPopupModel.html#a9a33f6a6cdf9384bf827e63ab2ce6952">OmniboxPopupModel</a>
+: <a class="el" href="de/dfc/structOmniboxPopupSelection.html#aaf32c9ad4992fec10b4295679052b55a">OmniboxPopupSelection</a>
 </li>
 <li>IsDefaultSearchProviderEnabled()
 : <a class="el" href="d5/d3e/classChromeOmniboxClient.html#a3cb1b5d95f939294d5b2c6dda0b0e363">ChromeOmniboxClient</a>
@@ -411,7 +411,6 @@ $(function() {
 </li>
 <li>IsOpen()
 : <a class="el" href="d7/d88/classOmniboxPopupContentsView.html#a362f2cb56dacaa52bef374a9525e378b">OmniboxPopupContentsView</a>
-, <a class="el" href="d1/db1/classOmniboxPopupModel.html#a64f0ed404470d2689d4774bac54d54fc">OmniboxPopupModel</a>
 , <a class="el" href="db/de1/classOmniboxPopupView.html#ab590e106e3a2f53bfa45712f529cf106">OmniboxPopupView</a>
 </li>
 <li>IsPasteAndGoEnabled()
@@ -420,6 +419,12 @@ $(function() {
 </li>
 <li>IsPersonalizedUrlDataCollectionActive()
 : <a class="el" href="d5/dc7/classAutocompleteProviderClient.html#a300e0b290c1659a0562284382c2b0b1d">AutocompleteProviderClient</a>
+</li>
+<li>IsPopupControlPresentOnMatch()
+: <a class="el" href="d0/d22/classOmniboxEditModel.html#ac3f52192d6d6fedeb9fcfcfc7e430c96">OmniboxEditModel</a>
+</li>
+<li>IsPopupSelectionOnInitialLine()
+: <a class="el" href="d0/d22/classOmniboxEditModel.html#ab6b5c2d1d04d4b9c28287fecb627761c">OmniboxEditModel</a>
 </li>
 <li>IsQueryPotentiallyPrivate()
 : <a class="el" href="d4/dee/classSearchProvider.html#a57c6fdf0086d5fa55b53d1485fe67aa7">SearchProvider</a>
@@ -432,6 +437,7 @@ $(function() {
 , <a class="el" href="d8/d15/classOmniboxPedalAuthRequired.html#ab64da9fef77dadb57c94705ad5c1789c">OmniboxPedalAuthRequired</a>
 , <a class="el" href="d3/d20/classOmniboxPedalLaunchIncognito.html#a42edaadb799dda680cfc8c328c5073be">OmniboxPedalLaunchIncognito</a>
 , <a class="el" href="de/d51/classOmniboxPedalPlayChromeDinoGame.html#a5aca92ae67010afc19000216adeeca84">OmniboxPedalPlayChromeDinoGame</a>
+, <a class="el" href="da/d1e/classOmniboxPedalShareThisPage.html#aae35c11928e921f3417ae28b8f8ee174">OmniboxPedalShareThisPage</a>
 , <a class="el" href="df/df9/classOmniboxPedalTranslate.html#a9bfe7b385a36f05d1e0e3ec02a468eb4">OmniboxPedalTranslate</a>
 </li>
 <li>IsSearchHistoryType()
@@ -450,6 +456,12 @@ $(function() {
 : <a class="el" href="d9/d1e/classOmniboxView.html#a95621a3d98e381c93f01c7b374888ed8">OmniboxView</a>
 , <a class="el" href="d0/d94/classOmniboxViewViews.html#abb6135452198718c79e3599bbf658e62">OmniboxViewViews</a>
 </li>
+<li>IsSharingHubAvailable()
+: <a class="el" href="d5/dc7/classAutocompleteProviderClient.html#a4e2dd5810487465a9a0375f8e922b7e3">AutocompleteProviderClient</a>
+</li>
+<li>IsShowingAccuracyTip()
+: <a class="el" href="de/dd9/classLocationBarModelDelegate.html#a698c0d7eff28272abc7b005cb62d0e71">LocationBarModelDelegate</a>
+</li>
 <li>IsSpaceCharForAcceptingKeyword()
 : <a class="el" href="d0/d22/classOmniboxEditModel.html#a1514adec21573bb54f855dae20ef017d">OmniboxEditModel</a>
 </li>
@@ -457,7 +469,7 @@ $(function() {
 : <a class="el" href="dc/d8f/structAutocompleteMatch.html#aaca5dac30caf1899132db064a3213d9e">AutocompleteMatch</a>
 </li>
 <li>IsStarredMatch()
-: <a class="el" href="d1/db1/classOmniboxPopupModel.html#a7a912aea1cf6426be55f55aa141264db">OmniboxPopupModel</a>
+: <a class="el" href="d0/d22/classOmniboxEditModel.html#a8fd8d53a4b81f6dc0aedb830499c8638">OmniboxEditModel</a>
 </li>
 <li>IsSuggestionGroupIdHidden()
 : <a class="el" href="d3/d03/classAutocompleteResult.html#a1353d4a449288df34f1d6dd3eff73298">AutocompleteResult</a>

@@ -1,8 +1,9 @@
 <map id="OmniboxPedalCreateGoogleDoc" name="OmniboxPedalCreateGoogleDoc">
-<area shape="rect" id="node1" title=" " alt="" coords="104,337,315,364"/>
-<area shape="rect" id="node2" href="$d8/d15/classOmniboxPedalAuthRequired.html" title=" " alt="" coords="116,261,303,288"/>
-<area shape="rect" id="node3" href="$d4/de9/classOmniboxPedal.html" title=" " alt="" coords="156,185,263,212"/>
+<area shape="rect" id="node1" title=" " alt="" coords="195,351,405,377"/>
+<area shape="rect" id="node2" href="$d8/d15/classOmniboxPedalAuthRequired.html" title=" " alt="" coords="207,275,393,301"/>
+<area shape="rect" id="node3" href="$d4/de9/classOmniboxPedal.html" title=" " alt="" coords="247,199,353,225"/>
 <area shape="rect" id="node4" href="$d9/d8f/classOmniboxAction.html" title=" " alt="" coords="154,109,265,136"/>
 <area shape="rect" id="node5" title=" " alt="" coords="5,5,197,47"/>
 <area shape="rect" id="node6" href="$da/df2/structOmniboxAction_1_1LabelStrings.html" title=" " alt="" coords="222,13,413,39"/>
+<area shape="rect" id="node7" href="$d6/d3c/classOmniboxPedal_1_1SynonymGroup.html" title=" " alt="" coords="289,109,495,136"/>
 </map>

@@ -73,13 +73,7 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for OmniboxClient:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/dd1/classOmniboxClient__inherit__graph.svg" width="166" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-<center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for OmniboxClient:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d20/classOmniboxClient__coll__graph.svg" width="164" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/dd1/classOmniboxClient__inherit__graph.svg" width="166" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -89,8 +83,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5ee1f2285476a6e5342a37dda98c918b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbb3736617931864dc7fb9b2d6d8432f"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="../../d5/dc7/classAutocompleteProviderClient.html">AutocompleteProviderClient</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dbd/classOmniboxClient.html#abbb3736617931864dc7fb9b2d6d8432f">CreateAutocompleteProviderClient</a> ()=0</td></tr>
 <tr class="separator:abbb3736617931864dc7fb9b2d6d8432f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a8e28d88c88cb1d56e952479ad5eccd"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="../../dd/d8b/classOmniboxNavigationObserver.html">OmniboxNavigationObserver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dbd/classOmniboxClient.html#a6a8e28d88c88cb1d56e952479ad5eccd">CreateOmniboxNavigationObserver</a> (const std::u16string &amp;text, const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;match, const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;alternate_nav_match)</td></tr>
-<tr class="separator:a6a8e28d88c88cb1d56e952479ad5eccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11c29b5b0ad4a861837207115736aa3e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dbd/classOmniboxClient.html#a11c29b5b0ad4a861837207115736aa3e">CurrentPageExists</a> () const</td></tr>
 <tr class="separator:a11c29b5b0ad4a861837207115736aa3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58cc00e37e40dc0f422b4f0c90d3b55c"><td class="memItemLeft" align="right" valign="top">virtual const GURL &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dbd/classOmniboxClient.html#a58cc00e37e40dc0f422b4f0c90d3b55c">GetURL</a> () const</td></tr>
@@ -127,8 +119,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a16e670e4b9ee703a7ebced7df4c398fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb98172533bbd1e4a6930224da4e0655"><td class="memItemLeft" align="right" valign="top">virtual gfx::Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dbd/classOmniboxClient.html#acb98172533bbd1e4a6930224da4e0655">GetSizedIcon</a> (const gfx::Image &amp;icon) const</td></tr>
 <tr class="separator:acb98172533bbd1e4a6930224da4e0655"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a877e0aea4b875579039c82eb7b3f5f52"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dbd/classOmniboxClient.html#a877e0aea4b875579039c82eb7b3f5f52">ProcessExtensionKeyword</a> (const TemplateURL *template_url, const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;match, WindowOpenDisposition disposition, <a class="el" href="../../dd/d8b/classOmniboxNavigationObserver.html">OmniboxNavigationObserver</a> *observer)</td></tr>
-<tr class="separator:a877e0aea4b875579039c82eb7b3f5f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e2d3bb33cf4495a85c7f6d2220f2f92"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dbd/classOmniboxClient.html#a7e2d3bb33cf4495a85c7f6d2220f2f92">ProcessExtensionKeyword</a> (const std::u16string &amp;text, const TemplateURL *template_url, const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;match, WindowOpenDisposition disposition)</td></tr>
+<tr class="separator:a7e2d3bb33cf4495a85c7f6d2220f2f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02df779df77ce8715932e760bf361e57"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dbd/classOmniboxClient.html#a02df779df77ce8715932e760bf361e57">OnInputStateChanged</a> ()</td></tr>
 <tr class="separator:a02df779df77ce8715932e760bf361e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50d47b7efcf02c2946fe4353643b775c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dbd/classOmniboxClient.html#a50d47b7efcf02c2946fe4353643b775c">OnFocusChanged</a> (<a class="el" href="../../d5/db1/omnibox__focus__state_8h.html#adfc9cc4df163401c5385678aa7305a16">OmniboxFocusState</a> state, <a class="el" href="../../d5/db1/omnibox__focus__state_8h.html#a051dacf0d9a41171b9364274bef98c43">OmniboxFocusChangeReason</a> reason)</td></tr>
@@ -155,14 +147,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aad76d4e61fa8854ee9dd82e40e0182b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04f2a2aaf1d4e5c39cc140e159baa9d0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dbd/classOmniboxClient.html#a04f2a2aaf1d4e5c39cc140e159baa9d0">OpenUpdateChromeDialog</a> ()</td></tr>
 <tr class="separator:a04f2a2aaf1d4e5c39cc140e159baa9d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43d15cae3fdfa0b81e418ff89acda8fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dbd/classOmniboxClient.html#a43d15cae3fdfa0b81e418ff89acda8fc">NewIncognitoWindow</a> () override</td></tr>
-<tr class="separator:a43d15cae3fdfa0b81e418ff89acda8fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5c5fea2dad51094ab91fb6b224579c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dbd/classOmniboxClient.html#ab5c5fea2dad51094ab91fb6b224579c6">OpenIncognitoClearBrowsingDataDialog</a> () override</td></tr>
-<tr class="separator:ab5c5fea2dad51094ab91fb6b224579c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa2eec3d993332c154dd13b0dc3b905a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dbd/classOmniboxClient.html#aaa2eec3d993332c154dd13b0dc3b905a">CloseIncognitoWindows</a> () override</td></tr>
-<tr class="separator:aaa2eec3d993332c154dd13b0dc3b905a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7211d46c23d7de3f3c2cedda7b63136c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dbd/classOmniboxClient.html#a7211d46c23d7de3f3c2cedda7b63136c">PromptPageTranslation</a> () override</td></tr>
-<tr class="separator:a7211d46c23d7de3f3c2cedda7b63136c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5ee1f2285476a6e5342a37dda98c918b"></a>
@@ -191,33 +175,6 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aaa2eec3d993332c154dd13b0dc3b905a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa2eec3d993332c154dd13b0dc3b905a">&#9670;&nbsp;</a></span>CloseIncognitoWindows()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OmniboxClient::CloseIncognitoWindows </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="../../d2/df2/structOmniboxAction_1_1Client.html#a7196e753b626e55ed38ad35830619b24">OmniboxAction::Client</a>.</p>
-
-</div>
-</div>
 <a id="abbb3736617931864dc7fb9b2d6d8432f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abbb3736617931864dc7fb9b2d6d8432f">&#9670;&nbsp;</a></span>CreateAutocompleteProviderClient()</h2>
 
@@ -242,50 +199,6 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implemented in <a class="el" href="../../d5/d3e/classChromeOmniboxClient.html#a433e61397d314dfe5bbf25055b8a9913">ChromeOmniboxClient</a>.</p>
-
-</div>
-</div>
-<a id="a6a8e28d88c88cb1d56e952479ad5eccd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a8e28d88c88cb1d56e952479ad5eccd">&#9670;&nbsp;</a></span>CreateOmniboxNavigationObserver()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="../../dd/d8b/classOmniboxNavigationObserver.html">OmniboxNavigationObserver</a> &gt; OmniboxClient::CreateOmniboxNavigationObserver </td>
-          <td>(</td>
-          <td class="paramtype">const std::u16string &amp;&#160;</td>
-          <td class="paramname"><em>text</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;&#160;</td>
-          <td class="paramname"><em>match</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;&#160;</td>
-          <td class="paramname"><em>alternate_nav_match</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="../../d5/d3e/classChromeOmniboxClient.html#a2560cdaa8a5b1ee28248893fe7ac16f6">ChromeOmniboxClient</a>.</p>
 
 </div>
 </div>
@@ -395,7 +308,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d5/d3e/classChromeOmniboxClient.html#a59b76f80e545f8191e149add2b8e8fbf">ChromeOmniboxClient</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a7a912aea1cf6426be55f55aa141264db">OmniboxPopupModel::IsStarredMatch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a8fd8d53a4b81f6dc0aedb830499c8638">OmniboxEditModel::IsStarredMatch()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -534,7 +447,7 @@ Here is the caller graph for this function:</div>
 
 <p>Reimplemented in <a class="el" href="../../d5/d3e/classChromeOmniboxClient.html#afc42b5bb9fefd3d1308768beab92dc9f">ChromeOmniboxClient</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#aadc84d8c613db89d80bbffae685ffff0">OmniboxPopupModel::GetMatchIcon()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a87032bec6023357ed6fe26bed58272ce">OmniboxEditModel::GetMatchIcon()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -597,7 +510,7 @@ Here is the caller graph for this function:</div>
 
 <p>Reimplemented in <a class="el" href="../../d5/d3e/classChromeOmniboxClient.html#a5b9b705e96f2badbf10715d2b0addd18">ChromeOmniboxClient</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#aadc84d8c613db89d80bbffae685ffff0">OmniboxPopupModel::GetMatchIcon()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a87032bec6023357ed6fe26bed58272ce">OmniboxEditModel::GetMatchIcon()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -760,7 +673,7 @@ Here is the caller graph for this function:</div>
 
 <p>Reimplemented in <a class="el" href="../../d5/d3e/classChromeOmniboxClient.html#a5fe8332117ba4c67b2effee9e349df26">ChromeOmniboxClient</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#aadc84d8c613db89d80bbffae685ffff0">OmniboxPopupModel::GetMatchIcon()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a87032bec6023357ed6fe26bed58272ce">OmniboxEditModel::GetMatchIcon()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -795,7 +708,7 @@ Here is the caller graph for this function:</div>
 
 <p>Reimplemented in <a class="el" href="../../d5/d3e/classChromeOmniboxClient.html#a7706225cdba86febdfb75f6d19fee8c9">ChromeOmniboxClient</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a4888116f13efeddbd56da6cc6edb8883">OmniboxViewViews::InstallPlaceholderText()</a>, <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a9bee10e41819099c41b5ad5cd989617a">OmniboxPopupModel::SetSelection()</a>, and <a class="el" href="../../d3/d0a/classOmniboxSuggestionButtonRowView.html#acf68e6dc59accade5d0abeffa0a55257">OmniboxSuggestionButtonRowView::UpdateFromModel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a4888116f13efeddbd56da6cc6edb8883">OmniboxViewViews::InstallPlaceholderText()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a066c5fd08558e0c15211647b034a35a9">OmniboxEditModel::SetPopupSelection()</a>, and <a class="el" href="../../d3/d0a/classOmniboxSuggestionButtonRowView.html#acf68e6dc59accade5d0abeffa0a55257">OmniboxSuggestionButtonRowView::UpdateFromModel()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -937,33 +850,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../d5/d3e/classChromeOmniboxClient.html#a66af91cdb6c868df02a9c676f52dd520">ChromeOmniboxClient</a>.</p>
-
-</div>
-</div>
-<a id="a43d15cae3fdfa0b81e418ff89acda8fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43d15cae3fdfa0b81e418ff89acda8fc">&#9670;&nbsp;</a></span>NewIncognitoWindow()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OmniboxClient::NewIncognitoWindow </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="../../d2/df2/structOmniboxAction_1_1Client.html#a040ec99fd55d944cf48d30ca3ae7733f">OmniboxAction::Client</a>.</p>
 
 </div>
 </div>
@@ -1248,33 +1134,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ab5c5fea2dad51094ab91fb6b224579c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5c5fea2dad51094ab91fb6b224579c6">&#9670;&nbsp;</a></span>OpenIncognitoClearBrowsingDataDialog()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OmniboxClient::OpenIncognitoClearBrowsingDataDialog </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="../../d2/df2/structOmniboxAction_1_1Client.html#a0d1b63d56c4cee15678b4bde83832441">OmniboxAction::Client</a>.</p>
-
-</div>
-</div>
 <a id="a04f2a2aaf1d4e5c39cc140e159baa9d0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a04f2a2aaf1d4e5c39cc140e159baa9d0">&#9670;&nbsp;</a></span>OpenUpdateChromeDialog()</h2>
 
@@ -1302,8 +1161,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a877e0aea4b875579039c82eb7b3f5f52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a877e0aea4b875579039c82eb7b3f5f52">&#9670;&nbsp;</a></span>ProcessExtensionKeyword()</h2>
+<a id="a7e2d3bb33cf4495a85c7f6d2220f2f92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e2d3bb33cf4495a85c7f6d2220f2f92">&#9670;&nbsp;</a></span>ProcessExtensionKeyword()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1314,6 +1173,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">bool OmniboxClient::ProcessExtensionKeyword </td>
           <td>(</td>
+          <td class="paramtype">const std::u16string &amp;&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const TemplateURL *&#160;</td>
           <td class="paramname"><em>template_url</em>, </td>
         </tr>
@@ -1327,13 +1192,7 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">WindowOpenDisposition&#160;</td>
-          <td class="paramname"><em>disposition</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/d8b/classOmniboxNavigationObserver.html">OmniboxNavigationObserver</a> *&#160;</td>
-          <td class="paramname"><em>observer</em>&#160;</td>
+          <td class="paramname"><em>disposition</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1348,34 +1207,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="../../d5/d3e/classChromeOmniboxClient.html#affc42e62899b4ddee01c847a860f3225">ChromeOmniboxClient</a>.</p>
-
-</div>
-</div>
-<a id="a7211d46c23d7de3f3c2cedda7b63136c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7211d46c23d7de3f3c2cedda7b63136c">&#9670;&nbsp;</a></span>PromptPageTranslation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OmniboxClient::PromptPageTranslation </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="../../d2/df2/structOmniboxAction_1_1Client.html#ae33119874341d505e23a6869b555587d">OmniboxAction::Client</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d5/d3e/classChromeOmniboxClient.html#a0254debb55a7618ecdd757384e2f7efb">ChromeOmniboxClient</a>.</p>
 
 </div>
 </div>

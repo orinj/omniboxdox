@@ -1,84 +1,88 @@
 <map id="components/omnibox/browser/actions/omnibox_pedal_provider.cc" name="components/omnibox/browser/actions/omnibox_pedal_provider.cc">
-<area shape="rect" id="node1" title=" " alt="" coords="3711,5,3881,61"/>
-<area shape="rect" id="node2" href="$df/da9/omnibox__pedal__provider_8h.html" title=" " alt="" coords="1005,213,1176,269"/>
-<area shape="rect" id="node7" href="$d1/d68/omnibox__pedal_8h.html" title=" " alt="" coords="529,421,700,477"/>
-<area shape="rect" id="node18" href="$d6/d72/omnibox__pedal__concepts_8h.html" title=" " alt="" coords="652,525,823,581"/>
-<area shape="rect" id="node19" href="$d0/d70/omnibox__pedal__implementations_8h.html" title=" " alt="" coords="703,317,876,373"/>
-<area shape="rect" id="node27" href="$df/dab/autocomplete__input_8h.html" title=" " alt="" coords="2297,525,2452,581"/>
-<area shape="rect" id="node45" title=" " alt="" coords="2798,124,2866,151"/>
-<area shape="rect" id="node46" title=" " alt="" coords="2890,117,3043,158"/>
-<area shape="rect" id="node47" title=" " alt="" coords="3067,124,3258,151"/>
-<area shape="rect" id="node48" title=" " alt="" coords="3282,124,3446,151"/>
-<area shape="rect" id="node49" title=" " alt="" coords="3471,124,3575,151"/>
-<area shape="rect" id="node50" title=" " alt="" coords="3599,124,3758,151"/>
-<area shape="rect" id="node51" title=" " alt="" coords="4364,325,4489,366"/>
-<area shape="rect" id="node52" title=" " alt="" coords="3834,117,3963,158"/>
-<area shape="rect" id="node53" title=" " alt="" coords="3987,117,4117,158"/>
-<area shape="rect" id="node54" title=" " alt="" coords="4141,117,4291,158"/>
-<area shape="rect" id="node55" title=" " alt="" coords="4316,117,4489,158"/>
-<area shape="rect" id="node56" href="$d4/dfb/autocomplete__provider__client_8h.html" title=" " alt="" coords="4513,109,4668,165"/>
-<area shape="rect" id="node75" href="$df/d76/omnibox__field__trial_8h.html" title=" " alt="" coords="4699,213,4855,269"/>
-<area shape="rect" id="node77" href="$de/d9c/omnibox__features_8h.html" title=" " alt="" coords="4743,117,4937,158"/>
-<area shape="rect" id="node79" title=" " alt="" coords="4962,109,5121,165"/>
-<area shape="rect" id="node80" title=" " alt="" coords="5145,109,5303,165"/>
-<area shape="rect" id="node81" title=" " alt="" coords="5328,124,5483,151"/>
-<area shape="rect" id="node82" title=" " alt="" coords="5507,117,5679,158"/>
-<area shape="rect" id="node3" title=" " alt="" coords="1146,540,1257,567"/>
-<area shape="rect" id="node4" title=" " alt="" coords="975,533,1121,574"/>
-<area shape="rect" id="node5" title=" " alt="" coords="1383,533,1535,574"/>
-<area shape="rect" id="node6" title=" " alt="" coords="847,540,950,567"/>
-<area shape="rect" id="node20" href="$de/d0e/autocomplete__provider_8h.html" title=" " alt="" coords="4135,317,4289,373"/>
-<area shape="rect" id="node8" title=" " alt="" coords="76,540,180,567"/>
-<area shape="rect" id="node9" title=" " alt="" coords="3729,644,3788,671"/>
-<area shape="rect" id="node10" title=" " alt="" coords="1931,644,2082,671"/>
-<area shape="rect" id="node11" title=" " alt="" coords="5,644,139,671"/>
-<area shape="rect" id="node12" href="$de/d5a/omnibox__action_8h.html" title=" " alt="" coords="356,525,527,581"/>
-<area shape="rect" id="node16" title=" " alt="" coords="228,637,375,678"/>
-<area shape="rect" id="node17" title=" " alt="" coords="1711,644,1783,671"/>
-<area shape="rect" id="node13" title=" " alt="" coords="4287,644,4342,671"/>
-<area shape="rect" id="node14" title=" " alt="" coords="1203,644,1387,671"/>
-<area shape="rect" id="node15" title=" " alt="" coords="399,644,518,671"/>
-<area shape="rect" id="node21" title=" " alt="" coords="4708,644,4777,671"/>
-<area shape="rect" id="node22" title=" " alt="" coords="4127,540,4174,567"/>
-<area shape="rect" id="node23" title=" " alt="" coords="4831,540,4884,567"/>
-<area shape="rect" id="node24" href="$dc/d0c/autocomplete__match_8h.html" title=" " alt="" coords="3163,421,3317,477"/>
-<area shape="rect" id="node30" title=" " alt="" coords="5245,637,5424,678"/>
-<area shape="rect" id="node42" href="$d5/d60/in__memory__url__index__types_8h.html" title=" " alt="" coords="4427,421,4589,477"/>
-<area shape="rect" id="node25" title=" " alt="" coords="2175,644,2244,671"/>
-<area shape="rect" id="node26" title=" " alt="" coords="2476,540,2644,567"/>
-<area shape="rect" id="node33" href="$df/d34/autocomplete__match__type_8h.html" title=" " alt="" coords="3897,525,4052,581"/>
-<area shape="rect" id="node34" href="$dd/d32/suggestion__answer_8h.html" title=" " alt="" coords="3423,525,3569,581"/>
-<area shape="rect" id="node37" title=" " alt="" coords="2668,533,2828,574"/>
-<area shape="rect" id="node38" title=" " alt="" coords="2853,533,3041,574"/>
-<area shape="rect" id="node39" title=" " alt="" coords="3065,533,3236,574"/>
-<area shape="rect" id="node40" title=" " alt="" coords="1711,533,1867,574"/>
-<area shape="rect" id="node41" title=" " alt="" coords="3261,540,3398,567"/>
-<area shape="rect" id="node28" title=" " alt="" coords="2610,637,2798,678"/>
-<area shape="rect" id="node29" title=" " alt="" coords="3024,637,3195,678"/>
-<area shape="rect" id="node31" title=" " alt="" coords="2268,629,2415,685"/>
-<area shape="rect" id="node32" title=" " alt="" coords="2439,637,2585,678"/>
-<area shape="rect" id="node35" title=" " alt="" coords="5013,644,5121,671"/>
-<area shape="rect" id="node36" title=" " alt="" coords="3419,644,3573,671"/>
-<area shape="rect" id="node43" title=" " alt="" coords="4351,533,4487,574"/>
-<area shape="rect" id="node44" title=" " alt="" coords="4511,525,4655,581"/>
-<area shape="rect" id="node57" title=" " alt="" coords="4299,221,4482,262"/>
-<area shape="rect" id="node58" title=" " alt="" coords="4506,221,4675,262"/>
-<area shape="rect" id="node59" href="$d9/d43/keyword__extensions__delegate_8h.html" title=" " alt="" coords="5161,421,5356,477"/>
-<area shape="rect" id="node60" href="$d5/d02/omnibox__triggered__feature__service_8h.html" title=" " alt="" coords="1617,213,1799,269"/>
-<area shape="rect" id="node62" href="$d1/d64/shortcuts__backend_8h.html" title=" " alt="" coords="2213,221,2411,262"/>
-<area shape="rect" id="node61" title=" " alt="" coords="1204,332,1244,359"/>
-<area shape="rect" id="node63" title=" " alt="" coords="1349,436,1491,463"/>
-<area shape="rect" id="node64" title=" " alt="" coords="1697,332,1836,359"/>
-<area shape="rect" id="node65" title=" " alt="" coords="1860,332,2041,359"/>
-<area shape="rect" id="node66" title=" " alt="" coords="2065,325,2215,366"/>
-<area shape="rect" id="node67" title=" " alt="" coords="2239,325,2385,366"/>
-<area shape="rect" id="node68" title=" " alt="" coords="2409,317,2553,373"/>
-<area shape="rect" id="node69" title=" " alt="" coords="2577,317,2721,373"/>
-<area shape="rect" id="node70" title=" " alt="" coords="2745,317,2927,373"/>
-<area shape="rect" id="node71" href="$df/d0f/shortcuts__database_8h.html" title=" " alt="" coords="1421,325,1622,366"/>
-<area shape="rect" id="node74" title=" " alt="" coords="2951,325,3139,366"/>
-<area shape="rect" id="node72" title=" " alt="" coords="1668,436,1775,463"/>
-<area shape="rect" id="node73" title=" " alt="" coords="1799,436,1918,463"/>
-<area shape="rect" id="node76" title=" " alt="" coords="5021,332,5086,359"/>
-<area shape="rect" id="node78" title=" " alt="" coords="5583,228,5713,255"/>
+<area shape="rect" id="node1" title=" " alt="" coords="4435,5,4605,61"/>
+<area shape="rect" id="node2" href="$df/da9/omnibox__pedal__provider_8h.html" title=" " alt="" coords="457,109,628,165"/>
+<area shape="rect" id="node8" href="$d1/d68/omnibox__pedal_8h.html" title=" " alt="" coords="709,317,880,373"/>
+<area shape="rect" id="node24" href="$d6/d72/omnibox__pedal__concepts_8h.html" title=" " alt="" coords="41,421,212,477"/>
+<area shape="rect" id="node25" href="$d0/d70/omnibox__pedal__implementations_8h.html" title=" " alt="" coords="143,213,316,269"/>
+<area shape="rect" id="node33" href="$df/dab/autocomplete__input_8h.html" title=" " alt="" coords="5337,525,5492,581"/>
+<area shape="rect" id="node49" title=" " alt="" coords="3522,124,3590,151"/>
+<area shape="rect" id="node50" title=" " alt="" coords="3614,117,3767,158"/>
+<area shape="rect" id="node51" title=" " alt="" coords="3791,124,3982,151"/>
+<area shape="rect" id="node52" title=" " alt="" coords="4006,124,4170,151"/>
+<area shape="rect" id="node53" title=" " alt="" coords="4195,124,4299,151"/>
+<area shape="rect" id="node54" title=" " alt="" coords="4323,124,4482,151"/>
+<area shape="rect" id="node55" title=" " alt="" coords="4481,325,4607,366"/>
+<area shape="rect" id="node56" title=" " alt="" coords="4558,117,4687,158"/>
+<area shape="rect" id="node57" title=" " alt="" coords="4711,117,4841,158"/>
+<area shape="rect" id="node58" title=" " alt="" coords="4865,117,5015,158"/>
+<area shape="rect" id="node59" title=" " alt="" coords="5040,117,5213,158"/>
+<area shape="rect" id="node60" href="$d4/dfb/autocomplete__provider__client_8h.html" title=" " alt="" coords="3140,109,3295,165"/>
+<area shape="rect" id="node79" href="$df/d76/omnibox__field__trial_8h.html" title=" " alt="" coords="5070,213,5226,269"/>
+<area shape="rect" id="node81" href="$de/d9c/omnibox__features_8h.html" title=" " alt="" coords="5339,117,5533,158"/>
+<area shape="rect" id="node83" title=" " alt="" coords="5558,109,5717,165"/>
+<area shape="rect" id="node84" title=" " alt="" coords="5741,109,5899,165"/>
+<area shape="rect" id="node85" title=" " alt="" coords="5924,124,6079,151"/>
+<area shape="rect" id="node86" title=" " alt="" coords="6103,117,6275,158"/>
+<area shape="rect" id="node3" title=" " alt="" coords="87,540,198,567"/>
+<area shape="rect" id="node4" title=" " alt="" coords="483,644,634,671"/>
+<area shape="rect" id="node5" title=" " alt="" coords="223,533,369,574"/>
+<area shape="rect" id="node6" title=" " alt="" coords="2716,533,2868,574"/>
+<area shape="rect" id="node7" title=" " alt="" coords="491,436,594,463"/>
+<area shape="rect" id="node26" href="$de/d0e/autocomplete__provider_8h.html" title=" " alt="" coords="4252,317,4407,373"/>
+<area shape="rect" id="node9" title=" " alt="" coords="669,436,773,463"/>
+<area shape="rect" id="node10" title=" " alt="" coords="4527,644,4585,671"/>
+<area shape="rect" id="node11" title=" " alt="" coords="647,540,780,567"/>
+<area shape="rect" id="node12" href="$de/d5a/omnibox__action_8h.html" title=" " alt="" coords="1335,421,1505,477"/>
+<area shape="rect" id="node18" title=" " alt="" coords="1409,533,1556,574"/>
+<area shape="rect" id="node23" title=" " alt="" coords="2495,644,2567,671"/>
+<area shape="rect" id="node13" title=" " alt="" coords="4061,644,4115,671"/>
+<area shape="rect" id="node14" title=" " alt="" coords="1271,540,1385,567"/>
+<area shape="rect" id="node15" title=" " alt="" coords="1833,540,2017,567"/>
+<area shape="rect" id="node16" title=" " alt="" coords="805,540,923,567"/>
+<area shape="rect" id="node17" href="$df/d34/autocomplete__match__type_8h.html" title=" " alt="" coords="2537,525,2692,581"/>
+<area shape="rect" id="node19" title=" " alt="" coords="2325,533,2513,574"/>
+<area shape="rect" id="node20" title=" " alt="" coords="2093,533,2249,574"/>
+<area shape="rect" id="node21" title=" " alt="" coords="948,533,1095,574"/>
+<area shape="rect" id="node22" title=" " alt="" coords="1119,540,1247,567"/>
+<area shape="rect" id="node27" title=" " alt="" coords="5545,644,5615,671"/>
+<area shape="rect" id="node28" title=" " alt="" coords="4455,540,4502,567"/>
+<area shape="rect" id="node29" title=" " alt="" coords="4577,540,4631,567"/>
+<area shape="rect" id="node30" href="$dc/d0c/autocomplete__match_8h.html" title=" " alt="" coords="3363,421,3517,477"/>
+<area shape="rect" id="node36" title=" " alt="" coords="5640,637,5819,678"/>
+<area shape="rect" id="node46" href="$d5/d60/in__memory__url__index__types_8h.html" title=" " alt="" coords="4765,421,4926,477"/>
+<area shape="rect" id="node31" title=" " alt="" coords="1792,644,1861,671"/>
+<area shape="rect" id="node32" title=" " alt="" coords="3623,540,3791,567"/>
+<area shape="rect" id="node38" title=" " alt="" coords="4805,629,4966,685"/>
+<area shape="rect" id="node40" href="$dd/d32/suggestion__answer_8h.html" title=" " alt="" coords="3095,525,3241,581"/>
+<area shape="rect" id="node43" title=" " alt="" coords="3815,533,3975,574"/>
+<area shape="rect" id="node44" title=" " alt="" coords="3265,533,3436,574"/>
+<area shape="rect" id="node45" title=" " alt="" coords="3461,540,3598,567"/>
+<area shape="rect" id="node34" title=" " alt="" coords="5162,637,5350,678"/>
+<area shape="rect" id="node35" title=" " alt="" coords="4609,637,4780,678"/>
+<area shape="rect" id="node37" title=" " alt="" coords="5375,629,5521,685"/>
+<area shape="rect" id="node39" title=" " alt="" coords="4991,637,5137,678"/>
+<area shape="rect" id="node41" title=" " alt="" coords="4254,644,4362,671"/>
+<area shape="rect" id="node42" title=" " alt="" coords="3091,644,3245,671"/>
+<area shape="rect" id="node47" title=" " alt="" coords="4924,533,5060,574"/>
+<area shape="rect" id="node48" title=" " alt="" coords="4756,525,4900,581"/>
+<area shape="rect" id="node61" title=" " alt="" coords="2523,221,2706,262"/>
+<area shape="rect" id="node62" title=" " alt="" coords="2730,221,2899,262"/>
+<area shape="rect" id="node63" href="$d9/d43/keyword__extensions__delegate_8h.html" title=" " alt="" coords="4151,213,4345,269"/>
+<area shape="rect" id="node64" href="$d5/d02/omnibox__triggered__feature__service_8h.html" title=" " alt="" coords="3321,213,3503,269"/>
+<area shape="rect" id="node66" href="$d1/d64/shortcuts__backend_8h.html" title=" " alt="" coords="2924,221,3121,262"/>
+<area shape="rect" id="node65" title=" " alt="" coords="4036,332,4076,359"/>
+<area shape="rect" id="node67" title=" " alt="" coords="1946,436,2089,463"/>
+<area shape="rect" id="node68" title=" " alt="" coords="2303,332,2441,359"/>
+<area shape="rect" id="node69" title=" " alt="" coords="2743,332,2924,359"/>
+<area shape="rect" id="node70" title=" " alt="" coords="2948,325,3097,366"/>
+<area shape="rect" id="node71" title=" " alt="" coords="3122,325,3267,366"/>
+<area shape="rect" id="node72" title=" " alt="" coords="3292,317,3436,373"/>
+<area shape="rect" id="node73" title=" " alt="" coords="3460,317,3604,373"/>
+<area shape="rect" id="node74" title=" " alt="" coords="1783,317,1964,373"/>
+<area shape="rect" id="node75" href="$df/d0f/shortcuts__database_8h.html" title=" " alt="" coords="2466,325,2667,366"/>
+<area shape="rect" id="node78" title=" " alt="" coords="1989,325,2177,366"/>
+<area shape="rect" id="node76" title=" " alt="" coords="2215,436,2321,463"/>
+<area shape="rect" id="node77" title=" " alt="" coords="2346,436,2465,463"/>
+<area shape="rect" id="node80" title=" " alt="" coords="5545,332,5610,359"/>
+<area shape="rect" id="node82" title=" " alt="" coords="5787,228,5917,255"/>
 </map>

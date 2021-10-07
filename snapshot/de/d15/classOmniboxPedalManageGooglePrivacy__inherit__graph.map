@@ -1,6 +1,7 @@
 <map id="OmniboxPedalManageGooglePrivacy" name="OmniboxPedalManageGooglePrivacy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,244,200,285"/>
-<area shape="rect" id="node2" href="$d4/de9/classOmniboxPedal.html" title=" " alt="" coords="49,169,156,196"/>
-<area shape="rect" id="node3" href="$d9/d8f/classOmniboxAction.html" title=" " alt="" coords="47,95,158,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="7,5,199,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,319,200,360"/>
+<area shape="rect" id="node2" href="$d8/d15/classOmniboxPedalAuthRequired.html" title=" " alt="" coords="9,244,196,271"/>
+<area shape="rect" id="node3" href="$d4/de9/classOmniboxPedal.html" title=" " alt="" coords="49,169,156,196"/>
+<area shape="rect" id="node4" href="$d9/d8f/classOmniboxAction.html" title=" " alt="" coords="47,95,158,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="7,5,199,47"/>
 </map>

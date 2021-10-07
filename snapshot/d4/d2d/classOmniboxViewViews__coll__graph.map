@@ -1,9 +1,10 @@
 <map id="OmniboxViewViews" name="OmniboxViewViews">
-<area shape="rect" id="node1" title=" " alt="" coords="520,108,659,135"/>
-<area shape="rect" id="node2" href="$d9/d1e/classOmniboxView.html" title=" " alt="" coords="320,7,423,33"/>
-<area shape="rect" id="node3" href="$dc/d81/classOmniboxEditController.html" title=" " alt="" coords="5,7,159,33"/>
-<area shape="rect" id="node4" title=" " alt="" coords="315,57,428,84"/>
-<area shape="rect" id="node5" title=" " alt="" coords="287,108,456,135"/>
-<area shape="rect" id="node6" title=" " alt="" coords="291,159,451,185"/>
-<area shape="rect" id="node7" title=" " alt="" coords="272,209,471,236"/>
+<area shape="rect" id="node1" title=" " alt="" coords="747,114,885,141"/>
+<area shape="rect" id="node2" href="$d9/d1e/classOmniboxView.html" title=" " alt="" coords="547,13,649,39"/>
+<area shape="rect" id="node3" href="$dc/d81/classOmniboxEditController.html" title=" " alt="" coords="232,13,385,39"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,5,183,47"/>
+<area shape="rect" id="node5" title=" " alt="" coords="541,63,655,90"/>
+<area shape="rect" id="node6" title=" " alt="" coords="513,114,683,141"/>
+<area shape="rect" id="node7" title=" " alt="" coords="518,165,678,191"/>
+<area shape="rect" id="node8" title=" " alt="" coords="499,215,697,242"/>
 </map>

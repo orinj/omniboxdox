@@ -1,5 +1,6 @@
 <map id="chrome/browser/ui/omnibox/chrome_omnibox_navigation_observer.h" name="chrome/browser/ui/omnibox/chrome_omnibox_navigation_observer.h">
-<area shape="rect" id="node1" title=" " alt="" coords="107,5,297,61"/>
+<area shape="rect" id="node1" title=" " alt="" coords="232,5,423,61"/>
 <area shape="rect" id="node2" href="$d0/d58/chrome__omnibox__client_8cc.html" title=" " alt="" coords="5,117,188,158"/>
-<area shape="rect" id="node3" href="$d2/d14/chrome__omnibox__navigation__observer_8cc.html" title=" " alt="" coords="212,109,403,165"/>
+<area shape="rect" id="node3" href="$d7/d12/chrome__omnibox__edit__controller_8cc.html" title=" " alt="" coords="212,117,443,158"/>
+<area shape="rect" id="node4" href="$d2/d14/chrome__omnibox__navigation__observer_8cc.html" title=" " alt="" coords="467,109,657,165"/>
 </map>

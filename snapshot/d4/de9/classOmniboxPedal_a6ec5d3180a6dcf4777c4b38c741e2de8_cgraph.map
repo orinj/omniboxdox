@@ -1,4 +1,9 @@
 <map id="OmniboxPedal::IsConceptMatch" name="OmniboxPedal::IsConceptMatch">
-<area shape="rect" id="node1" title=" " alt="" coords="5,13,216,39"/>
-<area shape="rect" id="node2" href="$d5/de6/classOmniboxPedal_1_1TokenSequence.html#a824718ef58a0a36538f58c6f316c54c8" title=" " alt="" coords="264,5,472,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,110,216,137"/>
+<area shape="rect" id="node2" href="$d6/d3c/classOmniboxPedal_1_1SynonymGroup.html#a3288d0cb6752b3dc2422a518f9eed1f1" title=" " alt="" coords="265,37,471,79"/>
+<area shape="rect" id="node6" href="$d5/de6/classOmniboxPedal_1_1TokenSequence.html#a824718ef58a0a36538f58c6f316c54c8" title=" " alt="" coords="264,103,472,144"/>
+<area shape="rect" id="node7" href="$d5/de6/classOmniboxPedal_1_1TokenSequence.html#a46d4db3a0e5eca5da1cfa65a6ec5d30d" title=" " alt="" coords="264,168,472,209"/>
+<area shape="rect" id="node3" href="$d5/de6/classOmniboxPedal_1_1TokenSequence.html#a2b9264448c7149e2b34a4b49c0ccbea9" title=" " alt="" coords="520,5,728,47"/>
+<area shape="rect" id="node5" href="$d5/de6/classOmniboxPedal_1_1TokenSequence.html#a5cc31594ba99535bff124e34b99f6fab" title=" " alt="" coords="520,71,728,112"/>
+<area shape="rect" id="node4" href="$d5/de6/classOmniboxPedal_1_1TokenSequence.html#ada3b08284991f9cc0cfd6c235691834b" title=" " alt="" coords="776,39,984,80"/>
 </map>

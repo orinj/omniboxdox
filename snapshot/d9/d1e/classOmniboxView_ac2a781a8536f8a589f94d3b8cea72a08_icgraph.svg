@@ -228,17 +228,17 @@ var sectionId = 'dynsection-36';
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="../../d0/d94/classOmniboxViewViews.html#afbff614b7f82ca8210487affa8ed3c57" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="372.5,-39 372.5,-69 519.5,-69 519.5,-39 372.5,-39"/>
-<text text-anchor="start" x="380.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxViewViews::GetDrop</text>
-<text text-anchor="middle" x="446" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">Callback</text>
+<g id="a_node11"><a xlink:href="../../d0/d94/classOmniboxViewViews.html#a87782fc4f0196aa844bf101f6f350a99" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="376,-39 376,-69 516,-69 516,-39 376,-39"/>
+<text text-anchor="start" x="384" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxViewViews::Create</text>
+<text text-anchor="middle" x="446" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">DropCallback</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node11 -->
 <g id="edge13" class="edge">
 <title>Node10&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M553.88,-54C542.4,-54 530.8,-54 519.67,-54"/>
+<path fill="none" stroke="midnightblue" d="M553.82,-54C541.17,-54 528.37,-54 516.23,-54"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="553.91,-57.5 563.91,-54 553.91,-50.5 553.91,-57.5"/>
 </g>
 <!-- Node12 -->

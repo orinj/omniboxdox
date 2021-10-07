@@ -191,17 +191,17 @@ var sectionId = 'dynsection-72';
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d0/d94/classOmniboxViewViews.html#afbff614b7f82ca8210487affa8ed3c57" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="1,-104.5 1,-134.5 148,-134.5 148,-104.5 1,-104.5"/>
-<text text-anchor="start" x="9" y="-122.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxViewViews::GetDrop</text>
-<text text-anchor="middle" x="74.5" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00">Callback</text>
+<g id="a_node8"><a xlink:href="../../d0/d94/classOmniboxViewViews.html#a87782fc4f0196aa844bf101f6f350a99" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="4.5,-104.5 4.5,-134.5 144.5,-134.5 144.5,-104.5 4.5,-104.5"/>
+<text text-anchor="start" x="12.5" y="-122.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxViewViews::Create</text>
+<text text-anchor="middle" x="74.5" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00">DropCallback</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M195.71,-102.46C180.07,-104.67 163.68,-107 148.2,-109.19"/>
+<path fill="none" stroke="midnightblue" d="M195.56,-102.48C178.82,-104.85 161.22,-107.35 144.81,-109.67"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="196.45,-105.89 205.86,-101.02 195.47,-98.96 196.45,-105.89"/>
 </g>
 <!-- Node9 -->

@@ -62,12 +62,13 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pri-types">Private Types</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="../../d5/dea/classChromeOmniboxNavigationObserver-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ChromeOmniboxNavigationObserver Class Reference</div>  </div>
@@ -78,83 +79,57 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for ChromeOmniboxNavigationObserver:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classChromeOmniboxNavigationObserver__inherit__graph.svg" width="499" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classChromeOmniboxNavigationObserver__inherit__graph.svg" width="443" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for ChromeOmniboxNavigationObserver:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d65/classChromeOmniboxNavigationObserver__coll__graph.svg" width="100%" height="472"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d65/classChromeOmniboxNavigationObserver__coll__graph.svg" width="100%" height="450"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dec/classChromeOmniboxNavigationObserver_1_1AlternativeNavigationURLLoader.html">AlternativeNavigationURLLoader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ae695fba367db755d2eb5aa44e206fb93"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae695fba367db755d2eb5aa44e206fb93">LoadState</a> { <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae695fba367db755d2eb5aa44e206fb93a4bd8e331a71d91e4caf14f5e1ddaa3e5">LOAD_NOT_SEEN</a>
-, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae695fba367db755d2eb5aa44e206fb93aec3b3da6d6a642ea89bbb96ed403f5a5">LOAD_PENDING</a>
-, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae695fba367db755d2eb5aa44e206fb93a55fd77210f5e701b2b6b42eff2dcc159">LOAD_COMMITTED</a>
+<tr class="memitem:a67d1c6f1a0ae34a8e7ae6a67d038ab6f"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a67d1c6f1a0ae34a8e7ae6a67d038ab6f">AlternativeFetchState</a> { <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a67d1c6f1a0ae34a8e7ae6a67d038ab6faa84317cd06b857cb00483edcbb3939e8">kFetchNotComplete</a>
+, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a67d1c6f1a0ae34a8e7ae6a67d038ab6fa39228440a49369b3c6b3e427ef52ebf8">kFetchSucceeded</a>
+, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a67d1c6f1a0ae34a8e7ae6a67d038ab6fadc6900e298ab607bab3a459e1b4447b1">kFetchFailed</a>
  }</td></tr>
-<tr class="separator:ae695fba367db755d2eb5aa44e206fb93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a67d1c6f1a0ae34a8e7ae6a67d038ab6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf45afa23dc9a9165a1b89bc08765777"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#abf45afa23dc9a9165a1b89bc08765777">ShowInfobarCallback</a> = base::OnceCallback&lt; void(<a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html">ChromeOmniboxNavigationObserver</a> *)&gt;</td></tr>
+<tr class="separator:abf45afa23dc9a9165a1b89bc08765777"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a24e5466f5cb272d541370a862aeeb938"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a24e5466f5cb272d541370a862aeeb938">ChromeOmniboxNavigationObserver</a> (Profile *profile, const std::u16string &amp;text, const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;match, const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;alternate_nav_match)</td></tr>
-<tr class="separator:a24e5466f5cb272d541370a862aeeb938"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89b46899925e7439c4ba2c8ccc751336"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a89b46899925e7439c4ba2c8ccc751336">~ChromeOmniboxNavigationObserver</a> () override</td></tr>
-<tr class="separator:a89b46899925e7439c4ba2c8ccc751336"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a236b3253cce33202fc735c4150fd0163"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae695fba367db755d2eb5aa44e206fb93">LoadState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a236b3253cce33202fc735c4150fd0163">load_state</a> () const</td></tr>
-<tr class="separator:a236b3253cce33202fc735c4150fd0163"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61ae21415f11b333886d8d7e00a154fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a61ae21415f11b333886d8d7e00a154fe">OnSuccessfulNavigation</a> ()</td></tr>
-<tr class="separator:a61ae21415f11b333886d8d7e00a154fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6f352015a7814d7acdcc26f3997e315"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae6f352015a7814d7acdcc26f3997e315">DidFinishNavigation</a> (content::NavigationHandle *navigation_handle) override</td></tr>
+<tr class="separator:ae6f352015a7814d7acdcc26f3997e315"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefafaebb28acfa223e556335784b85d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aefafaebb28acfa223e556335784b85d6">On404</a> ()</td></tr>
 <tr class="separator:aefafaebb28acfa223e556335784b85d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad68afceda256015a5bbd07d2083975bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ad68afceda256015a5bbd07d2083975bb">SetURLLoaderFactoryForTesting</a> (scoped_refptr&lt; network::SharedURLLoaderFactory &gt; testing_loader_factory)</td></tr>
-<tr class="separator:ad68afceda256015a5bbd07d2083975bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classOmniboxNavigationObserver"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classOmniboxNavigationObserver')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../dd/d8b/classOmniboxNavigationObserver.html">OmniboxNavigationObserver</a></td></tr>
-<tr class="memitem:ae5ef296c1c4b26b4e9df2eec65a536f2 inherit pub_methods_classOmniboxNavigationObserver"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d8b/classOmniboxNavigationObserver.html#ae5ef296c1c4b26b4e9df2eec65a536f2">~OmniboxNavigationObserver</a> ()</td></tr>
-<tr class="separator:ae5ef296c1c4b26b4e9df2eec65a536f2 inherit pub_methods_classOmniboxNavigationObserver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf65210d67bb757cb390dd082c98f4a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#adf65210d67bb757cb390dd082c98f4a7">OnAlternativeLoaderDone</a> (bool success)</td></tr>
+<tr class="separator:adf65210d67bb757cb390dd082c98f4a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7875466a1faf73e569f0fef1f0b4935"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aa7875466a1faf73e569f0fef1f0b4935">CreateAlternativeNavInfoBar</a> ()</td></tr>
+<tr class="separator:aa7875466a1faf73e569f0fef1f0b4935"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:ac9afbebdf06ad25544bfc14de850b761"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ac9afbebdf06ad25544bfc14de850b761">CreateAlternateNavInfoBar</a> ()</td></tr>
-<tr class="separator:ac9afbebdf06ad25544bfc14de850b761"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
-Private Types</h2></td></tr>
-<tr class="memitem:ab8281cbf66cdbc10007dabd8cf30e9ac"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ab8281cbf66cdbc10007dabd8cf30e9ac">FetchState</a> { <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ab8281cbf66cdbc10007dabd8cf30e9acaa5f46e86c8581a099a252d8cf33ce92d">FETCH_NOT_COMPLETE</a>
-, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ab8281cbf66cdbc10007dabd8cf30e9aca72d608188845f427fe156a96b1515943">FETCH_SUCCEEDED</a>
-, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ab8281cbf66cdbc10007dabd8cf30e9acab03f8cbf232507cc5084817573578628">FETCH_FAILED</a>
- }</td></tr>
-<tr class="separator:ab8281cbf66cdbc10007dabd8cf30e9ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a1936f36234acf72d36ec5cdd9f95ad9b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a1936f36234acf72d36ec5cdd9f95ad9b">Create</a> (content::NavigationHandle *navigation, Profile *profile, const std::u16string &amp;text, const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;match, const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;alternative_nav_match)</td></tr>
+<tr class="separator:a1936f36234acf72d36ec5cdd9f95ad9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a71f5d51da0756877018388234c4d8b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a8a71f5d51da0756877018388234c4d8b">CreateForTesting</a> (content::NavigationHandle *navigation, Profile *profile, const std::u16string &amp;text, const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;match, const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;alternative_nav_match, network::mojom::URLLoaderFactory *loader_factory, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#abf45afa23dc9a9165a1b89bc08765777">ShowInfobarCallback</a> show_infobar)</td></tr>
+<tr class="separator:a8a71f5d51da0756877018388234c4d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ac188905fdd42015fa9d4f5c24814bbd8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ac188905fdd42015fa9d4f5c24814bbd8">FRIEND_TEST_ALL_PREFIXES</a> (ChromeOmniboxNavigationObserverTest, DeleteBrokenCustomSearchEngines)</td></tr>
-<tr class="separator:ac188905fdd42015fa9d4f5c24814bbd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23ef1a0869e95e853e68a533aa822999"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a23ef1a0869e95e853e68a533aa822999">FRIEND_TEST_ALL_PREFIXES</a> (ChromeOmniboxNavigationObserverTest, AlternateNavInfoBar)</td></tr>
-<tr class="separator:a23ef1a0869e95e853e68a533aa822999"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad63d3e1d5ee3c6cb1e77dff80aa9ec08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ad63d3e1d5ee3c6cb1e77dff80aa9ec08">HasSeenPendingLoad</a> () const override</td></tr>
-<tr class="separator:ad63d3e1d5ee3c6cb1e77dff80aa9ec08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b555988d84e26010e11f96f39aa72f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a2b555988d84e26010e11f96f39aa72f7">Observe</a> (int type, const content::NotificationSource &amp;source, const content::NotificationDetails &amp;details) override</td></tr>
-<tr class="separator:a2b555988d84e26010e11f96f39aa72f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6f352015a7814d7acdcc26f3997e315"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae6f352015a7814d7acdcc26f3997e315">DidFinishNavigation</a> (content::NavigationHandle *navigation_handle) override</td></tr>
-<tr class="separator:ae6f352015a7814d7acdcc26f3997e315"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1ab2e3c3956a02df7ad16a12dd21950"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aa1ab2e3c3956a02df7ad16a12dd21950">NavigationEntryCommitted</a> (const content::LoadCommittedDetails &amp;load_details) override</td></tr>
-<tr class="separator:aa1ab2e3c3956a02df7ad16a12dd21950"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af167a3f10bb0eba7818b3542e5bec15f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#af167a3f10bb0eba7818b3542e5bec15f">WebContentsDestroyed</a> () override</td></tr>
-<tr class="separator:af167a3f10bb0eba7818b3542e5bec15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06f150e61e99ec0df27a33689ba51263"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a06f150e61e99ec0df27a33689ba51263">OnURLLoadComplete</a> (std::unique_ptr&lt; std::string &gt; body)</td></tr>
-<tr class="separator:a06f150e61e99ec0df27a33689ba51263"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30722443915aa1fb690a0aefec2633d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a30722443915aa1fb690a0aefec2633d2">OnURLRedirect</a> (const net::RedirectInfo &amp;redirect_info, const network::mojom::URLResponseHead &amp;response_head, std::vector&lt; std::string &gt; *to_be_removed_headers)</td></tr>
-<tr class="separator:a30722443915aa1fb690a0aefec2633d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21c5aa1f1511e7535f037f91967f589b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a21c5aa1f1511e7535f037f91967f589b">OnDoneWithURL</a> (bool success)</td></tr>
-<tr class="separator:a21c5aa1f1511e7535f037f91967f589b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa082e23fde3c10f41c737fe808c191b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#afa082e23fde3c10f41c737fe808c191b">OnAllLoadingFinished</a> ()</td></tr>
-<tr class="separator:afa082e23fde3c10f41c737fe808c191b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac709e9d6a2771fa69552288776e842e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aac709e9d6a2771fa69552288776e842e">CreateLoader</a> (const GURL &amp;destination_url)</td></tr>
-<tr class="separator:aac709e9d6a2771fa69552288776e842e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e6cbfeb7192f2f4dc87eb0dea4b6920"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a8e6cbfeb7192f2f4dc87eb0dea4b6920">DISALLOW_COPY_AND_ASSIGN</a> (<a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html">ChromeOmniboxNavigationObserver</a>)</td></tr>
-<tr class="separator:a8e6cbfeb7192f2f4dc87eb0dea4b6920"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ec19076534115147d8f8154aa5e2121"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a6ec19076534115147d8f8154aa5e2121">ChromeOmniboxNavigationObserver</a> (content::NavigationHandle &amp;navigation, Profile *profile, const std::u16string &amp;text, const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;match, const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;alternative_nav_match, network::mojom::URLLoaderFactory *loader_factory, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#abf45afa23dc9a9165a1b89bc08765777">ShowInfobarCallback</a> show_infobar)</td></tr>
+<tr class="separator:a6ec19076534115147d8f8154aa5e2121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89b46899925e7439c4ba2c8ccc751336"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a89b46899925e7439c4ba2c8ccc751336">~ChromeOmniboxNavigationObserver</a> () override</td></tr>
+<tr class="separator:a89b46899925e7439c4ba2c8ccc751336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add3c57c9404fca2275a0996106803a1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#add3c57c9404fca2275a0996106803a1d">ShowAlternativeNavInfoBar</a> ()</td></tr>
+<tr class="separator:add3c57c9404fca2275a0996106803a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -162,26 +137,42 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a276040bf133fed162d7375bcaf7d6010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a567bd94124820ba40e1c971ee7131d36"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a567bd94124820ba40e1c971ee7131d36">match_</a></td></tr>
 <tr class="separator:a567bd94124820ba40e1c971ee7131d36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab851a468eeafc6afcc0622ec6fa32dc0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ab851a468eeafc6afcc0622ec6fa32dc0">alternate_nav_match_</a></td></tr>
-<tr class="separator:ab851a468eeafc6afcc0622ec6fa32dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02ae14c7c1078b300cd6dbdfa8df61b1"><td class="memItemLeft" align="right" valign="top">TemplateURLService *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a02ae14c7c1078b300cd6dbdfa8df61b1">template_url_service_</a></td></tr>
-<tr class="separator:a02ae14c7c1078b300cd6dbdfa8df61b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54eea8694e0929c0dff5dd4113491539"><td class="memItemLeft" align="right" valign="top">scoped_refptr&lt; <a class="el" href="../../d3/d69/classShortcutsBackend.html">ShortcutsBackend</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a54eea8694e0929c0dff5dd4113491539">shortcuts_backend_</a></td></tr>
-<tr class="separator:a54eea8694e0929c0dff5dd4113491539"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4ab3a962182945cd881b239643fa167"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; network::SimpleURLLoader &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ac4ab3a962182945cd881b239643fa167">loader_</a></td></tr>
-<tr class="separator:ac4ab3a962182945cd881b239643fa167"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af67013d6171bd34e58941fa48e7c02a8"><td class="memItemLeft" align="right" valign="top">scoped_refptr&lt; network::SharedURLLoaderFactory &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#af67013d6171bd34e58941fa48e7c02a8">loader_factory_for_testing_</a></td></tr>
-<tr class="separator:af67013d6171bd34e58941fa48e7c02a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50c235c38c1cada3c78dd517dcc6f74d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae695fba367db755d2eb5aa44e206fb93">LoadState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a50c235c38c1cada3c78dd517dcc6f74d">load_state_</a></td></tr>
-<tr class="separator:a50c235c38c1cada3c78dd517dcc6f74d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a683a8a6b95e3dcc8042bcdb6adfa5c74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ab8281cbf66cdbc10007dabd8cf30e9ac">FetchState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a683a8a6b95e3dcc8042bcdb6adfa5c74">fetch_state_</a></td></tr>
-<tr class="separator:a683a8a6b95e3dcc8042bcdb6adfa5c74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe4a5ae28ebe8d5bf09985a16955384f"><td class="memItemLeft" align="right" valign="top">content::NotificationRegistrar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#abe4a5ae28ebe8d5bf09985a16955384f">registrar_</a></td></tr>
-<tr class="separator:abe4a5ae28ebe8d5bf09985a16955384f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4993ac736c370e89f281da74c3f112a4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a4993ac736c370e89f281da74c3f112a4">alternative_nav_match_</a></td></tr>
+<tr class="separator:a4993ac736c370e89f281da74c3f112a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67659082b14e321e3757e06044344801"><td class="memItemLeft" align="right" valign="top">const int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a67659082b14e321e3757e06044344801">navigation_id_</a></td></tr>
+<tr class="separator:a67659082b14e321e3757e06044344801"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a718d8f2d7899c087b11134c5ae9fe8a9"><td class="memItemLeft" align="right" valign="top">Profile *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a718d8f2d7899c087b11134c5ae9fe8a9">profile_</a></td></tr>
+<tr class="separator:a718d8f2d7899c087b11134c5ae9fe8a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa36c9f0e99d9d362fc2c98f53605c185"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#abf45afa23dc9a9165a1b89bc08765777">ShowInfobarCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aa36c9f0e99d9d362fc2c98f53605c185">show_infobar_</a></td></tr>
+<tr class="separator:aa36c9f0e99d9d362fc2c98f53605c185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45bf4ae796a2f0586407846f21e871f7"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../d9/dec/classChromeOmniboxNavigationObserver_1_1AlternativeNavigationURLLoader.html">AlternativeNavigationURLLoader</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a45bf4ae796a2f0586407846f21e871f7">loader_</a></td></tr>
+<tr class="separator:a45bf4ae796a2f0586407846f21e871f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a902af6299623a23859ffeab9b7c2ebd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a67d1c6f1a0ae34a8e7ae6a67d038ab6f">AlternativeFetchState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a902af6299623a23859ffeab9b7c2ebd4">fetch_state_</a> = <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a67d1c6f1a0ae34a8e7ae6a67d038ab6faa84317cd06b857cb00483edcbb3939e8">AlternativeFetchState::kFetchNotComplete</a></td></tr>
+<tr class="separator:a902af6299623a23859ffeab9b7c2ebd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a5daabcbeff3ba24bf32e612b42d2b45b"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a5daabcbeff3ba24bf32e612b42d2b45b">base::RefCounted&lt; ChromeOmniboxNavigationObserver &gt;</a></td></tr>
+<tr class="separator:a5daabcbeff3ba24bf32e612b42d2b45b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="abf45afa23dc9a9165a1b89bc08765777"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf45afa23dc9a9165a1b89bc08765777">&#9670;&nbsp;</a></span>ShowInfobarCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#abf45afa23dc9a9165a1b89bc08765777">ChromeOmniboxNavigationObserver::ShowInfobarCallback</a> =  base::OnceCallback&lt;void(<a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html">ChromeOmniboxNavigationObserver</a>*)&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="ab8281cbf66cdbc10007dabd8cf30e9ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8281cbf66cdbc10007dabd8cf30e9ac">&#9670;&nbsp;</a></span>FetchState</h2>
+<a id="a67d1c6f1a0ae34a8e7ae6a67d038ab6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67d1c6f1a0ae34a8e7ae6a67d038ab6f">&#9670;&nbsp;</a></span>AlternativeFetchState</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -190,52 +181,42 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ab8281cbf66cdbc10007dabd8cf30e9ac">ChromeOmniboxNavigationObserver::FetchState</a></td>
+          <td class="memname">enum <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a67d1c6f1a0ae34a8e7ae6a67d038ab6f">ChromeOmniboxNavigationObserver::AlternativeFetchState</a></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab8281cbf66cdbc10007dabd8cf30e9acaa5f46e86c8581a099a252d8cf33ce92d"></a>FETCH_NOT_COMPLETE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab8281cbf66cdbc10007dabd8cf30e9aca72d608188845f427fe156a96b1515943"></a>FETCH_SUCCEEDED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab8281cbf66cdbc10007dabd8cf30e9acab03f8cbf232507cc5084817573578628"></a>FETCH_FAILED&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="ae695fba367db755d2eb5aa44e206fb93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae695fba367db755d2eb5aa44e206fb93">&#9670;&nbsp;</a></span>LoadState</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae695fba367db755d2eb5aa44e206fb93">ChromeOmniboxNavigationObserver::LoadState</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae695fba367db755d2eb5aa44e206fb93a4bd8e331a71d91e4caf14f5e1ddaa3e5"></a>LOAD_NOT_SEEN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae695fba367db755d2eb5aa44e206fb93aec3b3da6d6a642ea89bbb96ed403f5a5"></a>LOAD_PENDING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae695fba367db755d2eb5aa44e206fb93a55fd77210f5e701b2b6b42eff2dcc159"></a>LOAD_COMMITTED&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a67d1c6f1a0ae34a8e7ae6a67d038ab6faa84317cd06b857cb00483edcbb3939e8"></a>kFetchNotComplete&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a67d1c6f1a0ae34a8e7ae6a67d038ab6fa39228440a49369b3c6b3e427ef52ebf8"></a>kFetchSucceeded&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a67d1c6f1a0ae34a8e7ae6a67d038ab6fadc6900e298ab607bab3a459e1b4447b1"></a>kFetchFailed&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a24e5466f5cb272d541370a862aeeb938"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24e5466f5cb272d541370a862aeeb938">&#9670;&nbsp;</a></span>ChromeOmniboxNavigationObserver()</h2>
+<a id="a6ec19076534115147d8f8154aa5e2121"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ec19076534115147d8f8154aa5e2121">&#9670;&nbsp;</a></span>ChromeOmniboxNavigationObserver()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">ChromeOmniboxNavigationObserver::ChromeOmniboxNavigationObserver </td>
           <td>(</td>
+          <td class="paramtype">content::NavigationHandle &amp;&#160;</td>
+          <td class="paramname"><em>navigation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">Profile *&#160;</td>
           <td class="paramname"><em>profile</em>, </td>
         </tr>
@@ -255,7 +236,19 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;&#160;</td>
-          <td class="paramname"><em>alternate_nav_match</em>&#160;</td>
+          <td class="paramname"><em>alternative_nav_match</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">network::mojom::URLLoaderFactory *&#160;</td>
+          <td class="paramname"><em>loader_factory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#abf45afa23dc9a9165a1b89bc08765777">ShowInfobarCallback</a>&#160;</td>
+          <td class="paramname"><em>show_infobar</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -263,21 +256,26 @@ Private Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ab851a468eeafc6afcc0622ec6fa32dc0">alternate_nav_match_</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aac709e9d6a2771fa69552288776e842e">CreateLoader()</a>, <a class="el" href="../../dc/d8f/structAutocompleteMatch.html#addea25be90c86ed99107ceec19c1217f">AutocompleteMatch::destination_url</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#abe4a5ae28ebe8d5bf09985a16955384f">registrar_</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a4993ac736c370e89f281da74c3f112a4">alternative_nav_match_</a>, <a class="el" href="../../d9/dec/classChromeOmniboxNavigationObserver_1_1AlternativeNavigationURLLoader.html#a93ea97f0c58c585dbf9ac1e016829777">ChromeOmniboxNavigationObserver::AlternativeNavigationURLLoader::AlternativeNavigationURLLoader()</a>, <a class="el" href="../../dc/d8f/structAutocompleteMatch.html#addea25be90c86ed99107ceec19c1217f">AutocompleteMatch::destination_url</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a45bf4ae796a2f0586407846f21e871f7">loader_</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#adf65210d67bb757cb390dd082c98f4a7">OnAlternativeLoaderDone()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d3e/classChromeOmniboxClient.html#a2560cdaa8a5b1ee28248893fe7ac16f6">ChromeOmniboxClient::CreateOmniboxNavigationObserver()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a1936f36234acf72d36ec5cdd9f95ad9b">Create()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a8a71f5d51da0756877018388234c4d8b">CreateForTesting()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_a24e5466f5cb272d541370a862aeeb938_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_a6ec19076534115147d8f8154aa5e2121_cgraph.svg" width="100%" height="430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_a24e5466f5cb272d541370a862aeeb938_icgraph.svg" width="538" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_a6ec19076534115147d8f8154aa5e2121_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -301,16 +299,18 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p class="reference">References <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a902af6299623a23859ffeab9b7c2ebd4">fetch_state_</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a67d1c6f1a0ae34a8e7ae6a67d038ab6fa39228440a49369b3c6b3e427ef52ebf8">kFetchSucceeded</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aa36c9f0e99d9d362fc2c98f53605c185">show_infobar_</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac9afbebdf06ad25544bfc14de850b761"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9afbebdf06ad25544bfc14de850b761">&#9670;&nbsp;</a></span>CreateAlternateNavInfoBar()</h2>
+<a id="a1936f36234acf72d36ec5cdd9f95ad9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1936f36234acf72d36ec5cdd9f95ad9b">&#9670;&nbsp;</a></span>Create()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -319,39 +319,85 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ChromeOmniboxNavigationObserver::CreateAlternateNavInfoBar </td>
+          <td class="memname">void ChromeOmniboxNavigationObserver::Create </td>
+          <td>(</td>
+          <td class="paramtype">content::NavigationHandle *&#160;</td>
+          <td class="paramname"><em>navigation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Profile *&#160;</td>
+          <td class="paramname"><em>profile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::u16string &amp;&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;&#160;</td>
+          <td class="paramname"><em>match</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;&#160;</td>
+          <td class="paramname"><em>alternative_nav_match</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a6ec19076534115147d8f8154aa5e2121">ChromeOmniboxNavigationObserver()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#add3c57c9404fca2275a0996106803a1d">ShowAlternativeNavInfoBar()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d38/classChromeOmniboxEditController.html#a9f91e23a342c8c8215208eacc7e8bc1d">ChromeOmniboxEditController::OnAutocompleteAccept()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_a1936f36234acf72d36ec5cdd9f95ad9b_cgraph.svg" width="100%" height="558"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_a1936f36234acf72d36ec5cdd9f95ad9b_icgraph.svg" width="492" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aa7875466a1faf73e569f0fef1f0b4935"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7875466a1faf73e569f0fef1f0b4935">&#9670;&nbsp;</a></span>CreateAlternativeNavInfoBar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChromeOmniboxNavigationObserver::CreateAlternativeNavInfoBar </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ab851a468eeafc6afcc0622ec6fa32dc0">alternate_nav_match_</a>, <a class="el" href="../../d9/db7/classAlternateNavInfoBarDelegate.html#a1c2d4722da316d144fc08d95d0dc1176">AlternateNavInfoBarDelegate::CreateForOmniboxNavigation()</a>, <a class="el" href="../../dc/d8f/structAutocompleteMatch.html#addea25be90c86ed99107ceec19c1217f">AutocompleteMatch::destination_url</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a567bd94124820ba40e1c971ee7131d36">match_</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a276040bf133fed162d7375bcaf7d6010">text_</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#afa082e23fde3c10f41c737fe808c191b">OnAllLoadingFinished()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_ac9afbebdf06ad25544bfc14de850b761_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_ac9afbebdf06ad25544bfc14de850b761_icgraph.svg" width="100%" height="412"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-
-</div>
-</div>
-<a id="aac709e9d6a2771fa69552288776e842e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac709e9d6a2771fa69552288776e842e">&#9670;&nbsp;</a></span>CreateLoader()</h2>
+<a id="a8a71f5d51da0756877018388234c4d8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a71f5d51da0756877018388234c4d8b">&#9670;&nbsp;</a></span>CreateForTesting()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -360,33 +406,65 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ChromeOmniboxNavigationObserver::CreateLoader </td>
+          <td class="memname">void ChromeOmniboxNavigationObserver::CreateForTesting </td>
           <td>(</td>
-          <td class="paramtype">const GURL &amp;&#160;</td>
-          <td class="paramname"><em>destination_url</em></td><td>)</td>
+          <td class="paramtype">content::NavigationHandle *&#160;</td>
+          <td class="paramname"><em>navigation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">Profile *&#160;</td>
+          <td class="paramname"><em>profile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::u16string &amp;&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;&#160;</td>
+          <td class="paramname"><em>match</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> &amp;&#160;</td>
+          <td class="paramname"><em>alternative_nav_match</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">network::mojom::URLLoaderFactory *&#160;</td>
+          <td class="paramname"><em>loader_factory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#abf45afa23dc9a9165a1b89bc08765777">ShowInfobarCallback</a>&#160;</td>
+          <td class="paramname"><em>show_infobar</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ac4ab3a962182945cd881b239643fa167">loader_</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a30722443915aa1fb690a0aefec2633d2">OnURLRedirect()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a24e5466f5cb272d541370a862aeeb938">ChromeOmniboxNavigationObserver()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a6ec19076534115147d8f8154aa5e2121">ChromeOmniboxNavigationObserver()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_aac709e9d6a2771fa69552288776e842e_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_aac709e9d6a2771fa69552288776e842e_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_a8a71f5d51da0756877018388234c4d8b_cgraph.svg" width="100%" height="430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -411,248 +489,16 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae695fba367db755d2eb5aa44e206fb93a55fd77210f5e701b2b6b42eff2dcc159">LOAD_COMMITTED</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a50c235c38c1cada3c78dd517dcc6f74d">load_state_</a>.</p>
-
-</div>
-</div>
-<a id="a8e6cbfeb7192f2f4dc87eb0dea4b6920"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e6cbfeb7192f2f4dc87eb0dea4b6920">&#9670;&nbsp;</a></span>DISALLOW_COPY_AND_ASSIGN()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ChromeOmniboxNavigationObserver::DISALLOW_COPY_AND_ASSIGN </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html">ChromeOmniboxNavigationObserver</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a23ef1a0869e95e853e68a533aa822999"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23ef1a0869e95e853e68a533aa822999">&#9670;&nbsp;</a></span>FRIEND_TEST_ALL_PREFIXES() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ChromeOmniboxNavigationObserver::FRIEND_TEST_ALL_PREFIXES </td>
-          <td>(</td>
-          <td class="paramtype">ChromeOmniboxNavigationObserverTest&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">AlternateNavInfoBar&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac188905fdd42015fa9d4f5c24814bbd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac188905fdd42015fa9d4f5c24814bbd8">&#9670;&nbsp;</a></span>FRIEND_TEST_ALL_PREFIXES() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ChromeOmniboxNavigationObserver::FRIEND_TEST_ALL_PREFIXES </td>
-          <td>(</td>
-          <td class="paramtype">ChromeOmniboxNavigationObserverTest&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">DeleteBrokenCustomSearchEngines&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad63d3e1d5ee3c6cb1e77dff80aa9ec08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad63d3e1d5ee3c6cb1e77dff80aa9ec08">&#9670;&nbsp;</a></span>HasSeenPendingLoad()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ChromeOmniboxNavigationObserver::HasSeenPendingLoad </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="../../dd/d8b/classOmniboxNavigationObserver.html#a3120fc518feee874e02c26e1b3d0a884">OmniboxNavigationObserver</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae695fba367db755d2eb5aa44e206fb93a4bd8e331a71d91e4caf14f5e1ddaa3e5">LOAD_NOT_SEEN</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a50c235c38c1cada3c78dd517dcc6f74d">load_state_</a>.</p>
-
-</div>
-</div>
-<a id="a236b3253cce33202fc735c4150fd0163"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a236b3253cce33202fc735c4150fd0163">&#9670;&nbsp;</a></span>load_state()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae695fba367db755d2eb5aa44e206fb93">LoadState</a> ChromeOmniboxNavigationObserver::load_state </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a50c235c38c1cada3c78dd517dcc6f74d">load_state_</a>.</p>
-
-</div>
-</div>
-<a id="aa1ab2e3c3956a02df7ad16a12dd21950"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1ab2e3c3956a02df7ad16a12dd21950">&#9670;&nbsp;</a></span>NavigationEntryCommitted()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ChromeOmniboxNavigationObserver::NavigationEntryCommitted </td>
-          <td>(</td>
-          <td class="paramtype">const content::LoadCommittedDetails &amp;&#160;</td>
-          <td class="paramname"><em>load_details</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="../../dc/d8f/structAutocompleteMatch.html#addea25be90c86ed99107ceec19c1217f">AutocompleteMatch::destination_url</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ab8281cbf66cdbc10007dabd8cf30e9acaa5f46e86c8581a099a252d8cf33ce92d">FETCH_NOT_COMPLETE</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a683a8a6b95e3dcc8042bcdb6adfa5c74">fetch_state_</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae695fba367db755d2eb5aa44e206fb93a55fd77210f5e701b2b6b42eff2dcc159">LOAD_COMMITTED</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a50c235c38c1cada3c78dd517dcc6f74d">load_state_</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ac4ab3a962182945cd881b239643fa167">loader_</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a567bd94124820ba40e1c971ee7131d36">match_</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aefafaebb28acfa223e556335784b85d6">On404()</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#afa082e23fde3c10f41c737fe808c191b">OnAllLoadingFinished()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a61ae21415f11b333886d8d7e00a154fe">OnSuccessfulNavigation()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d8f/structAutocompleteMatch.html#addea25be90c86ed99107ceec19c1217f">AutocompleteMatch::destination_url</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a567bd94124820ba40e1c971ee7131d36">match_</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a67659082b14e321e3757e06044344801">navigation_id_</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aefafaebb28acfa223e556335784b85d6">On404()</a>, <a class="el" href="../../d5/d3e/classChromeOmniboxClient.html#a627118b42b97f27f475c0d3138eab9a0">ChromeOmniboxClient::OnSuccessfulNavigation()</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a718d8f2d7899c087b11134c5ae9fe8a9">profile_</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a276040bf133fed162d7375bcaf7d6010">text_</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_aa1ab2e3c3956a02df7ad16a12dd21950_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-
-</div>
-</div>
-<a id="a2b555988d84e26010e11f96f39aa72f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b555988d84e26010e11f96f39aa72f7">&#9670;&nbsp;</a></span>Observe()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ChromeOmniboxNavigationObserver::Observe </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>type</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const content::NotificationSource &amp;&#160;</td>
-          <td class="paramname"><em>source</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const content::NotificationDetails &amp;&#160;</td>
-          <td class="paramname"><em>details</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="../../dc/d8f/structAutocompleteMatch.html#addea25be90c86ed99107ceec19c1217f">AutocompleteMatch::destination_url</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae695fba367db755d2eb5aa44e206fb93a4bd8e331a71d91e4caf14f5e1ddaa3e5">LOAD_NOT_SEEN</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae695fba367db755d2eb5aa44e206fb93aec3b3da6d6a642ea89bbb96ed403f5a5">LOAD_PENDING</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a50c235c38c1cada3c78dd517dcc6f74d">load_state_</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ac4ab3a962182945cd881b239643fa167">loader_</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#af67013d6171bd34e58941fa48e7c02a8">loader_factory_for_testing_</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a567bd94124820ba40e1c971ee7131d36">match_</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a06f150e61e99ec0df27a33689ba51263">OnURLLoadComplete()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#abe4a5ae28ebe8d5bf09985a16955384f">registrar_</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_a2b555988d84e26010e11f96f39aa72f7_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_ae6f352015a7814d7acdcc26f3997e315_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -673,9 +519,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../dc/d8f/structAutocompleteMatch.html#aea073526afc3c6acd1684ad21b6f234c">AutocompleteMatch::GetTemplateURL()</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a567bd94124820ba40e1c971ee7131d36">match_</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a02ae14c7c1078b300cd6dbdfa8df61b1">template_url_service_</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d8f/structAutocompleteMatch.html#aea073526afc3c6acd1684ad21b6f234c">AutocompleteMatch::GetTemplateURL()</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a567bd94124820ba40e1c971ee7131d36">match_</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a718d8f2d7899c087b11134c5ae9fe8a9">profile_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aa1ab2e3c3956a02df7ad16a12dd21950">NavigationEntryCommitted()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae6f352015a7814d7acdcc26f3997e315">DidFinishNavigation()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -691,118 +537,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="afa082e23fde3c10f41c737fe808c191b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa082e23fde3c10f41c737fe808c191b">&#9670;&nbsp;</a></span>OnAllLoadingFinished()</h2>
+<a id="adf65210d67bb757cb390dd082c98f4a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf65210d67bb757cb390dd082c98f4a7">&#9670;&nbsp;</a></span>OnAlternativeLoaderDone()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ChromeOmniboxNavigationObserver::OnAllLoadingFinished </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ac9afbebdf06ad25544bfc14de850b761">CreateAlternateNavInfoBar()</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a683a8a6b95e3dcc8042bcdb6adfa5c74">fetch_state_</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ab8281cbf66cdbc10007dabd8cf30e9aca72d608188845f427fe156a96b1515943">FETCH_SUCCEEDED</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aa1ab2e3c3956a02df7ad16a12dd21950">NavigationEntryCommitted()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a21c5aa1f1511e7535f037f91967f589b">OnDoneWithURL()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_afa082e23fde3c10f41c737fe808c191b_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_afa082e23fde3c10f41c737fe808c191b_icgraph.svg" width="100%" height="412"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-
-</div>
-</div>
-<a id="a21c5aa1f1511e7535f037f91967f589b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21c5aa1f1511e7535f037f91967f589b">&#9670;&nbsp;</a></span>OnDoneWithURL()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ChromeOmniboxNavigationObserver::OnDoneWithURL </td>
+          <td class="memname">void ChromeOmniboxNavigationObserver::OnAlternativeLoaderDone </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>success</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ab8281cbf66cdbc10007dabd8cf30e9acab03f8cbf232507cc5084817573578628">FETCH_FAILED</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a683a8a6b95e3dcc8042bcdb6adfa5c74">fetch_state_</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ab8281cbf66cdbc10007dabd8cf30e9aca72d608188845f427fe156a96b1515943">FETCH_SUCCEEDED</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae695fba367db755d2eb5aa44e206fb93a55fd77210f5e701b2b6b42eff2dcc159">LOAD_COMMITTED</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a50c235c38c1cada3c78dd517dcc6f74d">load_state_</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ac4ab3a962182945cd881b239643fa167">loader_</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#afa082e23fde3c10f41c737fe808c191b">OnAllLoadingFinished()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a902af6299623a23859ffeab9b7c2ebd4">fetch_state_</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a67d1c6f1a0ae34a8e7ae6a67d038ab6fadc6900e298ab607bab3a459e1b4447b1">kFetchFailed</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a67d1c6f1a0ae34a8e7ae6a67d038ab6fa39228440a49369b3c6b3e427ef52ebf8">kFetchSucceeded</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a45bf4ae796a2f0586407846f21e871f7">loader_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a06f150e61e99ec0df27a33689ba51263">OnURLLoadComplete()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a30722443915aa1fb690a0aefec2633d2">OnURLRedirect()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_a21c5aa1f1511e7535f037f91967f589b_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a6ec19076534115147d8f8154aa5e2121">ChromeOmniboxNavigationObserver()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_a21c5aa1f1511e7535f037f91967f589b_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_adf65210d67bb757cb390dd082c98f4a7_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a61ae21415f11b333886d8d7e00a154fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61ae21415f11b333886d8d7e00a154fe">&#9670;&nbsp;</a></span>OnSuccessfulNavigation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ChromeOmniboxNavigationObserver::OnSuccessfulNavigation </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a567bd94124820ba40e1c971ee7131d36">match_</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a54eea8694e0929c0dff5dd4113491539">shortcuts_backend_</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a276040bf133fed162d7375bcaf7d6010">text_</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aa1ab2e3c3956a02df7ad16a12dd21950">NavigationEntryCommitted()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_a61ae21415f11b333886d8d7e00a154fe_icgraph.svg" width="528" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="a06f150e61e99ec0df27a33689ba51263"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06f150e61e99ec0df27a33689ba51263">&#9670;&nbsp;</a></span>OnURLLoadComplete()</h2>
+<a id="add3c57c9404fca2275a0996106803a1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add3c57c9404fca2275a0996106803a1d">&#9670;&nbsp;</a></span>ShowAlternativeNavInfoBar()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -811,127 +575,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ChromeOmniboxNavigationObserver::OnURLLoadComplete </td>
-          <td>(</td>
-          <td class="paramtype">std::unique_ptr&lt; std::string &gt;&#160;</td>
-          <td class="paramname"><em>body</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ac4ab3a962182945cd881b239643fa167">loader_</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a21c5aa1f1511e7535f037f91967f589b">OnDoneWithURL()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a2b555988d84e26010e11f96f39aa72f7">Observe()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_a06f150e61e99ec0df27a33689ba51263_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_a06f150e61e99ec0df27a33689ba51263_icgraph.svg" width="528" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="a30722443915aa1fb690a0aefec2633d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30722443915aa1fb690a0aefec2633d2">&#9670;&nbsp;</a></span>OnURLRedirect()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ChromeOmniboxNavigationObserver::OnURLRedirect </td>
-          <td>(</td>
-          <td class="paramtype">const net::RedirectInfo &amp;&#160;</td>
-          <td class="paramname"><em>redirect_info</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const network::mojom::URLResponseHead &amp;&#160;</td>
-          <td class="paramname"><em>response_head</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; std::string &gt; *&#160;</td>
-          <td class="paramname"><em>to_be_removed_headers</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ab851a468eeafc6afcc0622ec6fa32dc0">alternate_nav_match_</a>, <a class="el" href="../../dc/d8f/structAutocompleteMatch.html#addea25be90c86ed99107ceec19c1217f">AutocompleteMatch::destination_url</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a21c5aa1f1511e7535f037f91967f589b">OnDoneWithURL()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aac709e9d6a2771fa69552288776e842e">CreateLoader()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_a30722443915aa1fb690a0aefec2633d2_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_a30722443915aa1fb690a0aefec2633d2_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-
-</div>
-</div>
-<a id="ad68afceda256015a5bbd07d2083975bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad68afceda256015a5bbd07d2083975bb">&#9670;&nbsp;</a></span>SetURLLoaderFactoryForTesting()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ChromeOmniboxNavigationObserver::SetURLLoaderFactoryForTesting </td>
-          <td>(</td>
-          <td class="paramtype">scoped_refptr&lt; network::SharedURLLoaderFactory &gt;&#160;</td>
-          <td class="paramname"><em>testing_loader_factory</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#af67013d6171bd34e58941fa48e7c02a8">loader_factory_for_testing_</a>.</p>
-
-</div>
-</div>
-<a id="af167a3f10bb0eba7818b3542e5bec15f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af167a3f10bb0eba7818b3542e5bec15f">&#9670;&nbsp;</a></span>WebContentsDestroyed()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ChromeOmniboxNavigationObserver::WebContentsDestroyed </td>
+          <td class="memname">void ChromeOmniboxNavigationObserver::ShowAlternativeNavInfoBar </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -939,7 +583,46 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a4993ac736c370e89f281da74c3f112a4">alternative_nav_match_</a>, <a class="el" href="../../d9/db7/classAlternateNavInfoBarDelegate.html#a1c2d4722da316d144fc08d95d0dc1176">AlternateNavInfoBarDelegate::CreateForOmniboxNavigation()</a>, <a class="el" href="../../dc/d8f/structAutocompleteMatch.html#addea25be90c86ed99107ceec19c1217f">AutocompleteMatch::destination_url</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a567bd94124820ba40e1c971ee7131d36">match_</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a276040bf133fed162d7375bcaf7d6010">text_</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a1936f36234acf72d36ec5cdd9f95ad9b">Create()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_add3c57c9404fca2275a0996106803a1d_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/da9/classChromeOmniboxNavigationObserver_add3c57c9404fca2275a0996106803a1d_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a5daabcbeff3ba24bf32e612b42d2b45b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5daabcbeff3ba24bf32e612b42d2b45b">&#9670;&nbsp;</a></span>base::RefCounted&lt; ChromeOmniboxNavigationObserver &gt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class base::RefCounted&lt; <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html">ChromeOmniboxNavigationObserver</a> &gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -947,8 +630,8 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ab851a468eeafc6afcc0622ec6fa32dc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab851a468eeafc6afcc0622ec6fa32dc0">&#9670;&nbsp;</a></span>alternate_nav_match_</h2>
+<a id="a4993ac736c370e89f281da74c3f112a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4993ac736c370e89f281da74c3f112a4">&#9670;&nbsp;</a></span>alternative_nav_match_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -957,7 +640,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> ChromeOmniboxNavigationObserver::alternate_nav_match_</td>
+          <td class="memname">const <a class="el" href="../../dc/d8f/structAutocompleteMatch.html">AutocompleteMatch</a> ChromeOmniboxNavigationObserver::alternative_nav_match_</td>
         </tr>
       </table>
   </td>
@@ -967,12 +650,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a24e5466f5cb272d541370a862aeeb938">ChromeOmniboxNavigationObserver()</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ac9afbebdf06ad25544bfc14de850b761">CreateAlternateNavInfoBar()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a30722443915aa1fb690a0aefec2633d2">OnURLRedirect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a6ec19076534115147d8f8154aa5e2121">ChromeOmniboxNavigationObserver()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#add3c57c9404fca2275a0996106803a1d">ShowAlternativeNavInfoBar()</a>.</p>
 
 </div>
 </div>
-<a id="a683a8a6b95e3dcc8042bcdb6adfa5c74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a683a8a6b95e3dcc8042bcdb6adfa5c74">&#9670;&nbsp;</a></span>fetch_state_</h2>
+<a id="a902af6299623a23859ffeab9b7c2ebd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a902af6299623a23859ffeab9b7c2ebd4">&#9670;&nbsp;</a></span>fetch_state_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -981,7 +664,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ab8281cbf66cdbc10007dabd8cf30e9ac">FetchState</a> ChromeOmniboxNavigationObserver::fetch_state_</td>
+          <td class="memname"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a67d1c6f1a0ae34a8e7ae6a67d038ab6f">AlternativeFetchState</a> ChromeOmniboxNavigationObserver::fetch_state_ = <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a67d1c6f1a0ae34a8e7ae6a67d038ab6faa84317cd06b857cb00483edcbb3939e8">AlternativeFetchState::kFetchNotComplete</a></td>
         </tr>
       </table>
   </td>
@@ -991,12 +674,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aa1ab2e3c3956a02df7ad16a12dd21950">NavigationEntryCommitted()</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#afa082e23fde3c10f41c737fe808c191b">OnAllLoadingFinished()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a21c5aa1f1511e7535f037f91967f589b">OnDoneWithURL()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#adf65210d67bb757cb390dd082c98f4a7">OnAlternativeLoaderDone()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a89b46899925e7439c4ba2c8ccc751336">~ChromeOmniboxNavigationObserver()</a>.</p>
 
 </div>
 </div>
-<a id="a50c235c38c1cada3c78dd517dcc6f74d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50c235c38c1cada3c78dd517dcc6f74d">&#9670;&nbsp;</a></span>load_state_</h2>
+<a id="a45bf4ae796a2f0586407846f21e871f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45bf4ae796a2f0586407846f21e871f7">&#9670;&nbsp;</a></span>loader_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1005,7 +688,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae695fba367db755d2eb5aa44e206fb93">LoadState</a> ChromeOmniboxNavigationObserver::load_state_</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="../../d9/dec/classChromeOmniboxNavigationObserver_1_1AlternativeNavigationURLLoader.html">AlternativeNavigationURLLoader</a>&gt; ChromeOmniboxNavigationObserver::loader_</td>
         </tr>
       </table>
   </td>
@@ -1015,55 +698,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae6f352015a7814d7acdcc26f3997e315">DidFinishNavigation()</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ad63d3e1d5ee3c6cb1e77dff80aa9ec08">HasSeenPendingLoad()</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a236b3253cce33202fc735c4150fd0163">load_state()</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aa1ab2e3c3956a02df7ad16a12dd21950">NavigationEntryCommitted()</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a2b555988d84e26010e11f96f39aa72f7">Observe()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a21c5aa1f1511e7535f037f91967f589b">OnDoneWithURL()</a>.</p>
-
-</div>
-</div>
-<a id="ac4ab3a962182945cd881b239643fa167"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4ab3a962182945cd881b239643fa167">&#9670;&nbsp;</a></span>loader_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;network::SimpleURLLoader&gt; ChromeOmniboxNavigationObserver::loader_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aac709e9d6a2771fa69552288776e842e">CreateLoader()</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aa1ab2e3c3956a02df7ad16a12dd21950">NavigationEntryCommitted()</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a2b555988d84e26010e11f96f39aa72f7">Observe()</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a21c5aa1f1511e7535f037f91967f589b">OnDoneWithURL()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a06f150e61e99ec0df27a33689ba51263">OnURLLoadComplete()</a>.</p>
-
-</div>
-</div>
-<a id="af67013d6171bd34e58941fa48e7c02a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af67013d6171bd34e58941fa48e7c02a8">&#9670;&nbsp;</a></span>loader_factory_for_testing_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">scoped_refptr&lt;network::SharedURLLoaderFactory&gt; ChromeOmniboxNavigationObserver::loader_factory_for_testing_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a2b555988d84e26010e11f96f39aa72f7">Observe()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ad68afceda256015a5bbd07d2083975bb">SetURLLoaderFactoryForTesting()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a6ec19076534115147d8f8154aa5e2121">ChromeOmniboxNavigationObserver()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#adf65210d67bb757cb390dd082c98f4a7">OnAlternativeLoaderDone()</a>.</p>
 
 </div>
 </div>
@@ -1087,12 +722,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ac9afbebdf06ad25544bfc14de850b761">CreateAlternateNavInfoBar()</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aa1ab2e3c3956a02df7ad16a12dd21950">NavigationEntryCommitted()</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a2b555988d84e26010e11f96f39aa72f7">Observe()</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aefafaebb28acfa223e556335784b85d6">On404()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a61ae21415f11b333886d8d7e00a154fe">OnSuccessfulNavigation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae6f352015a7814d7acdcc26f3997e315">DidFinishNavigation()</a>, <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aefafaebb28acfa223e556335784b85d6">On404()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#add3c57c9404fca2275a0996106803a1d">ShowAlternativeNavInfoBar()</a>.</p>
 
 </div>
 </div>
-<a id="abe4a5ae28ebe8d5bf09985a16955384f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe4a5ae28ebe8d5bf09985a16955384f">&#9670;&nbsp;</a></span>registrar_</h2>
+<a id="a67659082b14e321e3757e06044344801"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67659082b14e321e3757e06044344801">&#9670;&nbsp;</a></span>navigation_id_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1101,7 +736,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">content::NotificationRegistrar ChromeOmniboxNavigationObserver::registrar_</td>
+          <td class="memname">const int64_t ChromeOmniboxNavigationObserver::navigation_id_</td>
         </tr>
       </table>
   </td>
@@ -1111,12 +746,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a24e5466f5cb272d541370a862aeeb938">ChromeOmniboxNavigationObserver()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a2b555988d84e26010e11f96f39aa72f7">Observe()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae6f352015a7814d7acdcc26f3997e315">DidFinishNavigation()</a>.</p>
 
 </div>
 </div>
-<a id="a54eea8694e0929c0dff5dd4113491539"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54eea8694e0929c0dff5dd4113491539">&#9670;&nbsp;</a></span>shortcuts_backend_</h2>
+<a id="a718d8f2d7899c087b11134c5ae9fe8a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a718d8f2d7899c087b11134c5ae9fe8a9">&#9670;&nbsp;</a></span>profile_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1125,7 +760,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">scoped_refptr&lt;<a class="el" href="../../d3/d69/classShortcutsBackend.html">ShortcutsBackend</a>&gt; ChromeOmniboxNavigationObserver::shortcuts_backend_</td>
+          <td class="memname">Profile* const ChromeOmniboxNavigationObserver::profile_</td>
         </tr>
       </table>
   </td>
@@ -1135,12 +770,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a61ae21415f11b333886d8d7e00a154fe">OnSuccessfulNavigation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae6f352015a7814d7acdcc26f3997e315">DidFinishNavigation()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aefafaebb28acfa223e556335784b85d6">On404()</a>.</p>
 
 </div>
 </div>
-<a id="a02ae14c7c1078b300cd6dbdfa8df61b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02ae14c7c1078b300cd6dbdfa8df61b1">&#9670;&nbsp;</a></span>template_url_service_</h2>
+<a id="aa36c9f0e99d9d362fc2c98f53605c185"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa36c9f0e99d9d362fc2c98f53605c185">&#9670;&nbsp;</a></span>show_infobar_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1149,7 +784,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">TemplateURLService* ChromeOmniboxNavigationObserver::template_url_service_</td>
+          <td class="memname"><a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#abf45afa23dc9a9165a1b89bc08765777">ShowInfobarCallback</a> ChromeOmniboxNavigationObserver::show_infobar_</td>
         </tr>
       </table>
   </td>
@@ -1159,7 +794,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#aefafaebb28acfa223e556335784b85d6">On404()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a89b46899925e7439c4ba2c8ccc751336">~ChromeOmniboxNavigationObserver()</a>.</p>
 
 </div>
 </div>
@@ -1183,7 +818,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ac9afbebdf06ad25544bfc14de850b761">CreateAlternateNavInfoBar()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#a61ae21415f11b333886d8d7e00a154fe">OnSuccessfulNavigation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#ae6f352015a7814d7acdcc26f3997e315">DidFinishNavigation()</a>, and <a class="el" href="../../d3/da9/classChromeOmniboxNavigationObserver.html#add3c57c9404fca2275a0996106803a1d">ShowAlternativeNavInfoBar()</a>.</p>
 
 </div>
 </div>

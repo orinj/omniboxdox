@@ -84,7 +84,7 @@ Inheritance diagram for OmniboxViewViews:</div>
 <div class="dynheader">
 Collaboration diagram for OmniboxViewViews:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d2d/classOmniboxViewViews__coll__graph.svg" width="664" height="242"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/d2d/classOmniboxViewViews__coll__graph.svg" width="100%" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -325,8 +325,6 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a68fade0f94ccb20b1e5f9ed51d0b4ef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16e7321918d0a4985e618a5249a32881"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d94/classOmniboxViewViews.html#a16e7321918d0a4985e618a5249a32881">OnGestureEvent</a> (ui::GestureEvent *event) override</td></tr>
 <tr class="separator:a16e7321918d0a4985e618a5249a32881"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c0fbfd0b67bf71f979186cb56183916"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d94/classOmniboxViewViews.html#a8c0fbfd0b67bf71f979186cb56183916">AboutToRequestFocusFromTabTraversal</a> (bool reverse) override</td></tr>
-<tr class="separator:a8c0fbfd0b67bf71f979186cb56183916"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb41511c2af04de3a8054728e10c77f6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d94/classOmniboxViewViews.html#abb41511c2af04de3a8054728e10c77f6">SkipDefaultKeyEventProcessing</a> (const ui::KeyEvent &amp;event) override</td></tr>
 <tr class="separator:abb41511c2af04de3a8054728e10c77f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f51009ebb5f593c9aed578ae6ec0fc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d94/classOmniboxViewViews.html#a8f51009ebb5f593c9aed578ae6ec0fc0">GetAccessibleNodeData</a> (ui::AXNodeData *node_data) override</td></tr>
@@ -365,8 +363,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a36b3f07492006d9261b687be61388a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaedb3612ac83dde33bb4792043a44186"><td class="memItemLeft" align="right" valign="top">ui::mojom::DragOperation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d94/classOmniboxViewViews.html#aaedb3612ac83dde33bb4792043a44186">OnDrop</a> (const ui::DropTargetEvent &amp;event) override</td></tr>
 <tr class="separator:aaedb3612ac83dde33bb4792043a44186"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbff614b7f82ca8210487affa8ed3c57"><td class="memItemLeft" align="right" valign="top">views::View::DropCallback&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d94/classOmniboxViewViews.html#afbff614b7f82ca8210487affa8ed3c57">GetDropCallback</a> (const ui::DropTargetEvent &amp;event) override</td></tr>
-<tr class="separator:afbff614b7f82ca8210487affa8ed3c57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87782fc4f0196aa844bf101f6f350a99"><td class="memItemLeft" align="right" valign="top">views::View::DropCallback&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d94/classOmniboxViewViews.html#a87782fc4f0196aa844bf101f6f350a99">CreateDropCallback</a> (const ui::DropTargetEvent &amp;event) override</td></tr>
+<tr class="separator:a87782fc4f0196aa844bf101f6f350a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70a5c433fc67a18303e7f0ac890b3ff0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d94/classOmniboxViewViews.html#a70a5c433fc67a18303e7f0ac890b3ff0">UpdateContextMenu</a> (ui::SimpleMenuModel *menu_contents) override</td></tr>
 <tr class="separator:a70a5c433fc67a18303e7f0ac890b3ff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29e0b877b3600539ad0d9da92d6753fa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d94/classOmniboxViewViews.html#a29e0b877b3600539ad0d9da92d6753fa">IsCommandIdChecked</a> (int id) const override</td></tr>
@@ -612,32 +610,6 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8c0fbfd0b67bf71f979186cb56183916"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c0fbfd0b67bf71f979186cb56183916">&#9670;&nbsp;</a></span>AboutToRequestFocusFromTabTraversal()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OmniboxViewViews::AboutToRequestFocusFromTabTraversal </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>reverse</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ad9d3b4e4fc5c332415605f5fdb366b50"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad9d3b4e4fc5c332415605f5fdb366b50">&#9670;&nbsp;</a></span>AddedToWidget()</h2>
 
@@ -898,6 +870,40 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87782fc4f0196aa844bf101f6f350a99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87782fc4f0196aa844bf101f6f350a99">&#9670;&nbsp;</a></span>CreateDropCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">views::View::DropCallback OmniboxViewViews::CreateDropCallback </td>
+          <td>(</td>
+          <td class="paramtype">const ui::DropTargetEvent &amp;&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a9d361f37d8551d36a71405f883054bcd">PerformDrop()</a>, and <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a1b02b4ce43c3eb6781010f4a6a8f8091">weak_factory_</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d94/classOmniboxViewViews_a87782fc4f0196aa844bf101f6f350a99_cgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
@@ -1409,40 +1415,6 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/d1e/classOmniboxView.html#a4d5f392dfe2ac3953577276135e8aa4d">OmniboxView</a>.</p>
-
-</div>
-</div>
-<a id="afbff614b7f82ca8210487affa8ed3c57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbff614b7f82ca8210487affa8ed3c57">&#9670;&nbsp;</a></span>GetDropCallback()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">views::View::DropCallback OmniboxViewViews::GetDropCallback </td>
-          <td>(</td>
-          <td class="paramtype">const ui::DropTargetEvent &amp;&#160;</td>
-          <td class="paramname"><em>event</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a9d361f37d8551d36a71405f883054bcd">PerformDrop()</a>, and <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a1b02b4ce43c3eb6781010f4a6a8f8091">weak_factory_</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d94/classOmniboxViewViews_afbff614b7f82ca8210487affa8ed3c57_cgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -1969,7 +1941,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a61ade8f7c1ceac828b51b302dee6c859a4d0da18675b1b952236fd44bc041522e">OmniboxPopupModel::kBackward</a>, <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a61ade8f7c1ceac828b51b302dee6c859af6b38825f55e46b8d5619699190a5e3f">OmniboxPopupModel::kForward</a>, <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#af9a110f7ffbbe9c0d71b0e9d7d8e7117afaddf6ae7dc5ae8a54579f9a87815c42">OmniboxPopupModel::kStateOrLine</a>, <a class="el" href="../../d9/d1e/classOmniboxView.html#aac25a41924b28863d31120527936dc6d">OmniboxView::model()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a254f9536adb46b9e885d10b3d5bfe4c9">OmniboxEditModel::popup_model()</a>, and <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a33a1c7164cb7fdceddbddf00267ea135">OmniboxPopupModel::StepSelection()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dfc/structOmniboxPopupSelection.html#a2cd436c396f5e893e5fdaaecb135aac2ae4bed1968f54ab81511afeccad529801">OmniboxPopupSelection::kBackward</a>, <a class="el" href="../../de/dfc/structOmniboxPopupSelection.html#a2cd436c396f5e893e5fdaaecb135aac2a0d87263c234aef7add665af5696a0f37">OmniboxPopupSelection::kForward</a>, <a class="el" href="../../de/dfc/structOmniboxPopupSelection.html#a9f77d781a319cbd4dab9609ea3bb5d82a1bb143f423832089d601e2513a4934cf">OmniboxPopupSelection::kStateOrLine</a>, <a class="el" href="../../d9/d1e/classOmniboxView.html#aac25a41924b28863d31120527936dc6d">OmniboxView::model()</a>, and <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a83959087bebd9831bc3a3d0661ac85f0">OmniboxEditModel::StepPopupSelection()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a5a64c1e16631c3301fb57307402784dc">HandleKeyEvent()</a>.</p>
 <div class="dynheader">
@@ -2021,7 +1993,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a16ad032b278a1797080546968d8cc307">OmniboxEditModel::AcceptInput()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a4a73b296e84113e67b9bb3c81350dfad">OmniboxEditModel::ClearKeyword()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#ae3ebda306ffa960bb7a3a1ebe7f7fc76">ExecuteTextEditCommand()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#aed81dc25a339a63606d423d431e44260">GetSelectionBounds()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a914ba78328ab785df56d9b0cbdee157e">HandleEarlyTabActions()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a0f36e3621bc1ea63b6c3ab49f789ecbba36d418ea247fec51b67a0c5e15ad606f">HOME_KEY_PRESSED</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#afcba3d785410c24c04cf3a64a88fe310">is_mouse_pressed_</a>, <a class="el" href="../../d4/d41/structOmniboxPopupModel_1_1Selection.html#ab495ce0e3e6268b85470fc520e062e4e">OmniboxPopupModel::Selection::IsButtonFocused()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a2c9c7e60059768c0141bd7c95a9b5a48">IsTextEditCommandEnabled()</a>, <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#af9a110f7ffbbe9c0d71b0e9d7d8e7117a900bc1ef3f4dc2e17746e6795cc3d083">OmniboxPopupModel::kAllLines</a>, <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a61ade8f7c1ceac828b51b302dee6c859a4d0da18675b1b952236fd44bc041522e">OmniboxPopupModel::kBackward</a>, <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a61ade8f7c1ceac828b51b302dee6c859af6b38825f55e46b8d5619699190a5e3f">OmniboxPopupModel::kForward</a>, <a class="el" href="../../d9/d1e/classOmniboxView.html#aac25a41924b28863d31120527936dc6d">OmniboxView::model()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a3c5175008eb10c9ee8dc598ec18ed107">OmniboxEditModel::OnControlKeyChanged()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a443085668cdebe43104bc5a52047d5db">OmniboxEditModel::OnEscapeKeyPressed()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#ad60b7089e0220bc32df745edecd545e3">PermitExternalProtocolHandler()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a254f9536adb46b9e885d10b3d5bfe4c9">OmniboxEditModel::popup_model()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#abcc51af7568937b10d229c0e5a1e78b1">select_all_on_mouse_release_</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a55d58605b56fae95e3621004ad831864">SelectAll()</a>, <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#aefaa1c821356750ca507e8db8bfd1309">OmniboxPopupModel::selection()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#af4db8628803708303e5e4e6203cf1815">SetCaretPos()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a4f6f06a71de1e94b6fd9e64962d305bd">show_rejection_ui_if_any_</a>, <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a33a1c7164cb7fdceddbddf00267ea135">OmniboxPopupModel::StepSelection()</a>, <a class="el" href="../../d9/d1e/classOmniboxView.html#a601602b62f2b2f84d28660988c6b8959">OmniboxView::TextChanged()</a>, <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#acf1ecd019bf8b90655bb4a6c3dd7f8b1">OmniboxPopupModel::TriggerSelectionAction()</a>, <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#aa11680c969b457fc53da3446feabf8a8">OmniboxPopupModel::TryDeletingLine()</a>, and <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a4fbd35d6def5efeefc54068a25eb2f83">UnapplySteadyStateElisions()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a16ad032b278a1797080546968d8cc307">OmniboxEditModel::AcceptInput()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a4a73b296e84113e67b9bb3c81350dfad">OmniboxEditModel::ClearKeyword()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#ae3ebda306ffa960bb7a3a1ebe7f7fc76">ExecuteTextEditCommand()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#afca096faf219ac7be1bf9251466648a7">OmniboxEditModel::GetPopupSelection()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#aed81dc25a339a63606d423d431e44260">GetSelectionBounds()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a914ba78328ab785df56d9b0cbdee157e">HandleEarlyTabActions()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a0f36e3621bc1ea63b6c3ab49f789ecbba36d418ea247fec51b67a0c5e15ad606f">HOME_KEY_PRESSED</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#afcba3d785410c24c04cf3a64a88fe310">is_mouse_pressed_</a>, <a class="el" href="../../de/dfc/structOmniboxPopupSelection.html#acb9ff37b6248215d3e31810a46a82c5b">OmniboxPopupSelection::IsButtonFocused()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a2c9c7e60059768c0141bd7c95a9b5a48">IsTextEditCommandEnabled()</a>, <a class="el" href="../../de/dfc/structOmniboxPopupSelection.html#a9f77d781a319cbd4dab9609ea3bb5d82acb7d29cafd7e9a370a82451870d3694f">OmniboxPopupSelection::kAllLines</a>, <a class="el" href="../../de/dfc/structOmniboxPopupSelection.html#a2cd436c396f5e893e5fdaaecb135aac2ae4bed1968f54ab81511afeccad529801">OmniboxPopupSelection::kBackward</a>, <a class="el" href="../../de/dfc/structOmniboxPopupSelection.html#a2cd436c396f5e893e5fdaaecb135aac2a0d87263c234aef7add665af5696a0f37">OmniboxPopupSelection::kForward</a>, <a class="el" href="../../d9/d1e/classOmniboxView.html#aac25a41924b28863d31120527936dc6d">OmniboxView::model()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a3c5175008eb10c9ee8dc598ec18ed107">OmniboxEditModel::OnControlKeyChanged()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a443085668cdebe43104bc5a52047d5db">OmniboxEditModel::OnEscapeKeyPressed()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#ad60b7089e0220bc32df745edecd545e3">PermitExternalProtocolHandler()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#abcc51af7568937b10d229c0e5a1e78b1">select_all_on_mouse_release_</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a55d58605b56fae95e3621004ad831864">SelectAll()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#af4db8628803708303e5e4e6203cf1815">SetCaretPos()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a4f6f06a71de1e94b6fd9e64962d305bd">show_rejection_ui_if_any_</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a83959087bebd9831bc3a3d0661ac85f0">OmniboxEditModel::StepPopupSelection()</a>, <a class="el" href="../../d9/d1e/classOmniboxView.html#a601602b62f2b2f84d28660988c6b8959">OmniboxView::TextChanged()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a403c203952e105194bf2746aff5027dc">OmniboxEditModel::TryDeletingPopupLine()</a>, and <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a4fbd35d6def5efeefc54068a25eb2f83">UnapplySteadyStateElisions()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2606,11 +2578,11 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d0/d94/classOmniboxViewViews.html#ac3c6d49105812249ed0254bba7ba2c88">ClearAccessibilityLabel()</a>, <a class="el" href="../../d9/d1e/classOmniboxView.html#ac3ddb78512aba4b8a69b2b7e2b8caeb7">OmniboxView::CloseOmniboxPopup()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a9747120bf031c14860eaa85c4a1fdb76">GetText()</a>, <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a64f0ed404470d2689d4774bac54d54fc">OmniboxPopupModel::IsOpen()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a1ae293d23968077ea0c594192d1ed472">location_bar_view_</a>, <a class="el" href="../../d9/d1e/classOmniboxView.html#aac25a41924b28863d31120527936dc6d">OmniboxView::model()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#ac66fd48c7e5358a61b9dd3e494a711d5">OmniboxEditModel::OnKillFocus()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a690ffac2dc263fec61dc16b18b0e3cde">OmniboxEditModel::OnWillKillFocus()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a254f9536adb46b9e885d10b3d5bfe4c9">OmniboxEditModel::popup_model()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#ab6a54ac38f2deb636bf333ab39181422">RevertAll()</a>, and <a class="el" href="../../d0/d94/classOmniboxViewViews.html#ab416ab7784012217c7096dce9840e3a1">saved_selection_for_focus_change_</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d94/classOmniboxViewViews.html#ac3c6d49105812249ed0254bba7ba2c88">ClearAccessibilityLabel()</a>, <a class="el" href="../../d9/d1e/classOmniboxView.html#ac3ddb78512aba4b8a69b2b7e2b8caeb7">OmniboxView::CloseOmniboxPopup()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a9747120bf031c14860eaa85c4a1fdb76">GetText()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a1ae293d23968077ea0c594192d1ed472">location_bar_view_</a>, <a class="el" href="../../d9/d1e/classOmniboxView.html#aac25a41924b28863d31120527936dc6d">OmniboxView::model()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#ac66fd48c7e5358a61b9dd3e494a711d5">OmniboxEditModel::OnKillFocus()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a690ffac2dc263fec61dc16b18b0e3cde">OmniboxEditModel::OnWillKillFocus()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#ab6a54ac38f2deb636bf333ab39181422">RevertAll()</a>, and <a class="el" href="../../d0/d94/classOmniboxViewViews.html#ab416ab7784012217c7096dce9840e3a1">saved_selection_for_focus_change_</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d94/classOmniboxViewViews_a0ff89bd4e88c1746caa381d559266a4c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d94/classOmniboxViewViews_a0ff89bd4e88c1746caa381d559266a4c_cgraph.svg" width="100%" height="590"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -2799,7 +2771,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d94/classOmniboxViewViews_a4edccd8e1879ed11bc458225d98af8d4_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d94/classOmniboxViewViews_a4edccd8e1879ed11bc458225d98af8d4_cgraph.svg" width="100%" height="580"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -3107,7 +3079,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d9/d1e/classOmniboxView.html#a0d03374888635c2b91af39531dd4b74e">OmniboxView::controller()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a68e61a17c4b958cd56034961f4719b29">filter_drag_events_for_unelision_</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a3616898c1f967d2c67194ebee06ef928">OmniboxEditModel::focus_state()</a>, <a class="el" href="../../d1/d62/classLocationBarModel.html#a638523f3b3f95cb5b7c569300d99dddb">LocationBarModel::GetFormattedFullURL()</a>, <a class="el" href="../../dc/d81/classOmniboxEditController.html#af0496738d6b2b60045f04a52c8b015cb">OmniboxEditController::GetLocationBarModel()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a694c20c02136968faf5e0d7bde503897">GetSelectedText()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a9747120bf031c14860eaa85c4a1fdb76">GetText()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#afcba3d785410c24c04cf3a64a88fe310">is_mouse_pressed_</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#abb6135452198718c79e3599bbf658e62">IsSelectAll()</a>, <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a62cf57935c50a563301d5e081ea989f1abc0319147957a5b13a11909bc494981c">OmniboxPopupModel::KEYWORD_MODE</a>, <a class="el" href="../../d9/d1e/classOmniboxView.html#aac25a41924b28863d31120527936dc6d">OmniboxView::model()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a4d8321508655187b71b42bb5f83ca494">next_double_click_selection_len_</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#aef35b17e683483c9ca07f0643c96b49e">next_double_click_selection_offset_</a>, <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a62cf57935c50a563301d5e081ea989f1a39fcc1f0e31869ab3bc9f4f460495365">OmniboxPopupModel::NORMAL</a>, <a class="el" href="../../d5/db1/omnibox__focus__state_8h.html#adfc9cc4df163401c5385678aa7305a16a72d623a15de0dbf65d972476378406a6">OMNIBOX_FOCUS_INVISIBLE</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a0f36e3621bc1ea63b6c3ab49f789ecbba03570470bad94692ce93e32700d2e1cb">OTHER</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#ad60b7089e0220bc32df745edecd545e3">PermitExternalProtocolHandler()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a254f9536adb46b9e885d10b3d5bfe4c9">OmniboxEditModel::popup_model()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#ab416ab7784012217c7096dce9840e3a1">saved_selection_for_focus_change_</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#abcc51af7568937b10d229c0e5a1e78b1">select_all_on_mouse_release_</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a55d58605b56fae95e3621004ad831864">SelectAll()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#af4d6703b21983c2c4be737d59b9d1085">OmniboxEditModel::SetCaretVisibility()</a>, <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#a8e49ba1b4cb7d95640b5eeb0613b5fe8">OmniboxPopupModel::SetSelectedLineState()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a47216ae17e9b4c06e3a827008d04a744">OmniboxEditModel::StartZeroSuggestRequest()</a>, <a class="el" href="../../d9/d1e/classOmniboxView.html#a601602b62f2b2f84d28660988c6b8959">OmniboxView::TextChanged()</a>, and <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a4fbd35d6def5efeefc54068a25eb2f83">UnapplySteadyStateElisions()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d1e/classOmniboxView.html#a0d03374888635c2b91af39531dd4b74e">OmniboxView::controller()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a68e61a17c4b958cd56034961f4719b29">filter_drag_events_for_unelision_</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a3616898c1f967d2c67194ebee06ef928">OmniboxEditModel::focus_state()</a>, <a class="el" href="../../d1/d62/classLocationBarModel.html#a638523f3b3f95cb5b7c569300d99dddb">LocationBarModel::GetFormattedFullURL()</a>, <a class="el" href="../../dc/d81/classOmniboxEditController.html#af0496738d6b2b60045f04a52c8b015cb">OmniboxEditController::GetLocationBarModel()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#afca096faf219ac7be1bf9251466648a7">OmniboxEditModel::GetPopupSelection()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a694c20c02136968faf5e0d7bde503897">GetSelectedText()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a9747120bf031c14860eaa85c4a1fdb76">GetText()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#afcba3d785410c24c04cf3a64a88fe310">is_mouse_pressed_</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#abb6135452198718c79e3599bbf658e62">IsSelectAll()</a>, <a class="el" href="../../de/dfc/structOmniboxPopupSelection.html#a52df7ac15ee9347c93cb9be243dac876a708225db7336160aa8f228f34ebf94ed">OmniboxPopupSelection::KEYWORD_MODE</a>, <a class="el" href="../../d9/d1e/classOmniboxView.html#aac25a41924b28863d31120527936dc6d">OmniboxView::model()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a4d8321508655187b71b42bb5f83ca494">next_double_click_selection_len_</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#aef35b17e683483c9ca07f0643c96b49e">next_double_click_selection_offset_</a>, <a class="el" href="../../de/dfc/structOmniboxPopupSelection.html#a52df7ac15ee9347c93cb9be243dac876ad54b291311290f3e007adb1124951c5c">OmniboxPopupSelection::NORMAL</a>, <a class="el" href="../../d5/db1/omnibox__focus__state_8h.html#adfc9cc4df163401c5385678aa7305a16a72d623a15de0dbf65d972476378406a6">OMNIBOX_FOCUS_INVISIBLE</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a0f36e3621bc1ea63b6c3ab49f789ecbba03570470bad94692ce93e32700d2e1cb">OTHER</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#ad60b7089e0220bc32df745edecd545e3">PermitExternalProtocolHandler()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#ab416ab7784012217c7096dce9840e3a1">saved_selection_for_focus_change_</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#abcc51af7568937b10d229c0e5a1e78b1">select_all_on_mouse_release_</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a55d58605b56fae95e3621004ad831864">SelectAll()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#af4d6703b21983c2c4be737d59b9d1085">OmniboxEditModel::SetCaretVisibility()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a066c5fd08558e0c15211647b034a35a9">OmniboxEditModel::SetPopupSelection()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a47216ae17e9b4c06e3a827008d04a744">OmniboxEditModel::StartZeroSuggestRequest()</a>, <a class="el" href="../../de/dfc/structOmniboxPopupSelection.html#a7459da8e6817f640dbb7622c67120393">OmniboxPopupSelection::state</a>, <a class="el" href="../../d9/d1e/classOmniboxView.html#a601602b62f2b2f84d28660988c6b8959">OmniboxView::TextChanged()</a>, and <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a4fbd35d6def5efeefc54068a25eb2f83">UnapplySteadyStateElisions()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3512,7 +3484,7 @@ Here is the call graph for this function:</div>
 
 <p class="reference">References <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a55d58605b56fae95e3621004ad831864">SelectAll()</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#aef39a73b1afd17d8cc86a72b1d5c4930">SetUserText()</a>, and <a class="el" href="../../d9/d1e/classOmniboxView.html#ac2a781a8536f8a589f94d3b8cea72a08">OmniboxView::StripJavascriptSchemas()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d94/classOmniboxViewViews.html#afbff614b7f82ca8210487affa8ed3c57">GetDropCallback()</a>, and <a class="el" href="../../d0/d94/classOmniboxViewViews.html#aaedb3612ac83dde33bb4792043a44186">OnDrop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a87782fc4f0196aa844bf101f6f350a99">CreateDropCallback()</a>, and <a class="el" href="../../d0/d94/classOmniboxViewViews.html#aaedb3612ac83dde33bb4792043a44186">OnDrop()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3522,7 +3494,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d94/classOmniboxViewViews_a9d361f37d8551d36a71405f883054bcd_icgraph.svg" width="476" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d94/classOmniboxViewViews_a9d361f37d8551d36a71405f883054bcd_icgraph.svg" width="472" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -3753,7 +3725,7 @@ Here is the caller graph for this function:</div>
 
 <p>Reimplemented from <a class="el" href="../../d9/d1e/classOmniboxView.html#a9545718eaf513b5c5cd216d5188064cb">OmniboxView</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d94/classOmniboxViewViews.html#ad726622ad247eab553d6920dd309a0c4">friendly_suggestion_text_</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a6b00af63919a88542137bc4da2172470">friendly_suggestion_text_prefix_length_</a>, <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#ac891aa6a06213d9ce2372b6132547287">OmniboxPopupModel::GetAccessibilityLabelForCurrentSelection()</a>, <a class="el" href="../../d1/db1/classOmniboxPopupModel.html#ad28714699b371ec5a6c5c34795aef2fe">OmniboxPopupModel::kNoMatch</a>, <a class="el" href="../../d9/d1e/classOmniboxView.html#aac25a41924b28863d31120527936dc6d">OmniboxView::model()</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a254f9536adb46b9e885d10b3d5bfe4c9">OmniboxEditModel::popup_model()</a>, <a class="el" href="../../de/d0b/structAutocompleteMatchType.html#a6330850d6855c7d33e64f9c34f772efb">AutocompleteMatchType::ToAccessibilityLabel()</a>, and <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a1b02b4ce43c3eb6781010f4a6a8f8091">weak_factory_</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d94/classOmniboxViewViews.html#ad726622ad247eab553d6920dd309a0c4">friendly_suggestion_text_</a>, <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a6b00af63919a88542137bc4da2172470">friendly_suggestion_text_prefix_length_</a>, <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a5319668a5f181fe2b2405b80ed7c8809">OmniboxEditModel::GetPopupAccessibilityLabelForCurrentSelection()</a>, <a class="el" href="../../de/dfc/structOmniboxPopupSelection.html#a83a13d4112fb5b8ec7e4b4a280a7f6c6">OmniboxPopupSelection::kNoMatch</a>, <a class="el" href="../../d9/d1e/classOmniboxView.html#aac25a41924b28863d31120527936dc6d">OmniboxView::model()</a>, <a class="el" href="../../de/d0b/structAutocompleteMatchType.html#a6330850d6855c7d33e64f9c34f772efb">AutocompleteMatchType::ToAccessibilityLabel()</a>, and <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a1b02b4ce43c3eb6781010f4a6a8f8091">weak_factory_</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a62bc196ae68f57d1ec7c7ee7deaf5d0f">OnRevertTemporaryText()</a>, and <a class="el" href="../../d0/d94/classOmniboxViewViews.html#acce156344df7256bce712db64896eaf6">OnTemporaryTextMaybeChanged()</a>.</p>
 <div class="dynheader">
@@ -5010,7 +4982,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d94/classOmniboxViewViews.html#afbff614b7f82ca8210487affa8ed3c57">GetDropCallback()</a>, and <a class="el" href="../../d0/d94/classOmniboxViewViews.html#adb0e3a2d115681b0eb3f923afb335a74">SetAccessibilityLabel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d94/classOmniboxViewViews.html#a87782fc4f0196aa844bf101f6f350a99">CreateDropCallback()</a>, and <a class="el" href="../../d0/d94/classOmniboxViewViews.html#adb0e3a2d115681b0eb3f923afb335a74">SetAccessibilityLabel()</a>.</p>
 
 </div>
 </div>

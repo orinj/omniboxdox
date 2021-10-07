@@ -46,15 +46,15 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 501;
+var viewWidth = 519;
 var viewHeight = 39;
-var sectionId = 'dynsection-36';
+var sectionId = 'dynsection-35';
 </script>
 <script xlink:href="../../svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>OmniboxPopupContentsView::OpenMatch</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-35 497,-35 497,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-35 515,-35 515,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -68,10 +68,10 @@ var sectionId = 'dynsection-36';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d7/d88/classOmniboxPopupContentsView.html#a718a0b1b4223a2cbabb6008f005ffd2e" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d7/d88/classOmniboxPopupContentsView.html#aacb2b141d6ccaaaffec469aea02dbaef" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="181,-0.5 181,-30.5 326,-30.5 326,-0.5 181,-0.5"/>
 <text text-anchor="start" x="189" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxPopupContentsView</text>
-<text text-anchor="middle" x="253.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::model</text>
+<text text-anchor="middle" x="253.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::GetSelection</text>
 </a>
 </g>
 </g>
@@ -84,18 +84,18 @@ var sectionId = 'dynsection-36';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d0/d22/classOmniboxEditModel.html#a254f9536adb46b9e885d10b3d5bfe4c9" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="362,-0.5 362,-30.5 493,-30.5 493,-0.5 362,-0.5"/>
-<text text-anchor="start" x="370" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxEditModel::popup</text>
-<text text-anchor="middle" x="427.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">_model</text>
+<g id="a_node3"><a xlink:href="../../d0/d22/classOmniboxEditModel.html#afca096faf219ac7be1bf9251466648a7" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="362,-0.5 362,-30.5 511,-30.5 511,-0.5 362,-0.5"/>
+<text text-anchor="start" x="370" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxEditModel::GetPopup</text>
+<text text-anchor="middle" x="436.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Selection</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M326.45,-15.5C334.82,-15.5 343.38,-15.5 351.8,-15.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="351.96,-19 361.96,-15.5 351.96,-12 351.96,-19"/>
+<path fill="none" stroke="midnightblue" d="M326.04,-15.5C334.49,-15.5 343.17,-15.5 351.77,-15.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="351.81,-19 361.81,-15.5 351.81,-12 351.81,-19"/>
 </g>
 </g>
 </svg>

@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 644;
+var viewWidth = 661;
 var viewHeight = 127;
 var sectionId = 'dynsection-6';
 </script>
@@ -54,48 +54,48 @@ var sectionId = 'dynsection-6';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>OmniboxPopupView::UpdatePopupAppearance</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-123 640,-123 640,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-123 657,-123 657,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="493,-24.5 493,-54.5 636,-54.5 636,-24.5 493,-24.5"/>
-<text text-anchor="start" x="501" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxPopupView::Update</text>
-<text text-anchor="middle" x="564.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">PopupAppearance</text>
+<polygon fill="#bfbfbf" stroke="black" points="510,-24.5 510,-54.5 653,-54.5 653,-24.5 510,-24.5"/>
+<text text-anchor="start" x="518" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxPopupView::Update</text>
+<text text-anchor="middle" x="581.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">PopupAppearance</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d1/db1/classOmniboxPopupModel.html#a01ba11633e6cf96521cdb7cd772f6c2c" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="333.5,-49.5 333.5,-79.5 449.5,-79.5 449.5,-49.5 333.5,-49.5"/>
-<text text-anchor="start" x="341.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxPopupModel::</text>
-<text text-anchor="middle" x="391.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">OnResultChanged</text>
+<g id="a_node2"><a xlink:href="../../d0/d22/classOmniboxEditModel.html#ad973e0ec422b39ae512cd689b15a86c1" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="327,-49.5 327,-79.5 473,-79.5 473,-49.5 327,-49.5"/>
+<text text-anchor="start" x="335" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxEditModel::OnPopup</text>
+<text text-anchor="middle" x="400" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">ResultChanged</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M482.73,-51.31C471.53,-52.95 460.23,-54.6 449.58,-56.15"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="483.57,-54.72 492.96,-49.81 482.56,-47.8 483.57,-54.72"/>
+<path fill="none" stroke="midnightblue" d="M499.83,-50.74C490.92,-51.98 481.89,-53.23 473.09,-54.46"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="500.39,-54.19 509.81,-49.34 499.43,-47.26 500.39,-54.19"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d1/db1/classOmniboxPopupModel.html#a072a07927ca05c4f9164e6acd5721d62" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="326,-0.5 326,-30.5 457,-30.5 457,-0.5 326,-0.5"/>
-<text text-anchor="start" x="334" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxPopupModel::</text>
-<text text-anchor="middle" x="391.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetRichSuggestionBitmap</text>
+<g id="a_node5"><a xlink:href="../../d0/d22/classOmniboxEditModel.html#a8f17ec0cfe87cbe6d88a9cbd8be3832c" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="326,-0.5 326,-30.5 474,-30.5 474,-0.5 326,-0.5"/>
+<text text-anchor="start" x="334" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxEditModel::SetPopup</text>
+<text text-anchor="middle" x="400" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">RichSuggestionBitmap</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge5" class="edge">
 <title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M482.87,-28.18C474.24,-26.97 465.53,-25.75 457.12,-24.57"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="482.57,-31.68 492.96,-29.6 483.54,-24.74 482.57,-31.68"/>
+<path fill="none" stroke="midnightblue" d="M499.88,-28.72C491.35,-27.58 482.71,-26.43 474.28,-25.3"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="499.44,-32.19 509.81,-30.05 500.37,-25.25 499.44,-32.19"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -110,8 +110,8 @@ var sectionId = 'dynsection-6';
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M323.44,-79.49C310.27,-82.43 296.46,-85.52 283.28,-88.46"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="324.37,-82.87 333.36,-77.27 322.84,-76.04 324.37,-82.87"/>
+<path fill="none" stroke="midnightblue" d="M318.72,-81.61C307.97,-83.9 297.01,-86.23 286.45,-88.49"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="319.46,-85.03 328.51,-79.52 318,-78.18 319.46,-85.03"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -126,8 +126,8 @@ var sectionId = 'dynsection-6';
 <!-- Node2&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
 <title>Node2&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M323.17,-63.5C258.65,-62.55 162.67,-61.12 104.17,-60.26"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="323.2,-67 333.25,-63.65 323.3,-60 323.2,-67"/>
+<path fill="none" stroke="midnightblue" d="M316.52,-63.31C250.57,-62.36 160.19,-61.05 104.25,-60.24"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="316.84,-66.81 326.89,-63.46 316.94,-59.81 316.84,-66.81"/>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
@@ -148,8 +148,8 @@ var sectionId = 'dynsection-6';
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge6" class="edge">
 <title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M315.46,-15.5C303.9,-15.5 292.05,-15.5 280.74,-15.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="315.52,-19 325.52,-15.5 315.52,-12 315.52,-19"/>
+<path fill="none" stroke="midnightblue" d="M315.65,-15.5C303.93,-15.5 292.03,-15.5 280.72,-15.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="315.88,-19 325.88,-15.5 315.88,-12 315.88,-19"/>
 </g>
 <!-- Node6&#45;&gt;Node4 -->
 <g id="edge7" class="edge">

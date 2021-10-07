@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 558;
+var viewWidth = 555;
 var viewHeight = 100;
 var sectionId = 'dynsection-82';
 </script>
@@ -54,13 +54,13 @@ var sectionId = 'dynsection-82';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>OmniboxViewViews::SetUserText</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-95.5 554,-95.5 554,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-95.5 551,-95.5 551,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="385,-44.5 385,-63.5 550,-63.5 550,-44.5 385,-44.5"/>
-<text text-anchor="middle" x="467.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxViewViews::SetUserText</text>
+<polygon fill="#bfbfbf" stroke="black" points="382,-44.5 382,-63.5 547,-63.5 547,-44.5 382,-44.5"/>
+<text text-anchor="middle" x="464.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxViewViews::SetUserText</text>
 </a>
 </g>
 </g>
@@ -68,63 +68,63 @@ var sectionId = 'dynsection-82';
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="../../d0/d94/classOmniboxViewViews.html#a4e2e5817caa504f109907ce64eb30915" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="195.5,-61 195.5,-91 336.5,-91 336.5,-61 195.5,-61"/>
-<text text-anchor="start" x="203.5" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxViewViews::Handle</text>
-<text text-anchor="middle" x="266" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00">AccessibleAction</text>
+<polygon fill="white" stroke="black" points="192.5,-61 192.5,-91 333.5,-91 333.5,-61 192.5,-61"/>
+<text text-anchor="start" x="200.5" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxViewViews::Handle</text>
+<text text-anchor="middle" x="263" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00">AccessibleAction</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M374.63,-64.13C361.92,-65.53 349.03,-66.95 336.8,-68.3"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="375.22,-67.59 384.78,-63.01 374.46,-60.63 375.22,-67.59"/>
+<path fill="none" stroke="midnightblue" d="M371.63,-64.13C358.92,-65.53 346.03,-66.95 333.8,-68.3"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="372.22,-67.59 381.78,-63.01 371.46,-60.63 372.22,-67.59"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="../../d0/d94/classOmniboxViewViews.html#a9d361f37d8551d36a71405f883054bcd" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="183,-22.5 183,-41.5 349,-41.5 349,-22.5 183,-22.5"/>
-<text text-anchor="middle" x="266" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxViewViews::PerformDrop</text>
+<polygon fill="white" stroke="black" points="180,-22.5 180,-41.5 346,-41.5 346,-22.5 180,-22.5"/>
+<text text-anchor="middle" x="263" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxViewViews::PerformDrop</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M374.82,-43.89C366.29,-42.95 357.68,-42 349.24,-41.07"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="374.46,-47.37 384.78,-44.99 375.22,-40.41 374.46,-47.37"/>
+<path fill="none" stroke="midnightblue" d="M371.82,-43.89C363.29,-42.95 354.68,-42 346.24,-41.07"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="371.46,-47.37 381.78,-44.99 372.22,-40.41 371.46,-47.37"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d0/d94/classOmniboxViewViews.html#afbff614b7f82ca8210487affa8ed3c57" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-39 0,-69 147,-69 147,-39 0,-39"/>
-<text text-anchor="start" x="8" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxViewViews::GetDrop</text>
-<text text-anchor="middle" x="73.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">Callback</text>
+<g id="a_node4"><a xlink:href="../../d0/d94/classOmniboxViewViews.html#a87782fc4f0196aa844bf101f6f350a99" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="2,-39 2,-69 142,-69 142,-39 2,-39"/>
+<text text-anchor="start" x="10" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxViewViews::Create</text>
+<text text-anchor="middle" x="72" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">DropCallback</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M172.75,-42.65C164.14,-43.65 155.5,-44.65 147.11,-45.61"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="173.3,-46.11 182.83,-41.49 172.49,-39.16 173.3,-46.11"/>
+<path fill="none" stroke="midnightblue" d="M170.06,-42.7C160.68,-43.79 151.27,-44.89 142.19,-45.95"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="170.67,-46.15 180.2,-41.52 169.86,-39.2 170.67,-46.15"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="../../d0/d94/classOmniboxViewViews.html#aaedb3612ac83dde33bb4792043a44186" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="1.5,-0.5 1.5,-19.5 145.5,-19.5 145.5,-0.5 1.5,-0.5"/>
-<text text-anchor="middle" x="73.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxViewViews::OnDrop</text>
+<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 144,-19.5 144,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="72" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxViewViews::OnDrop</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node3&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M172.62,-21.33C163.55,-20.28 154.44,-19.23 145.63,-18.21"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="172.49,-24.84 182.83,-22.51 173.3,-17.89 172.49,-24.84"/>
+<path fill="none" stroke="midnightblue" d="M170.05,-21.3C161.38,-20.29 152.68,-19.27 144.24,-18.29"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="169.86,-24.8 180.2,-22.48 170.67,-17.85 169.86,-24.8"/>
 </g>
 </g>
 </svg>

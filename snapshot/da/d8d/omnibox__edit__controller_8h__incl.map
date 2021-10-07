@@ -1,10 +1,11 @@
 <map id="components/omnibox/browser/omnibox_edit_controller.h" name="components/omnibox/browser/omnibox_edit_controller.h">
-<area shape="rect" id="node1" title=" " alt="" coords="441,5,595,61"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,124,124,151"/>
-<area shape="rect" id="node3" href="$df/d34/autocomplete__match__type_8h.html" title=" " alt="" coords="147,109,302,165"/>
-<area shape="rect" id="node5" title=" " alt="" coords="327,117,515,158"/>
-<area shape="rect" id="node6" title=" " alt="" coords="539,117,695,158"/>
-<area shape="rect" id="node7" title=" " alt="" coords="719,117,866,158"/>
-<area shape="rect" id="node8" title=" " alt="" coords="890,124,962,151"/>
-<area shape="rect" id="node4" title=" " alt="" coords="197,213,252,240"/>
+<area shape="rect" id="node1" title=" " alt="" coords="537,5,690,61"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,124,173,151"/>
+<area shape="rect" id="node3" title=" " alt="" coords="198,124,317,151"/>
+<area shape="rect" id="node4" href="$df/d34/autocomplete__match__type_8h.html" title=" " alt="" coords="340,109,495,165"/>
+<area shape="rect" id="node6" title=" " alt="" coords="519,117,707,158"/>
+<area shape="rect" id="node7" title=" " alt="" coords="731,117,887,158"/>
+<area shape="rect" id="node8" title=" " alt="" coords="912,117,1059,158"/>
+<area shape="rect" id="node9" title=" " alt="" coords="1083,124,1155,151"/>
+<area shape="rect" id="node5" title=" " alt="" coords="390,213,445,240"/>
 </map>

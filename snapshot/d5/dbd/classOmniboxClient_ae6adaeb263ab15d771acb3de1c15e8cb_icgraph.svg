@@ -46,56 +46,55 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1513;
+var viewWidth = 1593;
 var viewHeight = 308;
-var sectionId = 'dynsection-2';
+var sectionId = 'dynsection-1';
 </script>
 <script xlink:href="../../svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>OmniboxClient::GetBookmarkModel</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-304 1509,-304 1509,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-304 1589,-304 1589,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="1358,-171.5 1358,-201.5 1505,-201.5 1505,-171.5 1358,-171.5"/>
-<text text-anchor="start" x="1366" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxClient::GetBookmark</text>
-<text text-anchor="middle" x="1431.5" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">Model</text>
+<polygon fill="#bfbfbf" stroke="black" points="1438,-171.5 1438,-201.5 1585,-201.5 1585,-171.5 1438,-171.5"/>
+<text text-anchor="start" x="1446" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxClient::GetBookmark</text>
+<text text-anchor="middle" x="1511.5" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">Model</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d1/db1/classOmniboxPopupModel.html#a7a912aea1cf6426be55f55aa141264db" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="1206,-171.5 1206,-201.5 1322,-201.5 1322,-171.5 1206,-171.5"/>
-<text text-anchor="start" x="1214" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxPopupModel::</text>
-<text text-anchor="middle" x="1264" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">IsStarredMatch</text>
+<g id="a_node2"><a xlink:href="../../d0/d22/classOmniboxEditModel.html#a8fd8d53a4b81f6dc0aedb830499c8638" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="1257,-171.5 1257,-201.5 1402,-201.5 1402,-171.5 1257,-171.5"/>
+<text text-anchor="start" x="1265" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxEditModel::IsStarred</text>
+<text text-anchor="middle" x="1329.5" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">Match</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M1347.75,-186.5C1339.08,-186.5 1330.41,-186.5 1322.11,-186.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1347.91,-190 1357.91,-186.5 1347.91,-183 1347.91,-190"/>
+<path fill="none" stroke="midnightblue" d="M1427.77,-186.5C1419.16,-186.5 1410.47,-186.5 1402,-186.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1427.81,-190 1437.81,-186.5 1427.81,-183 1427.81,-190"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d1/db1/classOmniboxPopupModel.html#aadc84d8c613db89d80bbffae685ffff0" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="1054,-171.5 1054,-201.5 1170,-201.5 1170,-171.5 1054,-171.5"/>
-<text text-anchor="start" x="1062" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxPopupModel::</text>
-<text text-anchor="middle" x="1112" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetMatchIcon</text>
+<g id="a_node3"><a xlink:href="../../d0/d22/classOmniboxEditModel.html#a87032bec6023357ed6fe26bed58272ce" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="1054,-177 1054,-196 1221,-196 1221,-177 1054,-177"/>
+<text text-anchor="middle" x="1137.5" y="-184" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxEditModel::GetMatchIcon</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M1195.69,-186.5C1187.27,-186.5 1178.72,-186.5 1170.47,-186.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1195.86,-190 1205.86,-186.5 1195.86,-183 1195.86,-190"/>
+<path fill="none" stroke="midnightblue" d="M1246.71,-186.5C1238.24,-186.5 1229.64,-186.5 1221.17,-186.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1246.94,-190 1256.94,-186.5 1246.94,-183 1246.94,-190"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -110,8 +109,8 @@ var sectionId = 'dynsection-2';
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M1043.79,-186.5C1035.37,-186.5 1026.74,-186.5 1018.25,-186.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1043.93,-190 1053.93,-186.5 1043.93,-183 1043.93,-190"/>
+<path fill="none" stroke="midnightblue" d="M1043.89,-186.5C1035.26,-186.5 1026.6,-186.5 1018.21,-186.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1043.99,-190 1053.99,-186.5 1043.99,-183 1043.99,-190"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">

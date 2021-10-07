@@ -76,21 +76,26 @@ $(function() {
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef COMPONENTS_OMNIBOX_BROWSER_ACTIONS_HISTORY_CLUSTERS_ACTION_H_</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define COMPONENTS_OMNIBOX_BROWSER_ACTIONS_HISTORY_CLUSTERS_ACTION_H_</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../dd/dec/namespacehistory__clusters.html">    8</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="../../dd/dec/namespacehistory__clusters.html">history_clusters</a> {</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">class </span>HistoryClustersService;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">class </span><a class="code" href="../../d3/d03/classAutocompleteResult.html">AutocompleteResult</a>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span><a class="code" href="../../d3/d03/classAutocompleteResult.html">AutocompleteResult</a>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">class </span>PrefService;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../dd/dec/namespacehistory__clusters.html">history_clusters</a> {</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">// If the feature is enabled, attaches any necessary History Clusters actions</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">// onto any relevant matches in `result`.</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/dc6/history__clusters__action_8h.html#a7a19689fc4b1445364dd294c05a6e69c">AttachHistoryClustersActions</a>(</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    history_clusters::HistoryClustersService* service,</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="../../d3/d03/classAutocompleteResult.html">AutocompleteResult</a>&amp; result);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// COMPONENTS_OMNIBOX_BROWSER_ACTIONS_HISTORY_CLUSTERS_ACTION_H_</span></div>
-<div class="ttc" id="aclassAutocompleteResult_html"><div class="ttname"><a href="../../d3/d03/classAutocompleteResult.html">AutocompleteResult</a></div><div class="ttdef"><b>Definition:</b> autocomplete_result.h:33</div></div>
-<div class="ttc" id="ahistory__clusters__action_8h_html_a7a19689fc4b1445364dd294c05a6e69c"><div class="ttname"><a href="../../db/dc6/history__clusters__action_8h.html#a7a19689fc4b1445364dd294c05a6e69c">AttachHistoryClustersActions</a></div><div class="ttdeci">void AttachHistoryClustersActions(history_clusters::HistoryClustersService *service, AutocompleteResult &amp;result)</div><div class="ttdef"><b>Definition:</b> history_clusters_action.cc:18</div></div>
-<div class="ttc" id="anamespacehistory__clusters_html"><div class="ttname"><a href="../../dd/dec/namespacehistory__clusters.html">history_clusters</a></div><div class="ttdef"><b>Definition:</b> history_clusters_action.h:8</div></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">class </span>HistoryClustersService;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">// If the feature is enabled, attaches any necessary History Clusters actions</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">// onto any relevant matches in `result`.</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/dec/namespacehistory__clusters.html#a05ca28b0b73a96b7be334c07395a8b4d">AttachHistoryClustersActions</a>(</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    history_clusters::HistoryClustersService* service,</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    PrefService* prefs,</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="../../d3/d03/classAutocompleteResult.html">AutocompleteResult</a>&amp; result);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}  <span class="comment">// namespace history_clusters</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// COMPONENTS_OMNIBOX_BROWSER_ACTIONS_HISTORY_CLUSTERS_ACTION_H_</span></div>
+<div class="ttc" id="aclassAutocompleteResult_html"><div class="ttname"><a href="../../d3/d03/classAutocompleteResult.html">AutocompleteResult</a></div><div class="ttdef"><b>Definition:</b> autocomplete_result.h:34</div></div>
+<div class="ttc" id="anamespacehistory__clusters_html"><div class="ttname"><a href="../../dd/dec/namespacehistory__clusters.html">history_clusters</a></div><div class="ttdef"><b>Definition:</b> history_clusters_action.cc:21</div></div>
+<div class="ttc" id="anamespacehistory__clusters_html_a05ca28b0b73a96b7be334c07395a8b4d"><div class="ttname"><a href="../../dd/dec/namespacehistory__clusters.html#a05ca28b0b73a96b7be334c07395a8b4d">history_clusters::AttachHistoryClustersActions</a></div><div class="ttdeci">void AttachHistoryClustersActions(history_clusters::HistoryClustersService *service, PrefService *prefs, AutocompleteResult &amp;result)</div><div class="ttdef"><b>Definition:</b> history_clusters_action.cc:65</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

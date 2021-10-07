@@ -116,17 +116,18 @@ var sectionId = 'dynsection-18';
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d2/d1a/history__clusters__action_8cc.html#a7a19689fc4b1445364dd294c05a6e69c" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="327,-2337.62 327,-2356.62 473,-2356.62 473,-2337.62 327,-2337.62"/>
-<text text-anchor="middle" x="400" y="-2344.62" font-family="Helvetica,sans-Serif" font-size="10.00">AttachHistoryClustersActions</text>
+<g id="a_node8"><a xlink:href="../../dd/dec/namespacehistory__clusters.html#a05ca28b0b73a96b7be334c07395a8b4d" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="340,-2337.12 340,-2367.12 460,-2367.12 460,-2337.12 340,-2337.12"/>
+<text text-anchor="start" x="348" y="-2355.12" font-family="Helvetica,sans-Serif" font-size="10.00">history_clusters::Attach</text>
+<text text-anchor="middle" x="400" y="-2344.12" font-family="Helvetica,sans-Serif" font-size="10.00">HistoryClustersActions</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node3&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M265.28,-1557.28C268.62,-1559.79 271.6,-1562.72 274,-1566.12 322.86,-1635.39 255.15,-2263.51 310,-2328.12 312.37,-2330.92 315.05,-2333.36 317.95,-2335.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="316.28,-2338.58 326.66,-2340.73 319.89,-2332.58 316.28,-2338.58"/>
+<path fill="none" stroke="midnightblue" d="M265.28,-1557.28C268.62,-1559.79 271.6,-1562.72 274,-1566.12 322.86,-1635.39 256.88,-2262.07 310,-2328.12 315.41,-2334.85 322.48,-2339.8 330.28,-2343.44"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="329.13,-2346.75 339.72,-2347.12 331.68,-2340.23 329.13,-2346.75"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
@@ -141,8 +142,8 @@ var sectionId = 'dynsection-18';
 <!-- Node3&#45;&gt;Node10 -->
 <g id="edge9" class="edge">
 <title>Node3&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M265.29,-1557.27C268.62,-1559.79 271.6,-1562.71 274,-1566.12 325.21,-1638.89 267.35,-2288.03 310,-2366.12 320.05,-2384.52 338.05,-2398.78 355.24,-2409.05"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="353.69,-2412.19 364.12,-2414.06 357.13,-2406.1 353.69,-2412.19"/>
+<path fill="none" stroke="midnightblue" d="M265.3,-1557.27C268.62,-1559.78 271.6,-1562.71 274,-1566.12 325.89,-1639.91 263.38,-2299.91 310,-2377.12 318.35,-2390.95 331.87,-2401.49 345.88,-2409.34"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="344.61,-2412.63 355.1,-2414.12 347.83,-2406.41 344.61,-2412.63"/>
 </g>
 <!-- Node25 -->
 <g id="node25" class="node">
@@ -446,14 +447,14 @@ var sectionId = 'dynsection-18';
 <!-- Node8&#45;&gt;Node9 -->
 <g id="edge8" class="edge">
 <title>Node8&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M473.03,-2347.12C634.46,-2347.12 1023.59,-2347.12 1183.78,-2347.12"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1183.99,-2350.63 1193.99,-2347.12 1183.99,-2343.63 1183.99,-2350.63"/>
+<path fill="none" stroke="midnightblue" d="M460,-2351.78C612.46,-2350.89 1019.06,-2348.5 1183.76,-2347.54"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1183.8,-2351.04 1193.78,-2347.48 1183.76,-2344.04 1183.8,-2351.04"/>
 </g>
 <!-- Node10&#45;&gt;Node9 -->
 <g id="edge26" class="edge">
 <title>Node10&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M464.68,-2415.41C484.27,-2411.59 505.95,-2407.77 526,-2405.12 792.84,-2369.91 861.99,-2385.95 1130,-2361.12 1147.38,-2359.52 1166.1,-2357.54 1183.61,-2355.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1184.21,-2359.04 1193.76,-2354.44 1183.43,-2352.08 1184.21,-2359.04"/>
+<path fill="none" stroke="midnightblue" d="M464.68,-2415.39C484.27,-2411.57 505.95,-2407.75 526,-2405.12 792.84,-2370.14 862.1,-2387.78 1130,-2362.12 1147.39,-2360.46 1166.11,-2358.36 1183.62,-2356.27"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1184.27,-2359.72 1193.77,-2355.04 1183.43,-2352.77 1184.27,-2359.72"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">

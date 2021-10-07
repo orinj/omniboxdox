@@ -1,13 +1,8 @@
 <map id="OmniboxPopupContentsView::OnMouseDragged" name="OmniboxPopupContentsView::OnMouseDragged">
-<area shape="rect" id="node1" title=" " alt="" coords="5,103,199,144"/>
-<area shape="rect" id="node2" href="$d7/d88/classOmniboxPopupContentsView.html#aec07eed097573bb99846e5d351ba99ac" title=" " alt="" coords="247,103,440,144"/>
-<area shape="rect" id="node10" href="$d7/d88/classOmniboxPopupContentsView.html#a7f4e98dfa4e6b256dc0f2dab63c0d255" title=" " alt="" coords="247,37,440,79"/>
-<area shape="rect" id="node11" href="$d7/d88/classOmniboxPopupContentsView.html#a0ef8fca14c180b001e746998febd94ac" title=" " alt="" coords="247,168,440,209"/>
-<area shape="rect" id="node3" href="$d7/d88/classOmniboxPopupContentsView.html#a718a0b1b4223a2cbabb6008f005ffd2e" title=" " alt="" coords="488,5,681,47"/>
-<area shape="rect" id="node5" href="$d1/db1/classOmniboxPopupModel.html#a819a99147bf9bc6ad4f7096218a388b0" title=" " alt="" coords="507,71,662,112"/>
-<area shape="rect" id="node9" href="$d3/d03/classAutocompleteResult.html#a64a7947a81e007d5aa56ac9b25e84bb6" title=" " alt="" coords="515,136,655,177"/>
-<area shape="rect" id="node4" href="$d0/d22/classOmniboxEditModel.html#a254f9536adb46b9e885d10b3d5bfe4c9" title=" " alt="" coords="729,5,904,47"/>
-<area shape="rect" id="node6" href="$d1/db1/classOmniboxPopupModel.html#a15465ac89016d4717442d3be4e43f3ae" title=" " alt="" coords="737,136,897,177"/>
-<area shape="rect" id="node8" href="$df/d4d/classAutocompleteController.html#a4aad481d8777819a1acec95affee80b2" title=" " alt="" coords="737,71,896,112"/>
-<area shape="rect" id="node7" href="$d0/d22/classOmniboxEditModel.html#a8c8a925ee670cdc9bd5c0ad8b07fa1a0" title=" " alt="" coords="952,136,1171,177"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,199,112"/>
+<area shape="rect" id="node2" href="$d7/d88/classOmniboxPopupContentsView.html#aec07eed097573bb99846e5d351ba99ac" title=" " alt="" coords="247,71,440,112"/>
+<area shape="rect" id="node5" href="$d7/d88/classOmniboxPopupContentsView.html#a7f4e98dfa4e6b256dc0f2dab63c0d255" title=" " alt="" coords="247,5,440,47"/>
+<area shape="rect" id="node6" href="$d7/d88/classOmniboxPopupContentsView.html#a0ef8fca14c180b001e746998febd94ac" title=" " alt="" coords="247,136,440,177"/>
+<area shape="rect" id="node3" href="$d0/d22/classOmniboxEditModel.html#ad945a332660c6122dc25b93c1eee76d8" title=" " alt="" coords="488,15,660,42"/>
+<area shape="rect" id="node4" href="$d3/d03/classAutocompleteResult.html#a64a7947a81e007d5aa56ac9b25e84bb6" title=" " alt="" coords="504,68,644,109"/>
 </map>

@@ -1,25 +1,28 @@
 <map id="OmniboxPedalProvider::OmniboxPedalProvider" name="OmniboxPedalProvider::OmniboxPedalProvider">
-<area shape="rect" id="node1" title=" " alt="" coords="5,305,168,347"/>
-<area shape="rect" id="node2" href="$d6/dea/classOmniboxPedalProvider.html#a0bd5fe3f161da3546849e4faa484ab3c" title=" " alt="" coords="216,305,371,347"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,436,168,477"/>
+<area shape="rect" id="node2" href="$d6/dea/classOmniboxPedalProvider.html#a0bd5fe3f161da3546849e4faa484ab3c" title=" " alt="" coords="216,436,371,477"/>
 <area shape="rect" id="node3" href="$d4/de9/classOmniboxPedal.html#ab6fc3a1636148c538c4dd622ca83a561" title=" " alt="" coords="436,5,629,47"/>
-<area shape="rect" id="node4" href="$d6/d3c/classOmniboxPedal_1_1SynonymGroup.html#a3d1356c401a5c299cd68a0733f638764" title=" " alt="" coords="430,71,635,112"/>
-<area shape="rect" id="node9" href="$d9/d8f/classOmniboxAction.html#a0bad894831021fdfb657c65559fcb1c1" title=" " alt="" coords="427,137,639,163"/>
-<area shape="rect" id="node10" href="$d1/d73/namespaceOmniboxFieldTrial.html#a4c634f87d7a005c5456bb7f2f48d2425" title=" " alt="" coords="419,188,647,229"/>
-<area shape="rect" id="node11" href="$d1/d73/namespaceOmniboxFieldTrial.html#a782dc0a11a51ec7d41dd2fd242af0df6" title=" " alt="" coords="977,254,1163,310"/>
-<area shape="rect" id="node12" href="$d6/d3c/classOmniboxPedal_1_1SynonymGroup.html#acdb3c2de523e3c6c96225bbcba3b47b6" title=" " alt="" coords="430,305,635,347"/>
-<area shape="rect" id="node13" href="$d6/dea/classOmniboxPedalProvider.html#a7be77a55ea5e7c489e501e616726a9fd" title=" " alt="" coords="441,371,624,412"/>
-<area shape="rect" id="node20" href="$d6/dea/classOmniboxPedalProvider.html#a8eb768572bd7fcfb3af89d31ea6e423b" title=" " alt="" coords="443,436,623,477"/>
-<area shape="rect" id="node21" href="$d4/de9/classOmniboxPedal.html#a28eb1d607a619712613b959173746e0a" title=" " alt="" coords="429,502,636,529"/>
-<area shape="rect" id="node22" href="$d4/de9/classOmniboxPedal.html#adcf8798c485bf39d08a951da0095ff22" title=" " alt="" coords="425,553,640,579"/>
-<area shape="rect" id="node23" href="$d4/de9/classOmniboxPedal.html#abcb4b1e0d8de3c3ac99351b85a73a121" title=" " alt="" coords="425,604,640,645"/>
-<area shape="rect" id="node5" href="$d6/d3c/classOmniboxPedal_1_1SynonymGroup.html#a3288d0cb6752b3dc2422a518f9eed1f1" title=" " alt="" coords="696,123,901,164"/>
-<area shape="rect" id="node6" href="$d5/de6/classOmniboxPedal_1_1TokenSequence.html#a2b9264448c7149e2b34a4b49c0ccbea9" title=" " alt="" coords="966,123,1174,164"/>
-<area shape="rect" id="node8" href="$d5/de6/classOmniboxPedal_1_1TokenSequence.html#a5cc31594ba99535bff124e34b99f6fab" title=" " alt="" coords="966,188,1174,229"/>
-<area shape="rect" id="node7" href="$d5/de6/classOmniboxPedal_1_1TokenSequence.html#ada3b08284991f9cc0cfd6c235691834b" title=" " alt="" coords="1237,257,1445,299"/>
-<area shape="rect" id="node14" href="$d6/d3c/classOmniboxPedal_1_1SynonymGroup.html#a7f5bcd99e4a873ae0bdff5593529aa57" title=" " alt="" coords="696,371,901,412"/>
-<area shape="rect" id="node15" href="$d6/d3c/classOmniboxPedal_1_1SynonymGroup.html#a8f70edcc69e3f394575f5f4f994b159c" title=" " alt="" coords="696,305,901,347"/>
-<area shape="rect" id="node16" href="$d6/dea/classOmniboxPedalProvider.html#a5861d9f977203ab9939aac1fcc63b2f3" title=" " alt="" coords="695,436,903,477"/>
-<area shape="rect" id="node17" href="$d5/de6/classOmniboxPedal_1_1TokenSequence.html#a16976cda1ce1c50d3ba007d20c428b92" title=" " alt="" coords="951,502,1189,529"/>
-<area shape="rect" id="node19" href="$d5/de6/classOmniboxPedal_1_1TokenSequence.html#a9a6a9dadda113a391bad480f87efa876" title=" " alt="" coords="966,436,1174,477"/>
-<area shape="rect" id="node18" href="$d4/de9/classOmniboxPedal.html#a1b77f79c0178f1630f90f3320b58bb8d" title=" " alt="" coords="1279,502,1404,529"/>
+<area shape="rect" id="node4" href="$d4/de9/classOmniboxPedal.html#a48ac382e80ef8ac65683324f5e2ba874" title=" " alt="" coords="437,123,628,164"/>
+<area shape="rect" id="node6" href="$d1/d73/namespaceOmniboxFieldTrial.html#a782dc0a11a51ec7d41dd2fd242af0df6" title=" " alt="" coords="977,110,1163,166"/>
+<area shape="rect" id="node9" href="$d6/d3c/classOmniboxPedal_1_1SynonymGroup.html#a3d1356c401a5c299cd68a0733f638764" title=" " alt="" coords="430,669,635,711"/>
+<area shape="rect" id="node10" href="$d6/d3c/classOmniboxPedal_1_1SynonymGroup.html#a3288d0cb6752b3dc2422a518f9eed1f1" title=" " alt="" coords="696,583,901,624"/>
+<area shape="rect" id="node13" href="$d9/d8f/classOmniboxAction.html#a0bad894831021fdfb657c65559fcb1c1" title=" " alt="" coords="427,319,639,346"/>
+<area shape="rect" id="node14" href="$d1/d73/namespaceOmniboxFieldTrial.html#a4c634f87d7a005c5456bb7f2f48d2425" title=" " alt="" coords="419,371,647,412"/>
+<area shape="rect" id="node15" href="$d1/d73/namespaceOmniboxFieldTrial.html#a547008e6461d91b93e02d397f9016723" title=" " alt="" coords="419,436,647,477"/>
+<area shape="rect" id="node16" href="$d6/d3c/classOmniboxPedal_1_1SynonymGroup.html#acdb3c2de523e3c6c96225bbcba3b47b6" title=" " alt="" coords="430,501,635,543"/>
+<area shape="rect" id="node17" href="$d6/dea/classOmniboxPedalProvider.html#a7be77a55ea5e7c489e501e616726a9fd" title=" " alt="" coords="441,253,624,295"/>
+<area shape="rect" id="node19" href="$d6/dea/classOmniboxPedalProvider.html#a5861d9f977203ab9939aac1fcc63b2f3" title=" " alt="" coords="695,385,903,427"/>
+<area shape="rect" id="node23" href="$d6/dea/classOmniboxPedalProvider.html#a8eb768572bd7fcfb3af89d31ea6e423b" title=" " alt="" coords="443,188,623,229"/>
+<area shape="rect" id="node24" href="$d4/de9/classOmniboxPedal.html#a28eb1d607a619712613b959173746e0a" title=" " alt="" coords="429,735,636,762"/>
+<area shape="rect" id="node25" href="$d4/de9/classOmniboxPedal.html#adcf8798c485bf39d08a951da0095ff22" title=" " alt="" coords="425,786,640,813"/>
+<area shape="rect" id="node26" href="$d4/de9/classOmniboxPedal.html#abcb4b1e0d8de3c3ac99351b85a73a121" title=" " alt="" coords="425,837,640,879"/>
+<area shape="rect" id="node5" href="$d6/d3c/classOmniboxPedal_1_1SynonymGroup.html#a7f5bcd99e4a873ae0bdff5593529aa57" title=" " alt="" coords="696,188,901,229"/>
+<area shape="rect" id="node8" href="$d5/de6/classOmniboxPedal_1_1TokenSequence.html#a46d4db3a0e5eca5da1cfa65a6ec5d30d" title=" " alt="" coords="695,123,903,164"/>
+<area shape="rect" id="node7" href="$d5/de6/classOmniboxPedal_1_1TokenSequence.html#ada3b08284991f9cc0cfd6c235691834b" title=" " alt="" coords="1237,476,1445,517"/>
+<area shape="rect" id="node11" href="$d5/de6/classOmniboxPedal_1_1TokenSequence.html#a2b9264448c7149e2b34a4b49c0ccbea9" title=" " alt="" coords="966,580,1174,621"/>
+<area shape="rect" id="node12" href="$d5/de6/classOmniboxPedal_1_1TokenSequence.html#a5cc31594ba99535bff124e34b99f6fab" title=" " alt="" coords="966,508,1174,549"/>
+<area shape="rect" id="node18" href="$d6/d3c/classOmniboxPedal_1_1SynonymGroup.html#a8f70edcc69e3f394575f5f4f994b159c" title=" " alt="" coords="696,305,901,347"/>
+<area shape="rect" id="node20" href="$d5/de6/classOmniboxPedal_1_1TokenSequence.html#a16976cda1ce1c50d3ba007d20c428b92" title=" " alt="" coords="951,294,1189,321"/>
+<area shape="rect" id="node22" href="$d5/de6/classOmniboxPedal_1_1TokenSequence.html#a9a6a9dadda113a391bad480f87efa876" title=" " alt="" coords="966,385,1174,427"/>
+<area shape="rect" id="node21" href="$d4/de9/classOmniboxPedal.html#a1b77f79c0178f1630f90f3320b58bb8d" title=" " alt="" coords="1279,294,1404,321"/>
 </map>

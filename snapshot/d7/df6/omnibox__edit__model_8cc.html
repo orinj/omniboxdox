@@ -75,6 +75,7 @@ $(function() {
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
 <code>#include &quot;base/auto_reset.h&quot;</code><br />
+<code>#include &quot;base/bind.h&quot;</code><br />
 <code>#include &quot;base/feature_list.h&quot;</code><br />
 <code>#include &quot;base/format_macros.h&quot;</code><br />
 <code>#include &quot;base/macros.h&quot;</code><br />
@@ -84,6 +85,8 @@ $(function() {
 <code>#include &quot;base/strings/string_number_conversions.h&quot;</code><br />
 <code>#include &quot;base/strings/string_util.h&quot;</code><br />
 <code>#include &quot;base/strings/utf_string_conversions.h&quot;</code><br />
+<code>#include &quot;base/trace_event/trace_event.h&quot;</code><br />
+<code>#include &quot;base/trace_event/typed_macros.h&quot;</code><br />
 <code>#include &quot;build/build_config.h&quot;</code><br />
 <code>#include &quot;components/bookmarks/browser/bookmark_model.h&quot;</code><br />
 <code>#include &quot;components/dom_distiller/core/url_constants.h&quot;</code><br />
@@ -104,7 +107,6 @@ $(function() {
 <code>#include &quot;<a class="el" href="../../df/d76/omnibox__field__trial_8h_source.html">components/omnibox/browser/omnibox_field_trial.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d8b/omnibox__log_8h_source.html">components/omnibox/browser/omnibox_log.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/db6/omnibox__navigation__observer_8h_source.html">components/omnibox/browser/omnibox_navigation_observer.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d1a/omnibox__popup__model_8h_source.html">components/omnibox/browser/omnibox_popup_model.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d7/d05/omnibox__popup__view_8h_source.html">components/omnibox/browser/omnibox_popup_view.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d27/omnibox__prefs_8h_source.html">components/omnibox/browser/omnibox_prefs.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/d4e/omnibox__view_8h_source.html">components/omnibox/browser/omnibox_view.h</a>&quot;</code><br />
@@ -117,10 +119,17 @@ $(function() {
 <code>#include &quot;components/search_engines/template_url.h&quot;</code><br />
 <code>#include &quot;components/search_engines/template_url_prepopulate_data.h&quot;</code><br />
 <code>#include &quot;components/search_engines/template_url_service.h&quot;</code><br />
+<code>#include &quot;components/strings/grit/components_strings.h&quot;</code><br />
 <code>#include &quot;net/cookies/cookie_util.h&quot;</code><br />
+<code>#include &quot;third_party/icu/source/common/unicode/ubidi.h&quot;</code><br />
 <code>#include &quot;third_party/metrics_proto/omnibox_event.pb.h&quot;</code><br />
+<code>#include &quot;ui/base/l10n/l10n_util.h&quot;</code><br />
+<code>#include &quot;ui/gfx/geometry/rect.h&quot;</code><br />
 <code>#include &quot;ui/gfx/image/image.h&quot;</code><br />
 <code>#include &quot;url/url_util.h&quot;</code><br />
+<code>#include &quot;components/omnibox/browser/vector_icons.h&quot;</code><br />
+<code>#include &quot;ui/gfx/paint_vector_icon.h&quot;</code><br />
+<code>#include &quot;ui/gfx/vector_icon_types.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for omnibox_edit_model.cc:</div>
 <div class="dyncontent">

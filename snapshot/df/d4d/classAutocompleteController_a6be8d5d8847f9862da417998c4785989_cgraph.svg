@@ -48,13 +48,13 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 1882;
 var viewHeight = 2925;
-var sectionId = 'dynsection-24';
+var sectionId = 'dynsection-26';
 </script>
 <script xlink:href="../../svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>AutocompleteController::Start</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-2920.77 1878,-2920.77 1878,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-2921.25 1878,-2921.25 1878,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -333,33 +333,34 @@ var sectionId = 'dynsection-24';
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="../../d2/d1a/history__clusters__action_8cc.html#a7a19689fc4b1445364dd294c05a6e69c" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="664,-2545.57 664,-2564.57 810,-2564.57 810,-2545.57 664,-2545.57"/>
-<text text-anchor="middle" x="737" y="-2552.57" font-family="Helvetica,sans-Serif" font-size="10.00">AttachHistoryClustersActions</text>
+<g id="a_node16"><a xlink:href="../../dd/dec/namespacehistory__clusters.html#a05ca28b0b73a96b7be334c07395a8b4d" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="677,-2534.07 677,-2564.07 797,-2564.07 797,-2534.07 677,-2534.07"/>
+<text text-anchor="start" x="685" y="-2552.07" font-family="Helvetica,sans-Serif" font-size="10.00">history_clusters::Attach</text>
+<text text-anchor="middle" x="737" y="-2541.07" font-family="Helvetica,sans-Serif" font-size="10.00">HistoryClustersActions</text>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node16 -->
 <g id="edge15" class="edge">
 <title>Node11&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M552.75,-1468.29C554.98,-1593.61 572.87,-2452.18 647,-2536.07 649.43,-2538.81 652.15,-2541.22 655.08,-2543.32"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="653.48,-2546.44 663.88,-2548.48 657.02,-2540.4 653.48,-2546.44"/>
+<path fill="none" stroke="midnightblue" d="M552.8,-1468.11C555.41,-1591.91 575.81,-2440.14 647,-2525.07 652.47,-2531.59 659.51,-2536.44 667.23,-2540.03"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="665.96,-2543.29 676.55,-2543.68 668.52,-2536.77 665.96,-2543.29"/>
 </g>
 <!-- Node18 -->
 <g id="node18" class="node">
 <title>Node18</title>
 <g id="a_node18"><a xlink:href="../../d3/d03/classAutocompleteResult.html#a859e254b656aae5c4f55dfd923e3e75a" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="672.5,-2496.07 672.5,-2526.07 801.5,-2526.07 801.5,-2496.07 672.5,-2496.07"/>
-<text text-anchor="start" x="680.5" y="-2514.07" font-family="Helvetica,sans-Serif" font-size="10.00">AutocompleteResult</text>
-<text text-anchor="middle" x="737" y="-2503.07" font-family="Helvetica,sans-Serif" font-size="10.00">::AttachPedalsToMatches</text>
+<polygon fill="white" stroke="black" points="672.5,-2485.07 672.5,-2515.07 801.5,-2515.07 801.5,-2485.07 672.5,-2485.07"/>
+<text text-anchor="start" x="680.5" y="-2503.07" font-family="Helvetica,sans-Serif" font-size="10.00">AutocompleteResult</text>
+<text text-anchor="middle" x="737" y="-2492.07" font-family="Helvetica,sans-Serif" font-size="10.00">::AttachPedalsToMatches</text>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node18 -->
 <g id="edge17" class="edge">
 <title>Node11&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M552.82,-1468.23C555.25,-1575.64 572.84,-2222.66 647,-2402.07 661.21,-2436.45 690.01,-2468.5 711.02,-2488.82"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="708.69,-2491.44 718.36,-2495.76 713.5,-2486.35 708.69,-2491.44"/>
+<path fill="none" stroke="midnightblue" d="M552.75,-1468.21C554.72,-1575.49 569.69,-2221.65 647,-2399.07 660.83,-2430.79 688.44,-2459.61 709.26,-2478.27"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="707.03,-2480.97 716.86,-2484.91 711.63,-2475.69 707.03,-2480.97"/>
 </g>
 <!-- Node33 -->
 <g id="node33" class="node">
@@ -381,17 +382,17 @@ var sectionId = 'dynsection-24';
 <g id="node35" class="node">
 <title>Node35</title>
 <g id="a_node35"><a xlink:href="../../d3/d03/classAutocompleteResult.html#a7f908347f41df7c61ff17ffa2ab0fc0e" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="662,-2362.07 662,-2392.07 812,-2392.07 812,-2362.07 662,-2362.07"/>
-<text text-anchor="start" x="670" y="-2380.07" font-family="Helvetica,sans-Serif" font-size="10.00">AutocompleteResult</text>
-<text text-anchor="middle" x="737" y="-2369.07" font-family="Helvetica,sans-Serif" font-size="10.00">::GetMatchDedupComparators</text>
+<polygon fill="white" stroke="black" points="662,-2359.07 662,-2389.07 812,-2389.07 812,-2359.07 662,-2359.07"/>
+<text text-anchor="start" x="670" y="-2377.07" font-family="Helvetica,sans-Serif" font-size="10.00">AutocompleteResult</text>
+<text text-anchor="middle" x="737" y="-2366.07" font-family="Helvetica,sans-Serif" font-size="10.00">::GetMatchDedupComparators</text>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node35 -->
 <g id="edge39" class="edge">
 <title>Node11&#45;&gt;Node35</title>
-<path fill="none" stroke="midnightblue" d="M554.93,-1468.44C565.07,-1532.36 605.52,-1783.31 647,-1988.07 674.96,-2126.1 714.64,-2290.22 729.79,-2351.94"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="726.46,-2353.05 732.25,-2361.92 733.26,-2351.38 726.46,-2353.05"/>
+<path fill="none" stroke="midnightblue" d="M554.92,-1468.44C565.03,-1532.37 605.35,-1783.34 647,-1988.07 674.87,-2125.07 714.6,-2287.9 729.78,-2349.14"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="726.43,-2350.18 732.24,-2359.04 733.23,-2348.5 726.43,-2350.18"/>
 </g>
 <!-- Node37 -->
 <g id="node37" class="node">
@@ -647,14 +648,14 @@ var sectionId = 'dynsection-24';
 <!-- Node16&#45;&gt;Node17 -->
 <g id="edge16" class="edge">
 <title>Node16&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M739.04,-2564.61C743.94,-2604.53 768.67,-2759.09 863,-2823.07 1068.08,-2962.16 1385.08,-2913.22 1523.24,-2882.38"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1524.29,-2885.73 1533.27,-2880.1 1522.74,-2878.9 1524.29,-2885.73"/>
+<path fill="none" stroke="midnightblue" d="M739.62,-2564.34C745.59,-2612.25 771.1,-2760.16 863,-2823.07 1067.75,-2963.2 1385.59,-2913.5 1523.65,-2882.41"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1524.71,-2885.76 1533.68,-2880.11 1523.15,-2878.93 1524.71,-2885.76"/>
 </g>
 <!-- Node18&#45;&gt;Node17 -->
 <g id="edge34" class="edge">
 <title>Node18&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M801.74,-2520.26C811.11,-2523.94 819.96,-2529.03 827,-2536.07 868.79,-2577.85 821.12,-2622.37 863,-2664.07 1045.5,-2845.77 1376.43,-2867 1520.88,-2867.02"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1520.96,-2870.52 1530.95,-2866.98 1520.94,-2863.52 1520.96,-2870.52"/>
+<path fill="none" stroke="midnightblue" d="M801.87,-2509.13C811.22,-2512.83 820.04,-2517.96 827,-2525.07 871.66,-2570.65 818.25,-2618.57 863,-2664.07 1043.72,-2847.77 1375.96,-2867.9 1520.84,-2867.32"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1520.97,-2870.82 1530.94,-2867.25 1520.91,-2863.82 1520.97,-2870.82"/>
 </g>
 <!-- Node19 -->
 <g id="node19" class="node">
@@ -669,8 +670,8 @@ var sectionId = 'dynsection-24';
 <!-- Node18&#45;&gt;Node19 -->
 <g id="edge18" class="edge">
 <title>Node18&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M801.53,-2524.33C810.41,-2527.48 819.17,-2531.34 827,-2536.07 846.92,-2548.09 845.82,-2558.38 863,-2574.07 879.97,-2589.56 900.23,-2605.55 916.42,-2617.8"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="914.38,-2620.64 924.48,-2623.84 918.58,-2615.04 914.38,-2620.64"/>
+<path fill="none" stroke="midnightblue" d="M801.63,-2512.29C810.59,-2515.59 819.35,-2519.77 827,-2525.07 849.22,-2540.45 844.22,-2554.64 863,-2574.07 878.76,-2590.36 898.67,-2606.16 914.98,-2618.1"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="912.98,-2620.98 923.14,-2623.98 917.07,-2615.29 912.98,-2620.98"/>
 </g>
 <!-- Node31 -->
 <g id="node31" class="node">
@@ -685,8 +686,8 @@ var sectionId = 'dynsection-24';
 <!-- Node18&#45;&gt;Node31 -->
 <g id="edge33" class="edge">
 <title>Node18&#45;&gt;Node31</title>
-<path fill="none" stroke="midnightblue" d="M801.67,-2522.72C822.43,-2526.53 845.73,-2530.79 867.43,-2534.77"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="866.8,-2538.21 877.27,-2536.57 868.06,-2531.33 866.8,-2538.21"/>
+<path fill="none" stroke="midnightblue" d="M801.67,-2515.1C823.87,-2520.34 848.98,-2526.27 871.92,-2531.69"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="871.42,-2535.17 881.95,-2534.06 873.03,-2528.35 871.42,-2535.17"/>
 </g>
 <!-- Node32 -->
 <g id="node32" class="node">
@@ -701,8 +702,8 @@ var sectionId = 'dynsection-24';
 <!-- Node18&#45;&gt;Node32 -->
 <g id="edge35" class="edge">
 <title>Node18&#45;&gt;Node32</title>
-<path fill="none" stroke="midnightblue" d="M801.67,-2507.69C824.81,-2506.46 851.09,-2505.07 874.81,-2503.81"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="874.99,-2507.31 884.79,-2503.28 874.62,-2500.32 874.99,-2507.31"/>
+<path fill="none" stroke="midnightblue" d="M801.67,-2500.07C824.71,-2500.07 850.86,-2500.07 874.49,-2500.07"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="874.79,-2503.57 884.79,-2500.07 874.79,-2496.57 874.79,-2503.57"/>
 </g>
 <!-- Node20 -->
 <g id="node20" class="node">
@@ -925,7 +926,7 @@ var sectionId = 'dynsection-24';
 <!-- Node35&#45;&gt;Node36 -->
 <g id="edge40" class="edge">
 <title>Node35&#45;&gt;Node36</title>
-<path fill="none" stroke="midnightblue" d="M772.05,-2392.17C857.29,-2427.62 1085.01,-2507.67 1252,-2432.07 1274.09,-2422.06 1267.49,-2404 1288,-2391.07 1291.32,-2388.97 1294.83,-2387.04 1298.44,-2385.28"/>
+<path fill="none" stroke="midnightblue" d="M771.1,-2389.09C855.58,-2425.12 1084.29,-2507.99 1252,-2432.07 1274.09,-2422.06 1267.49,-2404 1288,-2391.07 1291.32,-2388.97 1294.83,-2387.04 1298.44,-2385.28"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1299.9,-2388.46 1307.63,-2381.21 1297.07,-2382.06 1299.9,-2388.46"/>
 </g>
 <!-- Node38&#45;&gt;Node36 -->

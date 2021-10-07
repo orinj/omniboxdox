@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d0/da8/classOmniboxSuggestionRowButton.html#ada9697dbf647fb01ecd3799f234aa1cb" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d0/da8/classOmniboxSuggestionRowButton.html#ae9ad891bfd2a014cffb00b4a8c59f89c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="699,-0.5 699,-30.5 852,-30.5 852,-0.5 699,-0.5"/>
 <text text-anchor="start" x="707" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxSuggestionRowButton</text>
 <text text-anchor="middle" x="775.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SetIcon</text>

@@ -70,7 +70,7 @@
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="../../d3/d0a/classOmniboxSuggestionButtonRowView.html#a7272410c3b801796d1c9cbeb37f9b3e7" target="_top" xlink:title=" ">
+<g id="a_node10"><a xlink:href="../../d3/d0a/classOmniboxSuggestionButtonRowView.html#a75ca5fb3af853ffc8c5ed29380d2e72a" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="658,-0.5 658,-30.5 861,-30.5 861,-0.5 658,-0.5"/>
 <text text-anchor="start" x="666" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxSuggestionButtonRow</text>
 <text text-anchor="middle" x="759.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">View::OmniboxSuggestionButtonRowView</text>
@@ -172,7 +172,7 @@
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="../../d3/d4c/classOmniboxResultView.html#a632535684d6941455e8979815a978a44" target="_top" xlink:title=" ">
+<g id="a_node11"><a xlink:href="../../d3/d4c/classOmniboxResultView.html#a6768271ee0b1e6baa07eb56bbb74882d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="510,-0.5 510,-30.5 622,-30.5 622,-0.5 510,-0.5"/>
 <text text-anchor="start" x="518" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxResultView::</text>
 <text text-anchor="middle" x="566" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxResultView</text>

@@ -589,7 +589,7 @@ var sectionId = 'dynsection-2';
 <!-- Node28 -->
 <g id="node28" class="node">
 <title>Node28</title>
-<g id="a_node28"><a xlink:href="../../d0/da8/classOmniboxSuggestionRowButton.html#ada9697dbf647fb01ecd3799f234aa1cb" target="_top" xlink:title=" ">
+<g id="a_node28"><a xlink:href="../../d0/da8/classOmniboxSuggestionRowButton.html#ae9ad891bfd2a014cffb00b4a8c59f89c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="952.5,-506.11 952.5,-536.11 1105.5,-536.11 1105.5,-506.11 952.5,-506.11"/>
 <text text-anchor="start" x="960.5" y="-524.11" font-family="Helvetica,sans-Serif" font-size="10.00">OmniboxSuggestionRowButton</text>
 <text text-anchor="middle" x="1029" y="-513.11" font-family="Helvetica,sans-Serif" font-size="10.00">::SetIcon</text>

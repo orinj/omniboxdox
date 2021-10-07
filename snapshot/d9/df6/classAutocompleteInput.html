@@ -153,6 +153,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae017d7a63d35a47ecf719f7d0305ee7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a698290b314c49fcc2c4490b9e32e728a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/df6/classAutocompleteInput.html#a698290b314c49fcc2c4490b9e32e728a">added_default_scheme_to_typed_url</a> () const</td></tr>
 <tr class="separator:a698290b314c49fcc2c4490b9e32e728a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2767e872e879def2cbb3bb6089ef6bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/df6/classAutocompleteInput.html#af2767e872e879def2cbb3bb6089ef6bd">WriteIntoTrace</a> (perfetto::TracedValue context) const</td></tr>
+<tr class="separator:af2767e872e879def2cbb3bb6089ef6bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -611,7 +613,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="../../d9/df6/classAutocompleteInput.html#a3878ca63c897d287b270d12c70133604">current_page_classification_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a16ad032b278a1797080546968d8cc307">OmniboxEditModel::AcceptInput()</a>, <a class="el" href="../../dc/d2d/classMostVisitedSitesProvider.html#a3af007a03438af15b66f8b4f1c65dddb">MostVisitedSitesProvider::AllowMostVisitedSitesSuggestions()</a>, <a class="el" href="../../d3/dbc/classZeroSuggestProvider.html#a0f87dbc810369c29a9f805464d47c299">ZeroSuggestProvider::AllowZeroSuggestSuggestions()</a>, <a class="el" href="../../d9/df6/classAutocompleteInput.html#a0da15ad785271c57e85bf8515006ce7f">AutocompleteInput()</a>, <a class="el" href="../../d4/dee/classSearchProvider.html#ac6613acbe0b4e879590cdb0d562999c9">SearchProvider::CreateSuggestLoader()</a>, <a class="el" href="../../d4/dee/classSearchProvider.html#a977f6c76178ac46bddb2a7c12b6ddf4d">SearchProvider::DoHistoryQuery()</a>, <a class="el" href="../../d3/d03/classAutocompleteResult.html#a21de7ea970f5bf70ec6dceca5606fadf">AutocompleteResult::FindTopMatch()</a>, <a class="el" href="../../d7/d54/classShortcutsProvider.html#a41688b93a4f3250b9d703a7393f7a6d2">ShortcutsProvider::GetMatches()</a>, <a class="el" href="../../d4/dee/classSearchProvider.html#a61661b1c8ea83d1911c9386b5e01d840">SearchProvider::ScoreHistoryResultsHelper()</a>, <a class="el" href="../../d3/d03/classAutocompleteResult.html#a271fb757df50412807c3cbb9f80a9306">AutocompleteResult::SortAndCull()</a>, <a class="el" href="../../d4/df1/classLocalHistoryZeroSuggestProvider.html#a5b6959a4e9d04cd0087fbef6f9610c70">LocalHistoryZeroSuggestProvider::Start()</a>, <a class="el" href="../../dc/d2d/classMostVisitedSitesProvider.html#a4e28e08108b05e54a5ef025abc55ab41">MostVisitedSitesProvider::Start()</a>, <a class="el" href="../../d3/dbc/classZeroSuggestProvider.html#ac0afcbd72684c1a1478301c21b3ff486">ZeroSuggestProvider::Start()</a>, <a class="el" href="../../da/d25/classZeroSuggestVerbatimMatchProvider.html#a40130e8fdca079a0648998decdba06e2">ZeroSuggestVerbatimMatchProvider::Start()</a>, <a class="el" href="../../d3/dbc/classZeroSuggestProvider.html#a00de72a246322fcd70464d0c4b56a2d5">ZeroSuggestProvider::TypeOfResultToRun()</a>, <a class="el" href="../../df/d4d/classAutocompleteController.html#a282f6e3526c3da5998102a031fe42624">AutocompleteController::UpdateMatchDestinationURLWithQueryFormulationTime()</a>, and <a class="el" href="../../d5/d36/verbatim__match_8cc.html#abe0d653bed223eab6bf348ed99e3466c">VerbatimMatchForURL()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d22/classOmniboxEditModel.html#a16ad032b278a1797080546968d8cc307">OmniboxEditModel::AcceptInput()</a>, <a class="el" href="../../dc/d2d/classMostVisitedSitesProvider.html#a3af007a03438af15b66f8b4f1c65dddb">MostVisitedSitesProvider::AllowMostVisitedSitesSuggestions()</a>, <a class="el" href="../../d3/dbc/classZeroSuggestProvider.html#a0f87dbc810369c29a9f805464d47c299">ZeroSuggestProvider::AllowZeroSuggestSuggestions()</a>, <a class="el" href="../../d9/df6/classAutocompleteInput.html#a0da15ad785271c57e85bf8515006ce7f">AutocompleteInput()</a>, <a class="el" href="../../d4/dee/classSearchProvider.html#ac6613acbe0b4e879590cdb0d562999c9">SearchProvider::CreateSuggestLoader()</a>, <a class="el" href="../../d4/dee/classSearchProvider.html#a977f6c76178ac46bddb2a7c12b6ddf4d">SearchProvider::DoHistoryQuery()</a>, <a class="el" href="../../d3/d03/classAutocompleteResult.html#a21de7ea970f5bf70ec6dceca5606fadf">AutocompleteResult::FindTopMatch()</a>, <a class="el" href="../../d7/d54/classShortcutsProvider.html#a41688b93a4f3250b9d703a7393f7a6d2">ShortcutsProvider::GetMatches()</a>, <a class="el" href="../../d4/dee/classSearchProvider.html#a61661b1c8ea83d1911c9386b5e01d840">SearchProvider::ScoreHistoryResultsHelper()</a>, <a class="el" href="../../d3/d03/classAutocompleteResult.html#a271fb757df50412807c3cbb9f80a9306">AutocompleteResult::SortAndCull()</a>, <a class="el" href="../../d4/df1/classLocalHistoryZeroSuggestProvider.html#a5b6959a4e9d04cd0087fbef6f9610c70">LocalHistoryZeroSuggestProvider::Start()</a>, <a class="el" href="../../dc/d2d/classMostVisitedSitesProvider.html#a4e28e08108b05e54a5ef025abc55ab41">MostVisitedSitesProvider::Start()</a>, <a class="el" href="../../d3/dbc/classZeroSuggestProvider.html#ac0afcbd72684c1a1478301c21b3ff486">ZeroSuggestProvider::Start()</a>, <a class="el" href="../../da/d25/classZeroSuggestVerbatimMatchProvider.html#a40130e8fdca079a0648998decdba06e2">ZeroSuggestVerbatimMatchProvider::Start()</a>, <a class="el" href="../../d3/dbc/classZeroSuggestProvider.html#a00de72a246322fcd70464d0c4b56a2d5">ZeroSuggestProvider::TypeOfResultToRun()</a>, <a class="el" href="../../df/d4d/classAutocompleteController.html#a3298ad7f2d95a5ac487a7d434c24fbc0">AutocompleteController::UpdateMatchDestinationURLWithAdditionalAssistedQueryStats()</a>, and <a class="el" href="../../d5/d36/verbatim__match_8cc.html#abe0d653bed223eab6bf348ed99e3466c">VerbatimMatchForURL()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2087,6 +2089,26 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="af2767e872e879def2cbb3bb6089ef6bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2767e872e879def2cbb3bb6089ef6bd">&#9670;&nbsp;</a></span>WriteIntoTrace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutocompleteInput::WriteIntoTrace </td>
+          <td>(</td>
+          <td class="paramtype">perfetto::TracedValue&#160;</td>
+          <td class="paramname"><em>context</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d9/df6/classAutocompleteInput.html#a819e41c9c66300892583c33186fd34bd">text_</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
 <a id="a00867d9f935209095b79e507d3ca4790"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a00867d9f935209095b79e507d3ca4790">&#9670;&nbsp;</a></span>AutocompleteProviderTest</h2>
@@ -2563,7 +2585,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/classAutocompleteInput.html#ac8948f836b7b781c90700f43666235fe">Clear()</a>, <a class="el" href="../../d9/df6/classAutocompleteInput.html#ac6de92061c5a8c9b90de8c5d4924899c">EstimateMemoryUsage()</a>, <a class="el" href="../../d9/df6/classAutocompleteInput.html#aaf64bb51a2e92f80a143de6016cb7f8b">Init()</a>, <a class="el" href="../../d9/df6/classAutocompleteInput.html#ac055dacf90a052c92e2bfe5c01328a95">text()</a>, and <a class="el" href="../../d9/df6/classAutocompleteInput.html#ac9e519296c7add56f5cc0e442bfeeebf">UpdateText()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/classAutocompleteInput.html#ac8948f836b7b781c90700f43666235fe">Clear()</a>, <a class="el" href="../../d9/df6/classAutocompleteInput.html#ac6de92061c5a8c9b90de8c5d4924899c">EstimateMemoryUsage()</a>, <a class="el" href="../../d9/df6/classAutocompleteInput.html#aaf64bb51a2e92f80a143de6016cb7f8b">Init()</a>, <a class="el" href="../../d9/df6/classAutocompleteInput.html#ac055dacf90a052c92e2bfe5c01328a95">text()</a>, <a class="el" href="../../d9/df6/classAutocompleteInput.html#ac9e519296c7add56f5cc0e442bfeeebf">UpdateText()</a>, and <a class="el" href="../../d9/df6/classAutocompleteInput.html#af2767e872e879def2cbb3bb6089ef6bd">WriteIntoTrace()</a>.</p>
 
 </div>
 </div>

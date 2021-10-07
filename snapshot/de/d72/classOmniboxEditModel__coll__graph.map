@@ -1,7 +1,10 @@
 <map id="OmniboxEditModel" name="OmniboxEditModel">
-<area shape="rect" id="node1" title=" " alt="" coords="244,184,376,211"/>
-<area shape="rect" id="node2" href="$dc/d81/classOmniboxEditController.html" title=" " alt="" coords="5,5,159,32"/>
-<area shape="rect" id="node4" href="$d9/d1e/classOmniboxView.html" title=" " alt="" coords="151,95,253,121"/>
-<area shape="rect" id="node3" href="$d5/d39/structSplitAutocompletion.html" title=" " alt="" coords="278,95,417,121"/>
-<area shape="rect" id="node5" href="$d9/df6/classAutocompleteInput.html" title=" " alt="" coords="442,95,573,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="843,139,975,165"/>
+<area shape="rect" id="node2" href="$dc/d81/classOmniboxEditController.html" title=" " alt="" coords="232,32,385,59"/>
+<area shape="rect" id="node6" href="$d9/d1e/classOmniboxView.html" title=" " alt="" coords="530,63,633,89"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,25,183,66"/>
+<area shape="rect" id="node4" href="$d5/d39/structSplitAutocompletion.html" title=" " alt="" coords="512,113,651,140"/>
+<area shape="rect" id="node5" href="$db/de1/classOmniboxPopupView.html" title=" " alt="" coords="511,164,651,191"/>
+<area shape="rect" id="node7" href="$d9/df6/classAutocompleteInput.html" title=" " alt="" coords="516,215,647,241"/>
+<area shape="rect" id="node8" href="$de/dfc/structOmniboxPopupSelection.html" title=" " alt="" coords="499,265,664,292"/>
 </map>

@@ -1,19 +1,17 @@
 <map id="ChromeOmniboxEditController::GetWebContents" name="ChromeOmniboxEditController::GetWebContents">
-<area shape="rect" id="node1" title=" " alt="" coords="691,434,889,475"/>
-<area shape="rect" id="node2" href="$d5/d3e/classChromeOmniboxClient.html#a5984bdedaa2b5c05d9f9047797f5f060" title=" " alt="" coords="449,69,604,110"/>
-<area shape="rect" id="node3" href="$d5/d3e/classChromeOmniboxClient.html#a88d2075c687f5d32b4fd17538a571e84" title=" " alt="" coords="208,10,363,51"/>
-<area shape="rect" id="node4" href="$d5/d3e/classChromeOmniboxClient.html#ac918768281b00b26969a0fbf20e231bb" title=" " alt="" coords="208,127,363,169"/>
-<area shape="rect" id="node6" href="$d5/d3e/classChromeOmniboxClient.html#a715d5ce7adb64f7fe4bff012db66cea3" title=" " alt="" coords="411,186,643,227"/>
-<area shape="rect" id="node7" href="$d5/d3e/classChromeOmniboxClient.html#a4d561215e3a67532b72c6ba1f1e1d807" title=" " alt="" coords="208,218,363,259"/>
-<area shape="rect" id="node8" href="$d5/d3e/classChromeOmniboxClient.html#aa60639725d5c3411dd6ea17620b284fd" title=" " alt="" coords="449,303,604,345"/>
-<area shape="rect" id="node9" href="$d5/d3e/classChromeOmniboxClient.html#a8919630de8b57b8200db53028a9a0cb8" title=" " alt="" coords="449,369,604,410"/>
-<area shape="rect" id="node10" href="$d5/d3e/classChromeOmniboxClient.html#aa1da0b73de91d410fb3c86ad07b88779" title=" " alt="" coords="449,434,604,475"/>
-<area shape="rect" id="node11" href="$d4/d38/classChromeOmniboxEditController.html#a202e8a44f6c78b793d1eb9ec644386c7" title=" " alt="" coords="427,499,626,541"/>
-<area shape="rect" id="node12" href="$d5/d3e/classChromeOmniboxClient.html#aff1fbf81971d26be7a147ead45bc1b81" title=" " alt="" coords="449,565,604,606"/>
-<area shape="rect" id="node13" href="$d5/d3e/classChromeOmniboxClient.html#a787db333beb069016ce389ef914c5c22" title=" " alt="" coords="447,630,606,671"/>
-<area shape="rect" id="node14" href="$d5/d3e/classChromeOmniboxClient.html#a3a8c93be7d4af1ce7ad9a9d51668a0ec" title=" " alt="" coords="427,696,626,752"/>
-<area shape="rect" id="node15" href="$d5/d3e/classChromeOmniboxClient.html#a056427c6e8d3735a6acb72c910d03904" title=" " alt="" coords="433,777,620,818"/>
-<area shape="rect" id="node16" href="$d5/d3e/classChromeOmniboxClient.html#affc42e62899b4ddee01c847a860f3225" title=" " alt="" coords="433,842,620,883"/>
-<area shape="rect" id="node17" href="$d5/d3e/classChromeOmniboxClient.html#a4e85714219f2806fbbb7d18dd114e15e" title=" " alt="" coords="443,907,610,949"/>
-<area shape="rect" id="node5" href="$d5/d3e/classChromeOmniboxClient.html#a46cf4900110df743bb44f31225678c4f" title=" " alt="" coords="5,127,160,169"/>
+<area shape="rect" id="node1" title=" " alt="" coords="691,367,889,408"/>
+<area shape="rect" id="node2" href="$d5/d3e/classChromeOmniboxClient.html#a5984bdedaa2b5c05d9f9047797f5f060" title=" " alt="" coords="449,67,604,108"/>
+<area shape="rect" id="node3" href="$d5/d3e/classChromeOmniboxClient.html#a88d2075c687f5d32b4fd17538a571e84" title=" " alt="" coords="208,8,363,50"/>
+<area shape="rect" id="node4" href="$d5/d3e/classChromeOmniboxClient.html#ac918768281b00b26969a0fbf20e231bb" title=" " alt="" coords="208,126,363,167"/>
+<area shape="rect" id="node6" href="$d5/d3e/classChromeOmniboxClient.html#a715d5ce7adb64f7fe4bff012db66cea3" title=" " alt="" coords="411,184,643,226"/>
+<area shape="rect" id="node7" href="$d5/d3e/classChromeOmniboxClient.html#a4d561215e3a67532b72c6ba1f1e1d807" title=" " alt="" coords="208,216,363,258"/>
+<area shape="rect" id="node8" href="$d5/d3e/classChromeOmniboxClient.html#aa60639725d5c3411dd6ea17620b284fd" title=" " alt="" coords="449,302,604,343"/>
+<area shape="rect" id="node9" href="$d5/d3e/classChromeOmniboxClient.html#a8919630de8b57b8200db53028a9a0cb8" title=" " alt="" coords="449,367,604,408"/>
+<area shape="rect" id="node10" href="$d5/d3e/classChromeOmniboxClient.html#aa1da0b73de91d410fb3c86ad07b88779" title=" " alt="" coords="449,432,604,474"/>
+<area shape="rect" id="node11" href="$d4/d38/classChromeOmniboxEditController.html#a9f91e23a342c8c8215208eacc7e8bc1d" title=" " alt="" coords="427,498,626,539"/>
+<area shape="rect" id="node12" href="$d5/d3e/classChromeOmniboxClient.html#aff1fbf81971d26be7a147ead45bc1b81" title=" " alt="" coords="449,563,604,604"/>
+<area shape="rect" id="node13" href="$d5/d3e/classChromeOmniboxClient.html#a787db333beb069016ce389ef914c5c22" title=" " alt="" coords="447,628,606,670"/>
+<area shape="rect" id="node14" href="$d5/d3e/classChromeOmniboxClient.html#a056427c6e8d3735a6acb72c910d03904" title=" " alt="" coords="433,694,620,735"/>
+<area shape="rect" id="node15" href="$d5/d3e/classChromeOmniboxClient.html#a0254debb55a7618ecdd757384e2f7efb" title=" " alt="" coords="433,759,620,800"/>
+<area shape="rect" id="node5" href="$d5/d3e/classChromeOmniboxClient.html#a46cf4900110df743bb44f31225678c4f" title=" " alt="" coords="5,126,160,167"/>
 </map>

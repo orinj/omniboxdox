@@ -48,7 +48,7 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 1700;
 var viewHeight = 2501;
-var sectionId = 'dynsection-26';
+var sectionId = 'dynsection-28';
 </script>
 <script xlink:href="../../svgpan.js"/>
 <svg id="graph" class="graph">
@@ -132,17 +132,18 @@ var sectionId = 'dynsection-26';
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d2/d1a/history__clusters__action_8cc.html#a7a19689fc4b1445364dd294c05a6e69c" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="482,-2393 482,-2412 628,-2412 628,-2393 482,-2393"/>
-<text text-anchor="middle" x="555" y="-2400" font-family="Helvetica,sans-Serif" font-size="10.00">AttachHistoryClustersActions</text>
+<g id="a_node8"><a xlink:href="../../dd/dec/namespacehistory__clusters.html#a05ca28b0b73a96b7be334c07395a8b4d" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="495,-2390.5 495,-2420.5 615,-2420.5 615,-2390.5 495,-2390.5"/>
+<text text-anchor="start" x="503" y="-2408.5" font-family="Helvetica,sans-Serif" font-size="10.00">history_clusters::Attach</text>
+<text text-anchor="middle" x="555" y="-2397.5" font-family="Helvetica,sans-Serif" font-size="10.00">HistoryClustersActions</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node3&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M371.12,-1614.73C375.08,-1706.74 398.75,-2188.88 465,-2318.5 479.89,-2347.63 509.07,-2372.11 529.96,-2387"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="528.12,-2389.98 538.34,-2392.77 532.1,-2384.22 528.12,-2389.98"/>
+<path fill="none" stroke="midnightblue" d="M371.15,-1614.71C375.3,-1706.63 399.89,-2188.3 465,-2318.5 478.42,-2345.34 503.47,-2368.66 523.58,-2384.38"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="521.49,-2387.19 531.57,-2390.44 525.72,-2381.61 521.49,-2387.19"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
@@ -462,8 +463,8 @@ var sectionId = 'dynsection-26';
 <!-- Node8&#45;&gt;Node9 -->
 <g id="edge8" class="edge">
 <title>Node8&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M580.44,-2412.15C605.31,-2421.49 645.19,-2435.13 681,-2441.5 919.23,-2483.84 1207.68,-2483.03 1338.66,-2479.9"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1339.05,-2483.39 1348.96,-2479.64 1338.87,-2476.39 1339.05,-2483.39"/>
+<path fill="none" stroke="midnightblue" d="M599.11,-2420.58C622.94,-2428.24 653.26,-2436.88 681,-2441.5 919.37,-2481.17 1207.17,-2481.7 1338.25,-2479.4"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1338.62,-2482.89 1348.55,-2479.21 1338.49,-2475.9 1338.62,-2482.89"/>
 </g>
 <!-- Node10&#45;&gt;Node9 -->
 <g id="edge26" class="edge">

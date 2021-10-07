@@ -1,13 +1,10 @@
 <map id="OmniboxTextView::ApplyTextColor" name="OmniboxTextView::ApplyTextColor">
-<area shape="rect" id="node1" title=" " alt="" coords="5,64,200,105"/>
-<area shape="rect" id="node2" href="$d3/d4c/classOmniboxResultView.html#aaafb21160f2e040184d7c85ab18ebced" title=" " alt="" coords="265,35,414,76"/>
-<area shape="rect" id="node11" href="$df/d61/classOmniboxTextView.html#a4298c267872d7618353c03a0f31560e2" title=" " alt="" coords="248,101,431,127"/>
-<area shape="rect" id="node3" href="$d4/d9b/omnibox__theme_8cc.html#a22fe9a774c5756fb8f71218d1830d516" title=" " alt="" coords="490,13,617,39"/>
-<area shape="rect" id="node4" href="$d3/d4c/classOmniboxResultView.html#a510528aab4c1238bcfc1f2c09e7ef9d1" title=" " alt="" coords="479,64,628,105"/>
-<area shape="rect" id="node5" href="$d3/d4c/classOmniboxResultView.html#a17507b20abec0ee969168a494710c6df" title=" " alt="" coords="676,64,825,105"/>
-<area shape="rect" id="node6" href="$d7/d88/classOmniboxPopupContentsView.html#aa853016eecbad5260a64b4bff2a349c9" title=" " alt="" coords="873,64,1067,105"/>
-<area shape="rect" id="node7" href="$d7/d88/classOmniboxPopupContentsView.html#a718a0b1b4223a2cbabb6008f005ffd2e" title=" " alt="" coords="1115,5,1308,47"/>
-<area shape="rect" id="node10" href="$d1/db1/classOmniboxPopupModel.html#a89f2d7464b757a9707bb7df522a2fea5" title=" " alt="" coords="893,129,1047,171"/>
-<area shape="rect" id="node9" href="$d1/db1/classOmniboxPopupModel.html#ac7f0c94e4da21543213dbef3ce023aca" title=" " alt="" coords="1134,71,1289,112"/>
-<area shape="rect" id="node8" href="$d0/d22/classOmniboxEditModel.html#a254f9536adb46b9e885d10b3d5bfe4c9" title=" " alt="" coords="1356,5,1531,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,57,200,98"/>
+<area shape="rect" id="node2" href="$d3/d4c/classOmniboxResultView.html#aaafb21160f2e040184d7c85ab18ebced" title=" " alt="" coords="265,27,414,69"/>
+<area shape="rect" id="node8" href="$df/d61/classOmniboxTextView.html#a4298c267872d7618353c03a0f31560e2" title=" " alt="" coords="248,93,431,120"/>
+<area shape="rect" id="node3" href="$d4/d9b/omnibox__theme_8cc.html#a22fe9a774c5756fb8f71218d1830d516" title=" " alt="" coords="490,5,617,32"/>
+<area shape="rect" id="node4" href="$d3/d4c/classOmniboxResultView.html#a510528aab4c1238bcfc1f2c09e7ef9d1" title=" " alt="" coords="479,57,628,98"/>
+<area shape="rect" id="node5" href="$d3/d4c/classOmniboxResultView.html#a17507b20abec0ee969168a494710c6df" title=" " alt="" coords="676,57,825,98"/>
+<area shape="rect" id="node6" href="$d7/d88/classOmniboxPopupContentsView.html#aacb2b141d6ccaaaffec469aea02dbaef" title=" " alt="" coords="873,57,1067,98"/>
+<area shape="rect" id="node7" href="$d0/d22/classOmniboxEditModel.html#afca096faf219ac7be1bf9251466648a7" title=" " alt="" coords="1115,57,1313,98"/>
 </map>

@@ -1,12 +1,11 @@
 <map id="components/omnibox/browser/omnibox_popup_view.h" name="components/omnibox/browser/omnibox_popup_view.h">
-<area shape="rect" id="node1" title=" " alt="" coords="318,5,485,61"/>
+<area shape="rect" id="node1" title=" " alt="" coords="226,5,393,61"/>
 <area shape="rect" id="node2" href="$dd/d1e/omnibox__controller_8cc.html" title=" " alt="" coords="5,117,208,158"/>
 <area shape="rect" id="node3" href="$d7/df6/omnibox__edit__model_8cc.html" title=" " alt="" coords="233,109,386,165"/>
-<area shape="rect" id="node4" href="$d3/de0/omnibox__popup__model_8cc.html" title=" " alt="" coords="410,109,577,165"/>
-<area shape="rect" id="node5" href="$d4/d25/omnibox__popup__contents__view_8h.html" title=" " alt="" coords="601,109,772,165"/>
-<area shape="rect" id="node6" href="$d8/df8/omnibox__match__cell__view_8cc.html" title=" " alt="" coords="213,213,384,269"/>
-<area shape="rect" id="node7" href="$d8/d69/omnibox__popup__contents__view_8cc.html" title=" " alt="" coords="408,213,579,269"/>
-<area shape="rect" id="node8" href="$d3/d3f/omnibox__result__view_8cc.html" title=" " alt="" coords="603,213,770,269"/>
-<area shape="rect" id="node9" href="$de/d2f/omnibox__suggestion__button__row__view_8cc.html" title=" " alt="" coords="794,213,993,269"/>
-<area shape="rect" id="node10" href="$d8/d7a/omnibox__view__views_8cc.html" title=" " alt="" coords="1017,213,1183,269"/>
+<area shape="rect" id="node4" href="$d4/d25/omnibox__popup__contents__view_8h.html" title=" " alt="" coords="411,109,581,165"/>
+<area shape="rect" id="node5" href="$d8/df8/omnibox__match__cell__view_8cc.html" title=" " alt="" coords="23,213,193,269"/>
+<area shape="rect" id="node6" href="$d8/d69/omnibox__popup__contents__view_8cc.html" title=" " alt="" coords="217,213,388,269"/>
+<area shape="rect" id="node7" href="$d3/d3f/omnibox__result__view_8cc.html" title=" " alt="" coords="413,213,579,269"/>
+<area shape="rect" id="node8" href="$de/d2f/omnibox__suggestion__button__row__view_8cc.html" title=" " alt="" coords="603,213,802,269"/>
+<area shape="rect" id="node9" href="$d8/d7a/omnibox__view__views_8cc.html" title=" " alt="" coords="826,213,993,269"/>
 </map>

@@ -68,7 +68,8 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">omnibox_pedal_implementations.cc File Reference</div>  </div>
 </div><!--header-->
@@ -88,6 +89,7 @@ $(function() {
 <code>#include &quot;components/prefs/pref_service.h&quot;</code><br />
 <code>#include &quot;components/strings/grit/components_strings.h&quot;</code><br />
 <code>#include &quot;components/omnibox/browser/vector_icons.h&quot;</code><br />
+<code>#include &quot;components/vector_icons/vector_icons.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for omnibox_pedal_implementations.cc:</div>
 <div class="dyncontent">
@@ -151,8 +153,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d98/classOmniboxPedalManageGooglePrivacy.html">OmniboxPedalManageGooglePrivacy</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0a/classOmniboxPedalManageGoogleAdSettings.html">OmniboxPedalManageGoogleAdSettings</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d54/classOmniboxPedalManageChromeSettings.html">OmniboxPedalManageChromeSettings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db0/classOmniboxPedalManageChromeDownloads.html">OmniboxPedalManageChromeDownloads</a></td></tr>
@@ -162,6 +162,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1e/classOmniboxPedalShareThisPage.html">OmniboxPedalShareThisPage</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9f/classOmniboxPedalManageChromeAccessibility.html">OmniboxPedalManageChromeAccessibility</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d02/classOmniboxPedalManageChromeOSAccessibility.html">OmniboxPedalManageChromeOSAccessibility</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d70/classOmniboxPedalCustomizeChromeFonts.html">OmniboxPedalCustomizeChromeFonts</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -179,6 +181,11 @@ Macros</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a78662f8b3bfcb5f85fcd6b0a2fcb31a1"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="../../d6/d72/omnibox__pedal__concepts_8h.html#ae4fb51fb13b462449e4876a9b7006f37">OmniboxPedalId</a>, scoped_refptr&lt; <a class="el" href="../../d4/de9/classOmniboxPedal.html">OmniboxPedal</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d94/omnibox__pedal__implementations_8cc.html#a78662f8b3bfcb5f85fcd6b0a2fcb31a1">GetPedalImplementations</a> (bool with_branding, bool incognito)</td></tr>
 <tr class="separator:a78662f8b3bfcb5f85fcd6b0a2fcb31a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a494008cbba880a522918f5afa0178151"><td class="memItemLeft" align="right" valign="top">constexpr SkColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d94/omnibox__pedal__implementations_8cc.html#a494008cbba880a522918f5afa0178151">kChromePagesBlue</a> = SkColorSetARGB(255, 60, 115, 229)</td></tr>
+<tr class="separator:a494008cbba880a522918f5afa0178151"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="af4cf682c8fafc1c66927fa8fa82c4639"></a>
@@ -229,6 +236,31 @@ Here is the call graph for this function:</div>
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d94/omnibox__pedal__implementations_8cc_a78662f8b3bfcb5f85fcd6b0a2fcb31a1_cgraph.svg" width="392" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a494008cbba880a522918f5afa0178151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a494008cbba880a522918f5afa0178151">&#9670;&nbsp;</a></span>kChromePagesBlue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr SkColor kChromePagesBlue = SkColorSetARGB(255, 60, 115, 229)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../d5/d54/classOmniboxPedalManageChromeSettings.html#a45d6d56b3ca06b60775ae66b9b7ea38f">OmniboxPedalManageChromeSettings::GetVectorIconColor()</a>, <a class="el" href="../../df/db0/classOmniboxPedalManageChromeDownloads.html#a44eb4facb3f512f083d93b9090fd1d2e">OmniboxPedalManageChromeDownloads::GetVectorIconColor()</a>, <a class="el" href="../../db/d8c/classOmniboxPedalViewChromeHistory.html#adb4e53bbb67a35f87b88e2096723b3d2">OmniboxPedalViewChromeHistory::GetVectorIconColor()</a>, <a class="el" href="../../dc/d9f/classOmniboxPedalManageChromeAccessibility.html#a0684bbbd1e1cb099613d1bb1c808f4ae">OmniboxPedalManageChromeAccessibility::GetVectorIconColor()</a>, and <a class="el" href="../../da/d02/classOmniboxPedalManageChromeOSAccessibility.html#a5338c74b1064af4c4e77ad3ac4b8ff4e">OmniboxPedalManageChromeOSAccessibility::GetVectorIconColor()</a>.</p>
 
 </div>
 </div>

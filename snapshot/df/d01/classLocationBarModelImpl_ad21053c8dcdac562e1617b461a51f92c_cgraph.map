@@ -1,10 +1,11 @@
 <map id="LocationBarModelImpl::GetVectorIcon" name="LocationBarModelImpl::GetVectorIcon">
-<area shape="rect" id="node1" title=" " alt="" coords="5,168,156,209"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,201,156,243"/>
 <area shape="rect" id="node2" href="$df/d01/classLocationBarModelImpl.html#afc7024ea02ade2ad50edcf05a06a6067" title=" " alt="" coords="257,37,408,79"/>
 <area shape="rect" id="node6" href="$df/d10/namespacelocation__bar__model.html#ad8949a7a0592fa45934700ff7d82002e" title=" " alt="" coords="251,103,414,144"/>
 <area shape="rect" id="node7" href="$de/dd9/classLocationBarModelDelegate.html#af613227d846017cba7f39ac866735e6e" title=" " alt="" coords="243,168,422,209"/>
 <area shape="rect" id="node8" href="$df/d01/classLocationBarModelImpl.html#a7eeec148b3424cd24095781b17f0ac4a" title=" " alt="" coords="257,233,408,275"/>
-<area shape="rect" id="node10" href="$de/dd9/classLocationBarModelDelegate.html#ae9d44afd8751a30a72047d4ce95da847" title=" " alt="" coords="204,299,461,355"/>
+<area shape="rect" id="node10" href="$de/dd9/classLocationBarModelDelegate.html#a698c0d7eff28272abc7b005cb62d0e71" title=" " alt="" coords="243,299,422,340"/>
+<area shape="rect" id="node11" href="$de/dd9/classLocationBarModelDelegate.html#ae9d44afd8751a30a72047d4ce95da847" title=" " alt="" coords="204,365,461,421"/>
 <area shape="rect" id="node3" href="$de/dd9/classLocationBarModelDelegate.html#a7ac65c8acbf7231d3ccbcf2b85a50263" title=" " alt="" coords="509,5,688,47"/>
 <area shape="rect" id="node4" href="$df/d01/classLocationBarModelImpl.html#a97b7041286cd2b3bbb818dd37901b010" title=" " alt="" coords="523,71,674,112"/>
 <area shape="rect" id="node5" href="$de/dd9/classLocationBarModelDelegate.html#acd7eea7b2c51dfdf52570a816dce3ec9" title=" " alt="" coords="736,71,915,112"/>
